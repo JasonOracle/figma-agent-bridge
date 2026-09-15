@@ -1,0 +1,62 @@
+{
+ "/users": {
+  "viewport": [
+   1440,
+   900
+  ],
+  "buttons30": "3 buttons @h30",
+  "input30": "1 inputs @h30",
+  "tableHeader40": [
+   40
+  ],
+  "tableRow44": [
+   44,
+   44,
+   44
+  ],
+  "breadcrumb": true,
+  "badges": 10
+ },
+ "/exams": {
+  "viewport": [
+   1440,
+   900
+  ],
+  "buttons30": "3 buttons @h30",
+  "input30": "1 inputs @h30",
+  "tableHeader40": [
+   40
+  ],
+  "tableRow44": [
+   44,
+   44,
+   44
+  ],
+  "breadcrumb": true,
+  "badges": 10
+ },
+ "/exams/E-2001": {
+  "viewport": [
+   1440,
+   900
+  ],
+  "buttons30": "4 buttons @h30",
+  "input30": "0 inputs @h30",
+  "tableHeader40": [],
+  "tableRow44": [],
+  "breadcrumb": true,
+  "badges": 1
+ },
+ "/settings": {
+  "viewport": [
+   1440,
+   900
+  ],
+  "buttons30": "2 buttons @h30",
+  "input30": "4 inputs @h30",
+  "tableHeader40": [],
+  "tableRow44": [],
+  "breadcrumb": true,
+  "badges": 0
+ }
+}
