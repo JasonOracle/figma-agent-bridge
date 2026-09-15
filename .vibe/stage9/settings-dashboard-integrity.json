@@ -1,0 +1,32 @@
+{
+ "dashboardIntegrity": {
+  "frozenFileKey": "lLVJH0OnZPrkAqzarvhnBq",
+  "writeCommandsSentToOldFile": 0,
+  "evidence": {
+   "registeredClients": 1,
+   "activeClientPage": "Page 1",
+   "activeClientEditor": "figma",
+   "note": "All 9.2-B commands routed to the single registered plugin client attached to file pGbRiWtRyXh1J7m4MDSAqK; the Stage 5 client was deregistered before this stage began (verified 2026-09-15)."
+  }
+ },
+ "userList": {
+  "id": "4:235",
+  "name": "Page/UserList",
+  "width": 1440,
+  "height": 900,
+  "childCount": 4,
+  "intact": true
+ },
+ "ulEmpty": {
+  "id": "4:463",
+  "name": "UserList/State/Empty",
+  "w": 420,
+  "h": 172
+ },
+ "ulError": {
+  "id": "4:470",
+  "name": "UserList/State/Error",
+  "w": 420,
+  "h": 200
+ }
+}
