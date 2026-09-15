@@ -1,0 +1,19 @@
+{
+  "releaseVersion": "1.0.0",
+  "zip": {
+    "path": "release/ai-ui-designer-1.0.0.zip",
+    "bytes": 698661,
+    "sha256": "b579a5fbe42654a6115fa62c04d35c7868923de34d4e4d713940328037e21709"
+  },
+  "fileCount": 48,
+  "scan": {
+    "patterns": [
+      "real tokens/fileKeys",
+      "personal paths",
+      "history project names",
+      ".vibe refs"
+    ],
+    "hits": 0,
+    "result": "CLEAN"
+  }
+}

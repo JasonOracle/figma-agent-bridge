@@ -1,0 +1,272 @@
+{
+  "releaseVersion": "1.0.0",
+  "generatedAt": "2026-09-16T01:10:06+08:00",
+  "architecture": "FROZEN (no new layers / MCP / bridge changes after this release)",
+  "contents": {
+    "skill": "skills/ai-ui-designer/",
+    "runtime": "bridge/server.js (Node built-ins only)",
+    "license": "MIT",
+    "changelog": "CHANGELOG.md"
+  },
+  "exclusions": [
+    "release-checklist.md（开发者内部 QA 文档）",
+    ".vibe/ 运行时数据",
+    "测试产物",
+    "开发日志",
+    "临时脚本",
+    "历史项目产物"
+  ],
+  "sensitiveScan": {
+    "patterns": [
+      "real tokens/fileKeys",
+      "personal paths",
+      "history project names",
+      ".vibe refs"
+    ],
+    "hits": 0,
+    "result": "CLEAN"
+  },
+  "fileCount": 48,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1987,
+      "sha256": "9cd9395e250a9380c65909a214b2a77bce3112b553ec80d18dda169ffb9142b7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "922e2df4a63eb7070c6a498c342b4490ae0ef1d333947fd49a794fb435dc95af"
+    },
+    {
+      "path": "bridge/server.js",
+      "bytes": 21402,
+      "sha256": "677b2035bff4b612b0e0b2c84ba8bd3bb0ab8b116f76ff89b9464227eb35784a"
+    },
+    {
+      "path": "skills/ai-ui-designer/README.md",
+      "bytes": 3052,
+      "sha256": "3ac319b2264490f4d53e61f9cb0b60e420f73397353876cb44220ed69e6ca518"
+    },
+    {
+      "path": "skills/ai-ui-designer/SETUP.md",
+      "bytes": 4223,
+      "sha256": "5568b6142bb807ad606fb6a589c9e757cc15b38fd03693cd648f02cad720bf0d"
+    },
+    {
+      "path": "skills/ai-ui-designer/SKILL.md",
+      "bytes": 7681,
+      "sha256": "b46f654da030004305f00ed2f1b857dea2b991d0c9168c7286d3a0b1fbe499e6"
+    },
+    {
+      "path": "skills/ai-ui-designer/USER_GUIDE.md",
+      "bytes": 4089,
+      "sha256": "f209e3682f9246075763b5bdd2f51d01b26286b52427546f9d7b6cea9322c171"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-health.dsspec.json",
+      "bytes": 15999,
+      "sha256": "7cad110e1b78f7e05ac00b2414bbe272adb7671180a01e247cc8b2ee21a0194a"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-health.json",
+      "bytes": 3524,
+      "sha256": "78ee5f055df8e3360aa6cfb53e6046016cc458d9556b6843cfddc8f5accf3869"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-highway.dsspec.json",
+      "bytes": 14616,
+      "sha256": "45d27aa01911901677432886e73ff5c69b775e5f18f21897fb054e9ba6f3adf6"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-highway.json",
+      "bytes": 3316,
+      "sha256": "b034f0e72e0ef99b01fb4bd1fd479896798e329cd263314640aa01e18eb937b8"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-saas.dsspec.json",
+      "bytes": 16867,
+      "sha256": "9632f09be769308f9d5df2d7cf03af70b9d25e0f4148a638ac26f87a506b917c"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-saas.json",
+      "bytes": 3338,
+      "sha256": "832853f660070ea63e0b5e30450bc860fa5fc2fc04d564e391e4b2563abdc7fd"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-health/critic-report.json",
+      "bytes": 1958,
+      "sha256": "cd3e66e6642baa384cd7779411ff3d562f81c80f991f8e21f319b9b5d7622ffc"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-highway/critic-report.json",
+      "bytes": 2934,
+      "sha256": "4c40be98ca8a034e75bae6703a210420616cbe19393f12caa5fae4d8e112c039"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/example-saas/critic-report.json",
+      "bytes": 2326,
+      "sha256": "d951cd93dc1de82681d6d7a5419b348c6372372bf923906addc5f07a86ad3744"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/example-health-export.json",
+      "bytes": 13888,
+      "sha256": "eda05e99b86f793c3a7cf6f2e8509d20c411058329832caefccdc80296077fd4"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/example-highway-export.json",
+      "bytes": 11488,
+      "sha256": "58b328518fdd25b77ee2db54fe10a2e8ce4a550dd5eea652766d6b512e7c8ced"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/example-saas-export.json",
+      "bytes": 13322,
+      "sha256": "14df83f7b6973aca5a98562b6b7979bbab97cebacd1b088de9acf1012cb1c0fa"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/detail.svg",
+      "bytes": 166669,
+      "sha256": "c08dbbfbdfa506f47205205f5565fc733208653a83a9119918c877f6f9764849"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/detail@2x.png",
+      "bytes": 95324,
+      "sha256": "5c5a5c87d5f6277393d8d2e5717795b9fae3a10a4f34bf18e0d62acd4a3a4803"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/health-build-log.json",
+      "bytes": 3323,
+      "sha256": "6495f888af679b1bc46b6c97080100408e228518811884e9784fd1ceaa68c940"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/health-design-brief.json",
+      "bytes": 6285,
+      "sha256": "7c1f46f76ce324385f824ebbad0c213e352e7a41f945c0630fcb0095e16b61a8"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/health-design-system-spec.json",
+      "bytes": 17384,
+      "sha256": "2485d712cce3c1485448972bebcf4cc1aac5a246a4d1a54ef3ac1b73519d5448"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/home.svg",
+      "bytes": 218025,
+      "sha256": "808cdaed2d5ef7c82195aceb98fd603b6c3a3ac1b861c4345035423edf4e2c83"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/home@2x.png",
+      "bytes": 100295,
+      "sha256": "9542ede597ae9a12f0671eb434f84b7ba44d9c798f9f3d697f53679b7ec9bea0"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/profile.svg",
+      "bytes": 120932,
+      "sha256": "ec345f6269c7207908d719a333285073cd2d5d8157e3f8a0e50ec528cc654aba"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/profile@2x.png",
+      "bytes": 79346,
+      "sha256": "e72b6f2726d5dbb168693f331f4f6bbba23c4427a9dc48ab2917c54b283a677b"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/saas-dashboard-baseline.png",
+      "bytes": 116230,
+      "sha256": "ccb4ebe386f406d29878835999e2be257f35bac420c24ef0c7ef67f64da7a9f3"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/examples/export/files/saas-figma-tree.json",
+      "bytes": 267604,
+      "sha256": "f72c5a51d62a3a78ba17ee3d3ad5a1caef0e9e0792f63f903272aba0545cb19a"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/style-library/enterprise-dashboard.json",
+      "bytes": 2241,
+      "sha256": "bf4dbe61ee70e1c0b501c2348e721a8b036799f3cb6b0d7ced1f820a8a583fc3"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/style-library/gov-digital-screen.json",
+      "bytes": 2038,
+      "sha256": "0f868de9d74635d6907988d44e09229097ba796f71096ba09234d52fcb500015"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/style-library/premium-saas.json",
+      "bytes": 1599,
+      "sha256": "90075bfe7eb2088593c38ae76dfd8d88b85535c1bddb8db30e229a71a111ce57"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/templates/critic-report.json",
+      "bytes": 4621,
+      "sha256": "cb37bcdc0041d897987e633d58beb423b35fd2886fca064a9166b8506df89e3a"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/templates/design-system-spec.json",
+      "bytes": 14128,
+      "sha256": "e48cc777054ed1cf6107258461316f57473e4fb137cdd99356e47df4fab0cf4a"
+    },
+    {
+      "path": "skills/ai-ui-designer/assets/templates/export-manifest.json",
+      "bytes": 9189,
+      "sha256": "3917012d534b86c8e70fb9501a4dc5ba9342aead26ff5d2c5233eda91a6d2fc1"
+    },
+    {
+      "path": "skills/ai-ui-designer/figma-plugin/code.js",
+      "bytes": 53132,
+      "sha256": "f2aced277d53ee1054d28455254a975bea766f85bb8c8eecc06490f009534b14"
+    },
+    {
+      "path": "skills/ai-ui-designer/figma-plugin/manifest.json",
+      "bytes": 682,
+      "sha256": "0d7d40e186e97d69d32c47b49aaf5f00bfbf1a51a61b666f5d8fa31005344748"
+    },
+    {
+      "path": "skills/ai-ui-designer/figma-plugin/ui.html",
+      "bytes": 13500,
+      "sha256": "ce17fd0d75043ebf5403e6d836d31f981c3c50c735d67a67283eee1c2401f0ab"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/brief-schema.md",
+      "bytes": 2520,
+      "sha256": "7f37c084787402e30ffcbb5a4144e1de01e6c4e4734cc6d0849e2fead9364e3f"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/critic-mapping.md",
+      "bytes": 4395,
+      "sha256": "8b4aa5e8f655aba877a6d3aab3e12d94ee4b50c3dff08f526b17861e83c30b41"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/design-intelligence.md",
+      "bytes": 4523,
+      "sha256": "5d920526d897fca646974bffb76a7ff392ab37f137b338b41eed552ae11b5b62"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/design-style-library.md",
+      "bytes": 3533,
+      "sha256": "290c9db108c882f0e2cfe5f7a336b70423f9c28aecb4470e357a691083eb325c"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/export-mapping.md",
+      "bytes": 5125,
+      "sha256": "ad89443d89a5c539a2d779868f4cafee16bd07e27a74e85ebf9079be7a4bffeb"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/runtime-capability.md",
+      "bytes": 3595,
+      "sha256": "cf12e925b5835356ee19262ad9ad68d7f561daf7635092ed4f6502d5cebc8d38"
+    },
+    {
+      "path": "skills/ai-ui-designer/references/visual-critic.md",
+      "bytes": 7882,
+      "sha256": "7db5d33652165286bb42a3348b58e58784de22ae5e9ab761c613f69958f6d629"
+    },
+    {
+      "path": "skills/ai-ui-designer/templates/design-brief.json",
+      "bytes": 4228,
+      "sha256": "f4df55557ee14c57265ea3a0e239c37278d99fea8e88570913b7b2805e117e0f"
+    },
+    {
+      "path": "RELEASE-MANIFEST.json",
+      "bytes": 0,
+      "sha256": "-"
+    }
+  ]
+}
