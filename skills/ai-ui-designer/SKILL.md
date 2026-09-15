@@ -109,6 +109,20 @@ Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS�
   - saas = 真实 live-build（Stage 5-7 产物回填）/ health = 真实 live-build（Stage 10.5 PNG+SVG）/ highway = design-phase（critic 7.7 未过 Gate，exports 为空规划清单——Gate 规则的活教材）
 - 出口校验：`python tools/stage10-7-qa.py`（QA1-QA7：Schema/文件存在/node id 回读/映射完整/Token 回溯/无孤儿/冻结零修改）
 
+## L0 Runtime Capability（Stage 10.7 起，任何层执行前必须先跑）
+
+**入口**：`node tools/runtime-check.mjs` → `.vibe/runtime-capability.json`
+
+在任何层开始前先探测环境能力，按 mode 路由（完整矩阵见 `references/runtime-capability.md`）：
+
+| mode | 条件 | 执行范围 |
+|---|---|---|
+| FULL_MODE | Bridge 插件已连接（figmaWrite） | L1 → L2 → L3 → L4 → L5 全链路 |
+| READ_ONLY_MODE | 仅读取型 MCP（figmaRead） | L1 → L2 → Build Plan JSON；提示"当前环境只有读取能力，需要安装 Figma Bridge 才能自动绘制" |
+| OFFLINE_MODE | 均无 | 仅生成 Brief / DS Spec / Build Plan 设计资产 |
+
+铁律：未跑的层不得假装跑过（交付物标注 mode 与降级原因）；探针只读，零新协议、零 Bridge/Plugin 修改。安装指南：`SETUP.md`（普通用户 5 分钟上手），架构边界：`README.md`。安装体验 QA：`python tools/stage10-7-install-qa.py`。
+
 ## few-shot 示例
 
 `assets/examples/`：`example-saas.json`（SaaS 教育后台）、`example-health.json`（AI 发型 App，美业健康类）、`example-highway.json`（河南高速智慧养护大屏）。Agent 生成新 Brief 前应先读对应行业示例对齐粒度。
