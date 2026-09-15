@@ -1,0 +1,32 @@
+{
+ "frozenFileKey": "lLVJH0OnZPrkAqzarvhnBq",
+ "writeCommandsSentToFrozenFile": 0,
+ "evidence": {
+  "registeredClients": [
+   {
+    "id": "cdm3kar28mu2f4ch1",
+    "label": "figma-plugin-ui",
+    "lastSeenAgoMs": 9546
+   },
+   {
+    "id": "cbdelzrismu2f1vgh",
+    "label": "figma-plugin-ui",
+    "lastSeenAgoMs": 86933
+   },
+   {
+    "id": "chffyu3y3mu2f1uhi",
+    "label": "figma-plugin-ui",
+    "lastSeenAgoMs": 188917
+   },
+   {
+    "id": "c9cgvxerymu29mw5b",
+    "label": "figma-plugin-ui",
+    "lastSeenAgoMs": 210664
+   }
+  ],
+  "activeClientPage": "Page 1",
+  "activeClientPlugin": "Vibe Bridge (Dev)",
+  "editorType": "figma",
+  "note": "Bridge routes commands FIFO to waiting plugin clients; stale registrations never poll so they never receive. During 9.2-C only the newest client (attached to file pGbRiWtRyXh1J7m4MDSAqK Page 1) was live and answered every command - including the 4 export-node calls whose PNGs match the expected pages. Zero commands were addressed to the frozen Stage 5 file lLVJH0OnZPrkAqzarvhnBq. The 3 extra registered entries are stale registrations from earlier dev-plugin runs (lastSeen > 86s, staleAfter=45s)."
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "exportedAt": "2026-09-15T08:37:32.485Z",
+ "items": [
+  {
+   "nodeId": "4:235",
+   "name": "Page/UserList",
+   "file": "userlist-4-235.png",
+   "bytes": 84384,
+   "reportedBytes": 84384,
+   "scale": 1
+  },
+  {
+   "nodeId": "7:480",
+   "name": "Page/ExamList",
+   "file": "examlist-7-480.png",
+   "bytes": 81077,
+   "reportedBytes": 81077,
+   "scale": 1
+  },
+  {
+   "nodeId": "8:1034",
+   "name": "Page/ExamDetail",
+   "file": "examdetail-8-1034.png",
+   "bytes": 63232,
+   "reportedBytes": 63232,
+   "scale": 1
+  },
+  {
+   "nodeId": "8:1215",
+   "name": "Page/Settings",
+   "file": "settings-8-1215.png",
+   "bytes": 64804,
+   "reportedBytes": 64804,
+   "scale": 1
+  }
+ ]
+}

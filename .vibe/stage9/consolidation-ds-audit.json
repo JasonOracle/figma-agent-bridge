@@ -1,0 +1,225 @@
+{
+ "expectedCount": 25,
+ "foundCount": 25,
+ "missing": [],
+ "badNaming": [],
+ "existence": [
+  {
+   "id": "3:6",
+   "name": "DS/Button/Primary",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "3:9",
+   "name": "DS/Button/Secondary",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "3:12",
+   "name": "DS/Button/Ghost",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "3:15",
+   "name": "DS/Button/Danger",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:21",
+   "name": "DS/Input/Default",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:25",
+   "name": "DS/Input/Focus",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:29",
+   "name": "DS/Input/Error",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:33",
+   "name": "DS/Select/Default",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:37",
+   "name": "DS/Badge/Success",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:41",
+   "name": "DS/Badge/Warning",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:45",
+   "name": "DS/Badge/Error",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:49",
+   "name": "DS/Badge/Info",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:53",
+   "name": "DS/Badge/Neutral",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:56",
+   "name": "DS/Pagination/Default",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:59",
+   "name": "DS/Pagination/Active",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:62",
+   "name": "DS/Pagination/Disabled",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:76",
+   "name": "DS/Table/Header",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:112",
+   "name": "DS/Table/Row",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:130",
+   "name": "DS/Table/Row/Hover",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:194",
+   "name": "DS/Table/Row/Selected",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:209",
+   "name": "DS/EmptyState",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:210",
+   "name": "DS/ErrorState",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:215",
+   "name": "DS/LoadingState",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:219",
+   "name": "DS/Card/BaseCard",
+   "type": "COMPONENT",
+   "exists": true
+  },
+  {
+   "id": "4:224",
+   "name": "DS/Breadcrumb",
+   "type": "COMPONENT",
+   "exists": true
+  }
+ ],
+ "instances": {
+  "ExamList": {
+   "instances": 25,
+   "byComponent": {
+    "DS/Breadcrumb": 1,
+    "DS/Button/Primary": 1,
+    "DS/Input/Default": 1,
+    "DS/Select/Default": 3,
+    "DS/Button/Secondary": 2,
+    "DS/Button/Ghost": 1,
+    "DS/Badge/Success": 2,
+    "DS/Badge/Neutral": 2,
+    "DS/Badge/Warning": 2,
+    "DS/Pagination/Disabled": 2,
+    "DS/Pagination/Active": 1,
+    "DS/Pagination/Default": 3,
+    "DS/EmptyState": 1,
+    "DS/ErrorState": 1,
+    "DS/Button/Danger": 1,
+    "DS/LoadingState": 1
+   }
+  },
+  "ExamDetail": {
+   "instances": 10,
+   "byComponent": {
+    "DS/Button/Secondary": 2,
+    "DS/Button/Ghost": 1,
+    "DS/Badge/Success": 4,
+    "DS/Button/Primary": 1,
+    "DS/Badge/Error": 2
+   }
+  },
+  "Settings": {
+   "instances": 9,
+   "byComponent": {
+    "DS/Breadcrumb": 1,
+    "DS/Input/Default": 4,
+    "DS/Select/Default": 2,
+    "DS/Button/Primary": 1,
+    "DS/Button/Ghost": 1
+   }
+  },
+  "UserList": {
+   "instances": 29,
+   "byComponent": {
+    "DS/Breadcrumb": 1,
+    "DS/Button/Primary": 1,
+    "DS/Input/Default": 1,
+    "DS/Select/Default": 1,
+    "DS/Button/Secondary": 1,
+    "DS/Button/Ghost": 1,
+    "DS/Table/Header": 1,
+    "DS/Table/Row": 8,
+    "DS/Badge/Success": 8,
+    "DS/Pagination/Disabled": 2,
+    "DS/Pagination/Active": 1,
+    "DS/Pagination/Default": 3
+   }
+  }
+ },
+ "foreignInstances": {
+  "ExamList": [],
+  "ExamDetail": [],
+  "Settings": [],
+  "UserList": []
+ },
+ "method": "instance→component attribution via instance name (Figma default = component name); all DS components are named DS/*"
+}
