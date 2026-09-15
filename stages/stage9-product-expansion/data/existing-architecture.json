@@ -1,0 +1,105 @@
+{
+ "existingPages": [
+  {
+   "name": "Dashboard",
+   "impl": "src/App.vue (inline)",
+   "router": null
+  }
+ ],
+ "router": null,
+ "routerDirs": [
+  "src/router",
+  "src/views",
+  "src/api",
+  "src/mock",
+  "src/layouts",
+  "src/stores"
+ ],
+ "components": [
+  "TopBar",
+  "Sidebar",
+  "MenuItem",
+  "TagsBar",
+  "KpiCard",
+  "ChartCard",
+  "PieChart",
+  "BarChart",
+  "LineChart",
+  "LegendItem",
+  "AppFooter",
+  "VIcon"
+ ],
+ "viconIcons": [
+  "burger",
+  "cart",
+  "chat",
+  "close",
+  "color",
+  "doc",
+  "fullscreen",
+  "gear",
+  "grid",
+  "house",
+  "people"
+ ],
+ "designTokens": {
+  "colors": 16,
+  "radii": [
+   "2px",
+   "4px",
+   "6px"
+  ],
+  "shadows": 2,
+  "fontScales": {
+   "display": "26/32/700",
+   "heading": "16/24/500",
+   "body": "13/20",
+   "caption": "12/18",
+   "number": "11/16"
+  }
+ },
+ "sidebarNav": [
+  {
+   "label": "首页",
+   "slot": "top",
+   "mapsTo": "/dashboard"
+  },
+  {
+   "label": "更多菜单",
+   "slot": "top",
+   "mapsTo": "group(菜单1,菜单1-1,菜单1-2)"
+  },
+  {
+   "label": "菜单1",
+   "slot": "sub40",
+   "mapsTo": "/users"
+  },
+  {
+   "label": "菜单1-1",
+   "slot": "sub56",
+   "mapsTo": "/exams"
+  },
+  {
+   "label": "菜单1-2",
+   "slot": "sub56",
+   "mapsTo": "/analytics"
+  },
+  {
+   "label": "菜单2",
+   "slot": "top",
+   "mapsTo": "/settings"
+  }
+ ],
+ "routeMap": [
+  "/login",
+  "/dashboard",
+  "/users",
+  "/users/:id",
+  "/exams",
+  "/exams/:id",
+  "/analytics",
+  "/settings"
+ ],
+ "stateModel": "api/ + mock/ 分层；每数据页 Loading/Success/Empty/Error；?__state=empty|error 注入测试",
+ "risks": 9
+}

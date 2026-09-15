@@ -1,0 +1,533 @@
+{
+ "checks": [
+  [
+   "Button Primary h=30",
+   true
+  ],
+  [
+   "Button radius=6",
+   true
+  ],
+  [
+   "Input h=30",
+   true
+  ],
+  [
+   "Select h=30",
+   true
+  ],
+  [
+   "TopBar h=40",
+   true
+  ],
+  [
+   "Sidebar w=180",
+   true
+  ],
+  [
+   "TagsBar h=36",
+   true
+  ],
+  [
+   "UserList 1440x900",
+   true
+  ],
+  [
+   "TableHeader cells w sum=1180",
+   true
+  ],
+  [
+   "Header instance 40px",
+   true
+  ],
+  [
+   "Row instance 44px",
+   true
+  ]
+ ],
+ "geometry": [
+  {
+   "path": "Page/UserList",
+   "w": 1440,
+   "h": 900,
+   "radius": 0,
+   "layoutMode": "NONE"
+  },
+  {
+   "path": "Page/UserList/UserList/TopBar",
+   "w": 980,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Sidebar",
+   "w": 180,
+   "h": 216,
+   "radius": 0,
+   "layoutMode": "VERTICAL"
+  },
+  {
+   "path": "Page/UserList/UserList/TagsBar",
+   "w": 1260,
+   "h": 36,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/title-row/DS/Button/Primary",
+   "w": 80,
+   "h": 30,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/search-row/DS/Input/Default",
+   "w": 150,
+   "h": 30,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/search-row/DS/Select/Default",
+   "w": 160,
+   "h": 30,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/search-row/DS/Button/Secondary",
+   "w": 56,
+   "h": 30,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/search-row/DS/Button/Ghost",
+   "w": 54,
+   "h": 30,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Header/cell-用户",
+   "w": 48,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Header/cell-邮箱",
+   "w": 48,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Header/cell-状态",
+   "w": 48,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Header/cell-注册时间",
+   "w": 72,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Header/cell-最近登录",
+   "w": 916,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Header/cell-操作",
+   "w": 48,
+   "h": 40,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-user",
+   "w": 82,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-email",
+   "w": 162,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-status",
+   "w": 62,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-3",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-4",
+   "w": 91,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/DS/Table/Row/cell-actions",
+   "w": 84,
+   "h": 44,
+   "radius": 0,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/table-footer/pager/DS/Pagination/Disabled",
+   "w": 4,
+   "h": 24,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/table-footer/pager/DS/Pagination/Active",
+   "w": 7,
+   "h": 24,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/table-footer/pager/DS/Pagination/Default",
+   "w": 7,
+   "h": 24,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/table-footer/pager/DS/Pagination/Default",
+   "w": 7,
+   "h": 24,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/table-footer/pager/DS/Pagination/Default",
+   "w": 12,
+   "h": 24,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  },
+  {
+   "path": "Page/UserList/UserList/Content/UserList/TableCard/table-footer/pager/DS/Pagination/Disabled",
+   "w": 4,
+   "h": 24,
+   "radius": 6,
+   "layoutMode": "HORIZONTAL"
+  }
+ ]
+}

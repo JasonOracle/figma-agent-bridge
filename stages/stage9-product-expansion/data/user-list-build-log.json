@@ -1,0 +1,8 @@
+[
+ "[batch userlist-shell] ops=28 ms=102 ids={ul,tb,lg,t1,t2,rt,b1,sp,g1,av,sb}",
+ "[batch userlist-menu] ops=39 ms=131 ids={m0,mi_首页,m1,mi_更多菜单,m2,m3,m4,m5,mi_菜单2}",
+ "[batch userlist-tags-content] ops=25 ms=75 ids={tg,tag1,th1,tag2,tc2,tsp,tb1,ct}",
+ "[batch userlist-content] ops=58 ms=282 ids={i_bc,tr,i_bp,sr,i_in,i_se,i_bs,i_bg,cd,i_th,i_row0,i_row1,i_row2,i_row3,i_row4,i_row5,i_row6,i_row7,ft,pr,p_d1,p_a1,p_d2,p_d3,p_d4,p_d5,ps,pcv}",
+ "[batch pager-overrides] ops=6 ms=27 ids={}",
+ "[batch specimens] ops=16 ms=61 ids={spE,i_spE,spR,i_spR}"
+]

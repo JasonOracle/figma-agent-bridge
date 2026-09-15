@@ -1,0 +1,55 @@
+{
+ "timestamp": "2026-09-15T12:20:00+08:00",
+ "node": "v22.22.2",
+ "npm": "10.9.7",
+ "vue": {
+  "declared": "^3.4.38",
+  "installed": "3.5.42"
+ },
+ "vite": {
+  "declared": "^5.4.8",
+  "installed": "5.4.21"
+ },
+ "tailwind": {
+  "declared": "^3.4.13",
+  "installed": "3.4.19"
+ },
+ "playwrightLib": "1.64.0-alpha-2026-09-14",
+ "playwrightCli": "@playwright/cli + chromium-1243",
+ "devServer": {
+  "url": "http://127.0.0.1:5180",
+  "status": 200
+ },
+ "git": {
+  "head": "343fda4",
+  "remoteMain": "343fda4",
+  "worktreeClean": true,
+  "frozenBaselineCommit": "343fda4 (Stage 8)"
+ },
+ "baselines": {
+  "stage7": {
+   "diffPct": 5.691,
+   "ssim": 0.9037,
+   "diffPixels": 112541,
+   "threshold": 12,
+   "artifacts": [
+    ".vibe/stage7/diff-statistics-round3.json",
+    ".vibe/stage7/pixel-diff.py",
+    ".vibe/stage7/figma-baseline/figma-19-330-render.png"
+   ]
+  },
+  "stage8": {
+   "pass": 24,
+   "fail": 0,
+   "notImplemented": 8,
+   "notSpecified": 8,
+   "consoleErrors": 0,
+   "coveragePct": 60,
+   "artifacts": [
+    ".vibe/stage8/interaction-matrix.json",
+    ".vibe/stage8/interaction-summary.json",
+    ".vibe/stage8/run-interactions.mjs"
+   ]
+  }
+ }
+}

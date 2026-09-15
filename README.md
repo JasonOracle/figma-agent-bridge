@@ -1,16 +1,16 @@
-# Figma-test Vibe Coding
+# figma-agent-bridge
 
-**中文** | [English](#english)
+**中文** | [English](README.en.md)
+
+让 AI Agent 通过一条自建本地通道，直接读写真实 Figma 画布——从设计系统构建、整页高保真设计，到 Vue 代码还原与像素级视觉回归的**全链路开源实验**。
+
+不使用 Figma 官方付费 Write to Canvas，不依赖任何 MCP 的写入能力，自建本地写入通道（HTTP Bridge + Figma 开发插件），并用它在真实 Figma 画布上完成了 7 个真实 UI（1 个设计系统 + 6 个完整页面），把其中一个转成 Vue3 + Tailwind 网页，做了程序化像素级视觉回归与真实浏览器交互回归。
+
+> Roadmap：项目正在向 **MCP Server** 与 **Agent Skills** 形态演进，见 [Roadmap](#-roadmap--路线图)。
 
 ---
 
-## 中文
-
-一套完整的 **「Agent → Figma 写入 → Figma 设计 → Vue 代码 → 浏览器 → 像素级回归」** 全链路实践项目。
-
-不使用 Figma 官方付费 Write to Canvas，不依赖任何 MCP 的写入能力，自建本地写入通道，并用它在真实 Figma 画布上完成了 4 个真实 UI（1 个设计系统 + 3 个完整页面），最终把其中一个转成 Vue3 + Tailwind 网页并做了程序化像素级视觉回归。
-
-### 架构 / Architecture
+## 架构 / Architecture
 
 ```
 WorkBuddy Agent / figma-vibe CLI
@@ -25,21 +25,22 @@ WorkBuddy Agent / figma-vibe CLI
    Figma Plugin 主线程  →  Figma Plugin API  →  真实画布节点
 ```
 
-详细协议、30 个原子操作与排错表见 [`docs/bridge-architecture.md`](docs/bridge-architecture.md)。
+详细协议、34 个原子操作与排错表见 [`docs/bridge-architecture.md`](docs/bridge-architecture.md)。
 
-### 七个阶段 / Seven Stages
+## 九个阶段 / Nine Stages
 
 | 阶段 | 内容 | 关键产物 | 结果 |
 |---|---|---|---|
-| [Stage 1-2](stages/stage1-2-bridge-channel/) | 写入通道 + 30 个原子操作 | bridge / plugin / cli | selftest 91/91，真实画布断言 35/35 |
+| [Stage 1-2](stages/stage1-2-bridge-channel/) | 写入通道 + 34 个原子操作 | bridge / plugin / cli | selftest 91/91，真实画布断言 35/35 |
 | [Stage 3](stages/stage3-saas-dashboard/) | 首个真实 Vibe Design：SaaS 教育仪表盘 | 274 节点 / 10 组件 / 0 IMAGE | audit 42/42 |
 | [Stage 4](stages/stage4-pixelflow-ai/) | Agent 自主设计闭环：PixelFlow AI 暗色工具 | 188 节点 / 17 组件 | audit 42/42（自查补漏） |
 | [Stage 5](stages/stage5-elementadmin-figma/) | 仅凭截图高还原 ElementAdmin（1920×1030） | 207 节点 / 25 程序化 VECTOR | audit 47/47，自评 89/100 |
 | [Stage 6](stages/stage6-vue-elementadmin/) | Figma → Vue3 + Tailwind → 浏览器 | Vite5 + Vue3.4 + Tailwind3.4 | 两轮 QA 88→93/100 |
 | [Stage 7](stages/stage7-visual-regression/) | 程序化像素级视觉回归 | 自研 diff 工具 + 32 节报告 | Pixel Diff **5.691%** / SSIM **0.9037** / Final **92/100** |
-| [Stage 8](stages/stage8-interaction-regression/) | 真实浏览器事件交互回归（40 项） | Playwright 交互矩阵 + 证据截图 | PASS 24 / FAIL 0 / **READY FOR STAGE 9** |
+| [Stage 8](stages/stage8-interaction-regression/) | 真实浏览器事件交互回归（40 项） | Playwright 交互矩阵 + 证据截图 | PASS 24 / FAIL 0 / READY FOR STAGE 9 |
+| [Stage 9](stages/stage9-product-expansion/) | 产品化扩展：IA 规划 + 设计系统 + 多页面 | 25 个 native DS 组件 + User List / Exam List / Exam Detail / Settings | 各项审计全绿，新增正式组件 0 |
 
-### 目录结构 / Repository Layout
+## 目录结构 / Repository Layout
 
 ```
 ├── bridge/          本地 Bridge（Node 内置模块，零 npm 依赖）
@@ -47,23 +48,27 @@ WorkBuddy Agent / figma-vibe CLI
 ├── cli/             figma-vibe CLI（声明式命令表）
 ├── tools/           selftest / verify / probe / build / audit 脚本
 ├── examples/        命令示例 JSON
-├── stage6-element-admin/   Stage 6 Vue3 + Tailwind 项目
-├── stages/          ★ 各阶段产物归档（含每阶段说明、审计记录、几何 dump、截图、diff 数据）
+├── stage6-element-admin/   Stage 6 Vue3 + Tailwind 项目（回归实验对象）
+├── stages/          ★ 各阶段产物归档（每阶段 README、审计 JSON、几何 dump、截图、diff 数据）
 │   ├── stage1-2-bridge-channel/
 │   ├── stage3-saas-dashboard/
 │   ├── stage4-pixelflow-ai/
 │   ├── stage5-elementadmin-figma/
 │   ├── stage6-vue-elementadmin/
-│   └── stage7-visual-regression/
+│   ├── stage7-visual-regression/
+│   ├── stage8-interaction-regression/
+│   └── stage9-product-expansion/   （含 data/ 下 17 份审计 JSON）
 ├── docs/
-│   ├── bridge-architecture.md     通道架构与 30 op 协议
+│   ├── bridge-architecture.md     通道架构与协议
 │   ├── stage7-visual-regression.md  32 节视觉回归报告（可独立审阅）
+│   ├── stage8-interaction-regression.md  40 项交互回归矩阵
+│   ├── stage9-*.md                IA / 设计系统 / 9.2-A / 9.2-B 报告
 │   ├── communication-log.md       ★ 各阶段沟通记录
-│   └── lessons-learned.md         ★ 30 条经验教训（中英标题）
-└── .vibe/           运行时状态（token / batch / state，token 不入库）
+│   └── lessons-learned.md         ★ 经验教训（中英标题）
+└── .vibe/           运行时状态（token 不入库；审计数据已归档至 stages/）
 ```
 
-### 快速开始 / Quick Start
+## 快速开始 / Quick Start
 
 ```bash
 # 1. 启动 Bridge
@@ -77,60 +82,31 @@ node tools/selftest.js
 # 4. 真实画布验证（需要插件在线）
 node tools/stage2-verify.js
 
-# 5. Stage 6 前端
+# 5. Stage 6 前端（回归实验对象）
 cd stage6-element-admin && npm install && npm run dev   # http://127.0.0.1:5180
 ```
 
-### 安全 / Security
+## 安全 / Security
 
 - `.vibe/token`（Bridge 鉴权令牌）与所有日志已被 `.gitignore` 排除，不入库。
-- Bridge 只绑回环地址；插件只允许访问 `localhost`。
+- Bridge 只绑回环地址 `127.0.0.1`；插件只允许访问 `localhost`。
+- 文档与审计数据中的 "token" 均指设计令牌（颜色/字号 token），非鉴权凭据。
 
-### 核心结论 / Headline Results
+## 核心结论 / Headline Results
 
-- 通道可靠性：命令同步语义 + waiter 存活检查 + 客户端注册制，消灭静默丢命令与假阳性。
-- 设计还原：仅凭截图在 Figma 还原 ElementAdmin 自评 89/100；转 Vue 后与 Figma 渲染基准像素 Diff 5.691%（SSIM 0.9037，Final 92/100），布局骨架与全部 17 个颜色 token 0px 差异。
+- **通道可靠性**：命令同步语义 + waiter 存活检查 + 客户端注册制，消灭静默丢命令与假阳性。
+- **设计还原**：仅凭截图在 Figma 还原 ElementAdmin 自评 89/100；转 Vue 后与 Figma 渲染基准像素 Diff 5.691%（SSIM 0.9037，Final 92/100），布局骨架与全部 17 个颜色 token 0px 差异。
+- **交互回归**：40 项真实浏览器事件 24 PASS / 0 FAIL。
+- **产品化**：在全新 Figma 文件程序化构建 25 个 native DS 组件与 4 个业务页面，复用率 100%（新增正式组件 = 0）。
 - 全部经验沉淀在 [`docs/lessons-learned.md`](docs/lessons-learned.md)，全部阶段沟通在 [`docs/communication-log.md`](docs/communication-log.md)。
 
----
+## 🗺 Roadmap / 路线图
 
-## English
+- [ ] **MCP Server**：把 Bridge 的 34 个原子操作封装为标准 MCP 工具（create-frame / set-auto-layout / run batch …），任何支持 MCP 的 Agent 均可直接操作 Figma 画布。
+- [ ] **Agent Skills**：沉淀「截图还原」「设计系统构建」「像素级回归」三条可复用 Skill 工作流。
+- [ ] **像素回归工具独立发包**：`pixel-diff.py` + 证据链生成器抽为独立 CLI 包。
+- [ ] 欢迎提 Issue 讨论 API 设计与命名。
 
-A complete end-to-end practice project: **Agent → Figma write channel → Figma design → Vue code → browser → pixel-level visual regression**.
+## License
 
-No paid Figma "Write to Canvas", no MCP-based writes — a local write channel is self-built and used to create 4 real UIs (1 design system + 3 full pages) on a real Figma canvas, one of which is then ported to Vue3 + Tailwind and verified with a programmatic pixel diff.
-
-### Architecture
-
-See the diagram above. Protocol details and the 30 atomic ops: [`docs/bridge-architecture.md`](docs/bridge-architecture.md).
-
-### Stages
-
-| Stage | Scope | Key artifacts | Result |
-|---|---|---|---|
-| [1-2](stages/stage1-2-bridge-channel/) | Write channel + 30 atomic ops | bridge / plugin / cli | selftest 91/91, real-canvas assertions 35/35 |
-| [3](stages/stage3-saas-dashboard/) | First real Vibe Design: SaaS Education Dashboard | 274 nodes / 10 components / 0 images | audit 42/42 |
-| [4](stages/stage4-pixelflow-ai/) | Autonomous design loop: PixelFlow AI (dark) | 188 nodes / 17 components | audit 42/42 (self-detected & fixed) |
-| [5](stages/stage5-elementadmin-figma/) | ElementAdmin recreation from a screenshot only (1920×1030) | 207 nodes / 25 programmatic VECTORs | audit 47/47, self-assessed 89/100 |
-| [6](stages/stage6-vue-elementadmin/) | Figma → Vue3 + Tailwind → browser | Vite5 + Vue3.4 + Tailwind3.4 | two QA rounds 88→93/100 |
-| [7](stages/stage7-visual-regression/) | Programmatic pixel-level visual regression | self-built diff tooling + 32-section report | Pixel Diff **5.691%** / SSIM **0.9037** / Final **92/100** |
-| [8](stages/stage8-interaction-regression/) | Real-browser interaction regression (40 checks) | Playwright interaction matrix + evidence screenshots | PASS 24 / FAIL 0 / **READY FOR STAGE 9** |
-
-### Repository Layout
-
-See the tree above. `stages/` holds per-stage archives (each with a bilingual README: audit notes, geometry dumps, screenshots, diff data). `docs/communication-log.md` records what was asked and delivered per stage; `docs/lessons-learned.md` distills 30 verified lessons across architecture, Figma Plugin API, testing, and Windows tooling.
-
-### Quick Start
-
-```bash
-node bridge/server.js          # start Bridge
-node tools/selftest.js         # mock self-test (no Figma needed)
-# Figma Desktop → Plugins → Development → Import manifest.json → run plugin
-node tools/stage2-verify.js    # real-canvas assertions (plugin must be online)
-cd stage6-element-admin && npm install && npm run dev   # http://127.0.0.1:5180
-```
-
-### Security
-
-- `.vibe/token` (Bridge auth token) and all logs are gitignored and not committed.
-- Bridge binds loopback only; the plugin may only reach `localhost`.
+MIT

@@ -1,0 +1,20 @@
+{
+ "allowedTokenUse": {
+  "#F2F3F5": 3,
+  "#FFFFFF": 101,
+  "#5A5CF0": 14,
+  "#91CC75": 1,
+  "#303133": 47,
+  "#606266": 13,
+  "#909399": 8,
+  "#C0C4CC": 4,
+  "#E4E7ED": 4,
+  "#67C23A": 16,
+  "#F56C6C": 8
+ },
+ "derivedOrLegacyUse": {
+  "#AAB8E8": 9
+ },
+ "unknownColors": [],
+ "verdict": "PASS — 全部颜色来自 Stage 9.1 正式 token 或已登记的组件级派生值"
+}

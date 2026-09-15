@@ -1,0 +1,207 @@
+{
+ "elCount": {
+  "instances": 25,
+  "byComponent": {
+   "DS/Breadcrumb": 1,
+   "DS/Button/Primary": 1,
+   "DS/Input/Default": 1,
+   "DS/Select/Default": 3,
+   "DS/Button/Secondary": 2,
+   "DS/Button/Ghost": 1,
+   "DS/Badge/Success": 2,
+   "DS/Badge/Neutral": 2,
+   "DS/Badge/Warning": 2,
+   "DS/Pagination/Disabled": 2,
+   "DS/Pagination/Active": 1,
+   "DS/Pagination/Default": 3,
+   "DS/EmptyState": 1,
+   "DS/ErrorState": 1,
+   "DS/Button/Danger": 1,
+   "DS/LoadingState": 1
+  }
+ },
+ "edCount": {
+  "instances": 10,
+  "byComponent": {
+   "DS/Button/Secondary": 2,
+   "DS/Button/Ghost": 1,
+   "DS/Badge/Success": 4,
+   "DS/Button/Primary": 1,
+   "DS/Badge/Error": 2
+  }
+ },
+ "stCount": {
+  "instances": 9,
+  "byComponent": {
+   "DS/Breadcrumb": 1,
+   "DS/Input/Default": 4,
+   "DS/Select/Default": 2,
+   "DS/Button/Primary": 1,
+   "DS/Button/Ghost": 1
+  }
+ },
+ "dsComponents": [
+  {
+   "id": "3:6",
+   "name": "DS/Button/Primary"
+  },
+  {
+   "id": "3:9",
+   "name": "DS/Button/Secondary"
+  },
+  {
+   "id": "3:12",
+   "name": "DS/Button/Ghost"
+  },
+  {
+   "id": "3:15",
+   "name": "DS/Button/Danger"
+  },
+  {
+   "id": "4:21",
+   "name": "DS/Input/Default"
+  },
+  {
+   "id": "4:25",
+   "name": "DS/Input/Focus"
+  },
+  {
+   "id": "4:29",
+   "name": "DS/Input/Error"
+  },
+  {
+   "id": "4:33",
+   "name": "DS/Select/Default"
+  },
+  {
+   "id": "4:37",
+   "name": "DS/Badge/Success"
+  },
+  {
+   "id": "4:41",
+   "name": "DS/Badge/Warning"
+  },
+  {
+   "id": "4:45",
+   "name": "DS/Badge/Error"
+  },
+  {
+   "id": "4:49",
+   "name": "DS/Badge/Info"
+  },
+  {
+   "id": "4:53",
+   "name": "DS/Badge/Neutral"
+  },
+  {
+   "id": "4:56",
+   "name": "DS/Pagination/Default"
+  },
+  {
+   "id": "4:59",
+   "name": "DS/Pagination/Active"
+  },
+  {
+   "id": "4:62",
+   "name": "DS/Pagination/Disabled"
+  },
+  {
+   "id": "4:76",
+   "name": "DS/Table/Header"
+  },
+  {
+   "id": "4:112",
+   "name": "DS/Table/Row"
+  },
+  {
+   "id": "4:130",
+   "name": "DS/Table/Row/Hover"
+  },
+  {
+   "id": "4:194",
+   "name": "DS/Table/Row/Selected"
+  },
+  {
+   "id": "4:209",
+   "name": "DS/EmptyState"
+  },
+  {
+   "id": "4:210",
+   "name": "DS/ErrorState"
+  },
+  {
+   "id": "4:215",
+   "name": "DS/LoadingState"
+  },
+  {
+   "id": "4:219",
+   "name": "DS/Card/BaseCard"
+  },
+  {
+   "id": "4:224",
+   "name": "DS/Breadcrumb"
+  }
+ ],
+ "geometry": {
+  "examList": {
+   "frameId": "7:480",
+   "width": 1440,
+   "height": 900,
+   "sizeOk": true,
+   "buttonInstanceHeights": [
+    30,
+    30,
+    30
+   ],
+   "inputSelectInstanceHeights": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "headerHeight": [
+    40
+   ],
+   "rowHeights": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44
+   ]
+  },
+  "examDetail": {
+   "frameId": "8:1034",
+   "width": 1440,
+   "height": 900,
+   "sizeOk": true
+  },
+  "settings": {
+   "frameId": "8:1215",
+   "width": 1440,
+   "height": 900,
+   "sizeOk": true
+  }
+ },
+ "userList": {
+  "id": "4:235",
+  "name": "Page/UserList",
+  "width": 1440,
+  "height": 900,
+  "childCount": 4,
+  "intact": true
+ },
+ "ulEmpty": {
+  "id": "4:463",
+  "name": "UserList/State/Empty",
+  "w": 420,
+  "h": 172
+ },
+ "ulError": {
+  "id": "4:470",
+  "name": "UserList/State/Error",
+  "w": 420,
+  "h": 200
+ }
+}
