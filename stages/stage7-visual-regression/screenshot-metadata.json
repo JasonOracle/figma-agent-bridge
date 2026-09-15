@@ -1,0 +1,95 @@
+{
+ "figma-render": {
+  "path": "figma-baseline/figma-19-330-render.png",
+  "width": 1920,
+  "height": 1030,
+  "mode": "RGBA",
+  "bytes": 116230,
+  "sha256_12": "ccb4ebe386f4"
+ },
+ "vue-1920-default": {
+  "path": "vue-1920-default.png",
+  "width": 1920,
+  "height": 1030,
+  "mode": "RGB",
+  "bytes": 101493,
+  "sha256_12": "1a8f9cd16e65"
+ },
+ "vue-1920-hover": {
+  "path": "vue-1920-hover.png",
+  "width": 1920,
+  "height": 1030,
+  "mode": "RGB",
+  "bytes": 105988,
+  "sha256_12": "23b98b934492"
+ },
+ "vue-1920-round1": {
+  "path": "vue-1920-round1.png",
+  "width": 1920,
+  "height": 1030,
+  "mode": "RGB",
+  "bytes": 104773,
+  "sha256_12": "1980b35a4b3e"
+ },
+ "vue-1920-round1b": {
+  "path": "vue-1920-round1b.png",
+  "width": 1920,
+  "height": 1030,
+  "mode": "RGB",
+  "bytes": 104775,
+  "sha256_12": "de9e8ad2fa06"
+ },
+ "vue-1920-round2": {
+  "path": "vue-1920-round2.png",
+  "width": 1920,
+  "height": 1030,
+  "mode": "RGB",
+  "bytes": 104775,
+  "sha256_12": "de9e8ad2fa06"
+ },
+ "vue-1440-final": {
+  "path": "vue-1440-final.png",
+  "width": 1440,
+  "height": 900,
+  "mode": "RGB",
+  "bytes": 82660,
+  "sha256_12": "771c36a868a4"
+ },
+ "vue-1280-final": {
+  "path": "vue-1280-final.png",
+  "width": 1280,
+  "height": 900,
+  "mode": "RGB",
+  "bytes": 74798,
+  "sha256_12": "e243d8ef9b9a"
+ },
+ "environment": {
+  "browser": "chromium (playwright-cli)",
+  "devicePixelRatio": 1,
+  "browserZoom": "100%",
+  "pageZoom": "100%",
+  "colorProfile": "sRGB (assumed)",
+  "platform": "Windows",
+  "vueViewportTests": [
+   {
+    "viewport": "1920x1030",
+    "scrollWidth": 1920,
+    "clientWidth": 1920,
+    "overflow": false
+   },
+   {
+    "viewport": "1440x900",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "overflow": false
+   },
+   {
+    "viewport": "1280x900",
+    "scrollWidth": 1280,
+    "clientWidth": 1280,
+    "overflow": false
+   }
+  ],
+  "figmaRenderSource": "Figma REST API image export via figma-context MCP, fileKey=lLVJH0OnZPrkAqzarvhnBq, node=19:330, pngScale=1"
+ }
+}

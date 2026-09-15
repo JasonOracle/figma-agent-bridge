@@ -1,0 +1,206 @@
+{
+ "bar-badge-green-text": {
+  "figma_bbox": [
+   1770,
+   271,
+   46,
+   9
+  ],
+  "figma_px": 121,
+  "vue_bbox": [
+   1824,
+   278,
+   48,
+   8
+  ],
+  "vue_px": 62,
+  "diff": [
+   54,
+   7,
+   2,
+   -1
+  ]
+ },
+ "line-y-pointer-badge": {
+  "figma_bbox": [
+   219,
+   629,
+   71,
+   65
+  ],
+  "figma_px": 931,
+  "vue_bbox": [
+   220,
+   681,
+   52,
+   17
+  ],
+  "vue_px": 711,
+  "diff": [
+   1,
+   52,
+   -19,
+   -48
+  ]
+ },
+ "line-x-pill": {
+  "figma_bbox": null,
+  "figma_px": 0,
+  "vue_bbox": null,
+  "vue_px": 0,
+  "diff": null
+ },
+ "kpi1-icon": {
+  "figma_bbox": [
+   225,
+   122,
+   14,
+   14
+  ],
+  "figma_px": 110,
+  "vue_bbox": [
+   231,
+   127,
+   16,
+   18
+  ],
+  "vue_px": 85,
+  "diff": [
+   6,
+   5,
+   2,
+   4
+  ]
+ },
+ "kpi3-icon": {
+  "figma_bbox": [
+   1087,
+   127,
+   13,
+   19
+  ],
+  "figma_px": 118,
+  "vue_bbox": [
+   1090,
+   128,
+   14,
+   19
+  ],
+  "vue_px": 116,
+  "diff": [
+   3,
+   1,
+   1,
+   0
+  ]
+ },
+ "topbar-gear": {
+  "figma_bbox": null,
+  "figma_px": 0,
+  "vue_bbox": null,
+  "vue_px": 0,
+  "diff": null
+ },
+ "topbar-fullscreen": {
+  "figma_bbox": null,
+  "figma_px": 0,
+  "vue_bbox": null,
+  "vue_px": 0,
+  "diff": null
+ },
+ "sidebar-moremenu-icon": {
+  "figma_bbox": [
+   30,
+   203,
+   38,
+   37
+  ],
+  "figma_px": 41,
+  "vue_bbox": [
+   46,
+   203,
+   24,
+   37
+  ],
+  "vue_px": 12,
+  "diff": [
+   16,
+   0,
+   -14,
+   0
+  ]
+ },
+ "sidebar-menu2-icon": {
+  "figma_bbox": null,
+  "figma_px": 0,
+  "vue_bbox": null,
+  "vue_px": 0,
+  "diff": null
+ },
+ "sidebar-logo": {
+  "figma_bbox": [
+   15,
+   11,
+   9,
+   9
+  ],
+  "figma_px": 45,
+  "vue_bbox": [
+   22,
+   15,
+   37,
+   14
+  ],
+  "vue_px": 74,
+  "diff": [
+   7,
+   4,
+   28,
+   5
+  ]
+ },
+ "pie-blue-sector": {
+  "figma_bbox": [
+   220,
+   231,
+   72,
+   134
+  ],
+  "figma_px": 2892,
+  "vue_bbox": [
+   232,
+   256,
+   248,
+   204
+  ],
+  "vue_px": 1089,
+  "diff": [
+   12,
+   25,
+   176,
+   70
+  ]
+ },
+ "tagsbar-active-pill": {
+  "figma_bbox": [
+   200,
+   52,
+   39,
+   12
+  ],
+  "figma_px": 60,
+  "vue_bbox": [
+   192,
+   47,
+   63,
+   22
+  ],
+  "vue_px": 149,
+  "diff": [
+   -8,
+   -5,
+   24,
+   10
+  ]
+ }
+}

@@ -1,0 +1,2215 @@
+{
+ "viewport": [
+  1920,
+  1030
+ ],
+ "dpr": 1,
+ "scrollWidth": 1920,
+ "clientWidth": 1920,
+ "scrollHeight": 1030,
+ "topBar": {
+  "name": "TopBar",
+  "tag": "header",
+  "cls": "flex h-10 shrink-0 items-stretch bg-surface",
+  "rect": [
+   0,
+   0,
+   1920,
+   40
+  ],
+  "styles": {
+   "backgroundColor": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "padding": "0px",
+   "display": "flex",
+   "alignItems": "stretch"
+  },
+  "text": "ElementAdmin首页 全屏切换 admin",
+  "children": [
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "flex w-[180px] shrink-0 items-center gap-2 pl-3.5",
+    "rect": [
+     0,
+     0,
+     180,
+     40
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 14px",
+     "gap": "8px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "ElementAdmin"
+   },
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "flex min-w-0 flex-1 items-center gap-3.5 px-4",
+    "rect": [
+     180,
+     0,
+     1740,
+     40
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 16px",
+     "gap": "14px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "首页 全屏切换 admin"
+   }
+  ]
+ },
+ "sidebar": {
+  "name": "Sidebar",
+  "tag": "aside",
+  "cls": "flex w-[180px] shrink-0 flex-col bg-surface py-2",
+  "rect": [
+   0,
+   40,
+   180,
+   990
+  ],
+  "styles": {
+   "backgroundColor": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "padding": "8px 0px",
+   "display": "flex"
+  },
+  "text": "首页更多菜单菜单1菜单1-1菜单1-2菜单2",
+  "children": [
+   {
+    "name": "button",
+    "tag": "button",
+    "cls": "flex w-full shrink-0 items-center text-left h-10 bg-menu",
+    "rect": [
+     0,
+     48,
+     180,
+     40
+    ],
+    "styles": {
+     "backgroundColor": "rgb(90, 92, 240)",
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 20px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "首页"
+   },
+   {
+    "name": "button",
+    "tag": "button",
+    "cls": "flex w-full shrink-0 items-center text-left h-10 hover:bg-page",
+    "rect": [
+     0,
+     88,
+     180,
+     40
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 20px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "更多菜单"
+   },
+   {
+    "name": "button",
+    "tag": "button",
+    "cls": "flex w-full shrink-0 items-center text-left h-8 hover:bg-page",
+    "rect": [
+     0,
+     128,
+     180,
+     32
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 40px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "菜单1"
+   },
+   {
+    "name": "button",
+    "tag": "button",
+    "cls": "flex w-full shrink-0 items-center text-left h-8 hover:bg-page",
+    "rect": [
+     0,
+     160,
+     180,
+     32
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 56px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "菜单1-1"
+   },
+   {
+    "name": "button",
+    "tag": "button",
+    "cls": "flex w-full shrink-0 items-center text-left h-8 hover:bg-page",
+    "rect": [
+     0,
+     192,
+     180,
+     32
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 56px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "菜单1-2"
+   },
+   {
+    "name": "button",
+    "tag": "button",
+    "cls": "flex w-full shrink-0 items-center text-left h-10 hover:bg-page",
+    "rect": [
+     0,
+     224,
+     180,
+     40
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px 0px 0px 20px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "菜单2"
+   }
+  ]
+ },
+ "tagsBar": {
+  "name": "TagsBar",
+  "tag": "nav",
+  "cls": "flex h-9 shrink-0 items-center gap-2.5 bg-surface px-3",
+  "rect": [
+   180,
+   40,
+   1740,
+   36
+  ],
+  "styles": {
+   "backgroundColor": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "padding": "0px 12px",
+   "gap": "10px",
+   "display": "flex",
+   "alignItems": "center"
+  },
+  "text": "首页 首页52",
+  "children": [
+   {
+    "name": "span",
+    "tag": "span",
+    "cls": "flex h-[22px] shrink-0 cursor-default items-center gap-1.5 rounded-full border px-2.5 text-caption border-menu text-menu",
+    "rect": [
+     192,
+     47,
+     63,
+     22
+    ],
+    "styles": {
+     "color": "rgb(90, 92, 240)",
+     "fontSize": "12px",
+     "fontWeight": "400",
+     "lineHeight": "18px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "9999px",
+     "border": "1px solid rgb(90, 92, 240)",
+     "padding": "0px 10px",
+     "gap": "6px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "首页"
+   },
+   {
+    "name": "span",
+    "tag": "span",
+    "cls": "flex h-[22px] shrink-0 cursor-default items-center gap-1.5 rounded-full border px-2.5 text-caption border-stroke bg-surface text-ink-3",
+    "rect": [
+     265,
+     47,
+     74.3,
+     22
+    ],
+    "styles": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(144, 147, 153)",
+     "fontSize": "12px",
+     "fontWeight": "400",
+     "lineHeight": "18px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "9999px",
+     "border": "1px solid rgb(228, 231, 237)",
+     "padding": "0px 10px",
+     "gap": "6px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "首页52"
+   },
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "min-w-0 flex-1",
+    "rect": [
+     349.3,
+     58,
+     1534.7,
+     0
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "block"
+    }
+   },
+   {
+    "name": "svg",
+    "tag": "svg",
+    "cls": "",
+    "rect": [
+     1894,
+     51,
+     14,
+     14
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "block"
+    }
+   }
+  ]
+ },
+ "kpiRow": {
+  "rect": [
+   204,
+   100,
+   1692,
+   72
+  ],
+  "styles": {
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "padding": "0px",
+   "gap": "24px",
+   "display": "grid"
+  },
+  "cards": [
+   {
+    "name": "KpiCard",
+    "tag": "div",
+    "cls": "flex h-[72px] items-center gap-3 rounded-sm bg-surface px-5 shadow-card",
+    "rect": [
+     204,
+     100,
+     405,
+     72
+    ],
+    "styles": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "4px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+     "padding": "0px 20px",
+     "gap": "12px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "新增用户102,400",
+    "children": [
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex h-[30px] w-[30px] shrink-0 items-center justify-center",
+      "rect": [
+       224,
+       121,
+       30,
+       30
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "flex",
+       "justifyContent": "center",
+       "alignItems": "center"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "min-w-0 flex-1",
+      "rect": [
+       266,
+       136,
+       210.5,
+       0
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "block"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex flex-col items-end gap-0.5",
+      "rect": [
+       488.5,
+       109,
+       100.5,
+       54
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "gap": "2px",
+       "display": "flex",
+       "alignItems": "flex-end"
+      },
+      "text": "新增用户102,400"
+     }
+    ]
+   },
+   {
+    "name": "KpiCard",
+    "tag": "div",
+    "cls": "flex h-[72px] items-center gap-3 rounded-sm bg-surface px-5 shadow-card",
+    "rect": [
+     633,
+     100,
+     405,
+     72
+    ],
+    "styles": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "4px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+     "padding": "0px 20px",
+     "gap": "12px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "未读消息81,212",
+    "children": [
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex h-[30px] w-[30px] shrink-0 items-center justify-center",
+      "rect": [
+       653,
+       121,
+       30,
+       30
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "flex",
+       "justifyContent": "center",
+       "alignItems": "center"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "min-w-0 flex-1",
+      "rect": [
+       695,
+       136,
+       225.8,
+       0
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "block"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex flex-col items-end gap-0.5",
+      "rect": [
+       932.8,
+       109,
+       85.2,
+       54
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "gap": "2px",
+       "display": "flex",
+       "alignItems": "flex-end"
+      },
+      "text": "未读消息81,212"
+     }
+    ]
+   },
+   {
+    "name": "KpiCard",
+    "tag": "div",
+    "cls": "flex h-[72px] items-center gap-3 rounded-sm bg-surface px-5 shadow-card",
+    "rect": [
+     1062,
+     100,
+     405,
+     72
+    ],
+    "styles": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "4px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+     "padding": "0px 20px",
+     "gap": "12px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "¥交易金额9,280",
+    "children": [
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex h-[30px] w-[30px] shrink-0 items-center justify-center",
+      "rect": [
+       1082,
+       121,
+       30,
+       30
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "flex",
+       "justifyContent": "center",
+       "alignItems": "center"
+      },
+      "text": "¥"
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "min-w-0 flex-1",
+      "rect": [
+       1124,
+       136,
+       241.2,
+       0
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "block"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex flex-col items-end gap-0.5",
+      "rect": [
+       1377.2,
+       109,
+       69.8,
+       54
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "gap": "2px",
+       "display": "flex",
+       "alignItems": "flex-end"
+      },
+      "text": "交易金额9,280"
+     }
+    ]
+   },
+   {
+    "name": "KpiCard",
+    "tag": "div",
+    "cls": "flex h-[72px] items-center gap-3 rounded-sm bg-surface px-5 shadow-card",
+    "rect": [
+     1491,
+     100,
+     405,
+     72
+    ],
+    "styles": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "4px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+     "padding": "0px 20px",
+     "gap": "12px",
+     "display": "flex",
+     "alignItems": "center"
+    },
+    "text": "购物车数量13,600",
+    "children": [
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex h-[30px] w-[30px] shrink-0 items-center justify-center",
+      "rect": [
+       1511,
+       121,
+       30,
+       30
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "flex",
+       "justifyContent": "center",
+       "alignItems": "center"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "min-w-0 flex-1",
+      "rect": [
+       1553,
+       136,
+       225.8,
+       0
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "display": "block"
+      }
+     },
+     {
+      "name": "div",
+      "tag": "div",
+      "cls": "flex flex-col items-end gap-0.5",
+      "rect": [
+       1790.8,
+       109,
+       85.2,
+       54
+      ],
+      "styles": {
+       "color": "rgb(0, 0, 0)",
+       "fontSize": "16px",
+       "fontWeight": "400",
+       "lineHeight": "24px",
+       "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+       "borderRadius": "0px",
+       "border": "0px solid rgb(229, 231, 235)",
+       "padding": "0px",
+       "gap": "2px",
+       "display": "flex",
+       "alignItems": "flex-end"
+      },
+      "text": "购物车数量13,600"
+     }
+    ]
+   }
+  ]
+ },
+ "pieCard": {
+  "name": "PieCard",
+  "tag": "section",
+  "cls": "flex min-w-0 flex-col rounded-sm bg-surface p-4 shadow-card",
+  "rect": [
+   204,
+   196,
+   717,
+   300
+  ],
+  "styles": {
+   "backgroundColor": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "4px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+   "padding": "16px",
+   "display": "flex"
+  },
+  "text": "用户访问来源直接访问邮件营销联盟广告视频广告搜索引擎直接访问邮件营销联盟广告视频广告搜索引擎",
+  "children": [
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "flex justify-center",
+    "rect": [
+     220,
+     212,
+     685,
+     24
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "flex",
+     "justifyContent": "center"
+    },
+    "text": "用户访问来源"
+   },
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "relative",
+    "rect": [
+     220,
+     236,
+     685,
+     244
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "block"
+    },
+    "text": "直接访问邮件营销联盟广告视频广告搜索引擎直接访问邮件营销联盟广告视频广告搜索引擎"
+   }
+  ]
+ },
+ "barCard": {
+  "name": "BarCard",
+  "tag": "section",
+  "cls": "flex min-w-0 flex-col rounded-sm bg-surface p-4 shadow-card",
+  "rect": [
+   945,
+   196,
+   951,
+   300
+  ],
+  "styles": {
+   "backgroundColor": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "4px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+   "padding": "16px",
+   "display": "flex"
+  },
+  "children": [
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "flex justify-center",
+    "rect": [
+     961,
+     212,
+     919,
+     24
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "flex",
+     "justifyContent": "center"
+    },
+    "text": "每周用户活跃量"
+   },
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "relative",
+    "rect": [
+     961,
+     236,
+     919,
+     244
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "block"
+    }
+   }
+  ]
+ },
+ "lineCard": {
+  "name": "LineCard",
+  "tag": "section",
+  "cls": "flex min-w-0 flex-col rounded-sm bg-surface p-4 shadow-card min-h-[352px] shrink-0",
+  "rect": [
+   204,
+   520,
+   1692,
+   352
+  ],
+  "styles": {
+   "backgroundColor": "rgb(255, 255, 255)",
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "4px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 4px 0px",
+   "padding": "16px",
+   "display": "flex"
+  },
+  "text": "每月销售量一月三月250200150100500一月二月三月四月五月六月七月八月九月十月十一月十二月",
+  "children": [
+   {
+    "name": "div",
+    "tag": "div",
+    "cls": "relative",
+    "rect": [
+     220,
+     536,
+     1660,
+     278
+    ],
+    "styles": {
+     "color": "rgb(0, 0, 0)",
+     "fontSize": "16px",
+     "fontWeight": "400",
+     "lineHeight": "24px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "block"
+    },
+    "text": "每月销售量一月三月250200150100500一月二月三月四月五月六月七月八月九月十月十一月十二月"
+   }
+  ]
+ },
+ "footer": {
+  "name": "Footer",
+  "tag": "footer",
+  "cls": "flex justify-center pt-4",
+  "rect": [
+   204,
+   896,
+   1692,
+   34
+  ],
+  "styles": {
+   "color": "rgb(0, 0, 0)",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(229, 231, 235)",
+   "padding": "16px 0px 0px",
+   "display": "flex",
+   "justifyContent": "center"
+  },
+  "text": "Copyright © 2021-present ElementAdmin",
+  "children": [
+   {
+    "name": "span",
+    "tag": "span",
+    "cls": "text-caption text-ink-3",
+    "rect": [
+     935.1,
+     912,
+     229.8,
+     18
+    ],
+    "styles": {
+     "color": "rgb(144, 147, 153)",
+     "fontSize": "12px",
+     "fontWeight": "400",
+     "lineHeight": "18px",
+     "fontFamily": "\"Noto Sans SC\", Inter, \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Helvetica Neue\", Arial, sans-serif",
+     "borderRadius": "0px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "padding": "0px",
+     "display": "block"
+    },
+    "text": "Copyright © 2021-present ElementAdmin"
+   }
+  ]
+ },
+ "pieSvg": {
+  "viewBox": "0 0 685 244",
+  "rect": [
+   220,
+   236,
+   685,
+   244
+  ],
+  "shapes": [
+   {
+    "t": "path",
+    "d": "M 250 118 L 250 46 C 281.19 46 308.84 66.09 318.48 95.75 C 328.12 125.42 317.56 157.91 292.32 176.25 Z",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "path",
+    "d": "M 250 118 L 292.32 176.25 C 264.36 196.56 225.91 194.15 200.71 170.49 Z",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "#91CC75",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "path",
+    "d": "M 250 118 L 200.71 170.49 C 182.74 153.61 174.66 128.72 179.28 104.51 Z",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "#FAC858",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "path",
+    "d": "M 250 118 L 179.28 104.51 C 182.71 86.52 192.86 70.51 207.68 59.75 Z",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "#FC8452",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "path",
+    "d": "M 250 118 L 207.68 59.75 C 219.98 50.81 234.8 46 250 46 Z",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "#EE6666",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "path",
+    "d": "M 323.2313517547268 94.20569143312905 L 337.49719949915414 89.57043651750485 M 245.16512999624285 194.84805808897693 L 2",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "none",
+    "stroke": "#909399",
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "346.20353859692506",
+    "y": "91.71633455125516",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "直接访问"
+   },
+   {
+    "t": "text",
+    "x": "240.84652908612728",
+    "y": "219.8066193859706",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "邮件营销"
+   },
+   {
+    "t": "text",
+    "x": "153.79646140307494",
+    "y": "152.28366544874484",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "联盟广告"
+   },
+   {
+    "t": "text",
+    "x": "164.25586330080253",
+    "y": "69.48897409205831",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "视频广告"
+   },
+   {
+    "t": "text",
+    "x": "216.71633455125513",
+    "y": "28.796461403074957",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "搜索引擎"
+   }
+  ]
+ },
+ "barSvg": {
+  "viewBox": "0 0 919 244",
+  "rect": [
+   961,
+   236,
+   919,
+   244
+  ],
+  "shapes": [
+   {
+    "t": "path",
+    "d": "M 52 232 L 919 232 M 52 197.9 L 919 197.9 M 52 163.8 L 919 163.8 M 52 129.7 L 919 129.7 M 52 95.61 L 919 95.61 M 52 61.5",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "none",
+    "stroke": "#E4E7ED",
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "44",
+    "y": "65.50819672131146",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "25,000"
+   },
+   {
+    "t": "text",
+    "x": "44",
+    "y": "99.6065573770492",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "20,000"
+   },
+   {
+    "t": "text",
+    "x": "44",
+    "y": "133.7049180327869",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "15,000"
+   },
+   {
+    "t": "text",
+    "x": "44",
+    "y": "167.80327868852459",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "10,000"
+   },
+   {
+    "t": "text",
+    "x": "44",
+    "y": "201.9016393442623",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "5,000"
+   },
+   {
+    "t": "text",
+    "x": "44",
+    "y": "236",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "0"
+   },
+   {
+    "t": "rect",
+    "x": "91.92857142857143",
+    "y": "139.9344262295082",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "92.0655737704918",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "113.92857142857143",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周一"
+   },
+   {
+    "t": "rect",
+    "x": "215.78571428571428",
+    "y": "24",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "208",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "237.78571428571428",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周二"
+   },
+   {
+    "t": "rect",
+    "x": "339.64285714285717",
+    "y": "75.14754098360658",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "156.85245901639342",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "361.64285714285717",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周三"
+   },
+   {
+    "t": "rect",
+    "x": "463.5",
+    "y": "144.70819672131148",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "87.29180327868852",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "485.5",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周四"
+   },
+   {
+    "t": "rect",
+    "x": "587.3571428571429",
+    "y": "85.37704918032787",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "146.62295081967213",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "609.3571428571429",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周五"
+   },
+   {
+    "t": "rect",
+    "x": "711.2142857142858",
+    "y": "215.6327868852459",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "16.367213114754094",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "733.2142857142858",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周六"
+   },
+   {
+    "t": "rect",
+    "x": "835.0714285714286",
+    "y": "217.67868852459017",
+    "cx": null,
+    "cy": null,
+    "w": "44",
+    "h": "14.321311475409829",
+    "r": null,
+    "rx": null,
+    "fill": "#5470C6",
+    "stroke": null,
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "857.0714285714286",
+    "y": "245",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "周日"
+   }
+  ]
+ },
+ "lineSvg": {
+  "viewBox": "0 0 1660 250",
+  "rect": [
+   220,
+   564,
+   1660,
+   250
+  ],
+  "shapes": [
+   {
+    "t": "path",
+    "d": "M 44 232 L 1660 232 M 44 187.6 L 1660 187.6 M 44 143.2 L 1660 143.2 M 44 98.8 L 1660 98.8 M 44 54.4 L 1660 54.4 M 44 10 ",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "none",
+    "stroke": "#E4E7ED",
+    "fs": null
+   },
+   {
+    "t": "text",
+    "x": "36",
+    "y": "14",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "250"
+   },
+   {
+    "t": "text",
+    "x": "36",
+    "y": "58.39999999999998",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "200"
+   },
+   {
+    "t": "text",
+    "x": "36",
+    "y": "102.80000000000001",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "150"
+   },
+   {
+    "t": "text",
+    "x": "36",
+    "y": "147.2",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "100"
+   },
+   {
+    "t": "text",
+    "x": "36",
+    "y": "191.6",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "50"
+   },
+   {
+    "t": "text",
+    "x": "36",
+    "y": "236",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "11",
+    "text": "0"
+   },
+   {
+    "t": "text",
+    "x": "111.33333333333333",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "一月"
+   },
+   {
+    "t": "text",
+    "x": "246",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "二月"
+   },
+   {
+    "t": "text",
+    "x": "380.66666666666663",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "三月"
+   },
+   {
+    "t": "text",
+    "x": "515.3333333333334",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "四月"
+   },
+   {
+    "t": "text",
+    "x": "650",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "五月"
+   },
+   {
+    "t": "text",
+    "x": "784.6666666666666",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "六月"
+   },
+   {
+    "t": "text",
+    "x": "919.3333333333334",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "七月"
+   },
+   {
+    "t": "text",
+    "x": "1054",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "八月"
+   },
+   {
+    "t": "text",
+    "x": "1188.6666666666665",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "九月"
+   },
+   {
+    "t": "text",
+    "x": "1323.3333333333333",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "十月"
+   },
+   {
+    "t": "text",
+    "x": "1457.9999999999998",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "十一月"
+   },
+   {
+    "t": "text",
+    "x": "1592.6666666666665",
+    "y": "247",
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": null,
+    "stroke": null,
+    "fs": "12",
+    "text": "十二月"
+   },
+   {
+    "t": "path",
+    "d": "M 111.33 129.88 C 133.78 129.14 201.11 128.84 246 125.44 C 290.89 122.04 335.78 113.16 380.67 109.46 C 425.56 105.76 470",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "none",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "111.33333333333333",
+    "cy": "129.88",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "246",
+    "cy": "125.44",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "380.66666666666663",
+    "cy": "109.45599999999999",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "515.3333333333334",
+    "cy": "103.24000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "650",
+    "cy": "98.80000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "784.6666666666666",
+    "cy": "94.36000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "919.3333333333334",
+    "cy": "98.80000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1054",
+    "cy": "118.336",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1188.6666666666665",
+    "cy": "76.60000000000002",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1323.3333333333333",
+    "cy": "54.39999999999998",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1457.9999999999998",
+    "cy": "97.024",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1592.6666666666665",
+    "cy": "100.576",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#5470C6",
+    "fs": null
+   },
+   {
+    "t": "path",
+    "d": "M 111.33 138.76 C 133.78 142.16 201.11 162.88 246 159.18 C 290.89 155.48 335.78 126.33 380.67 116.56 C 425.56 106.79 470",
+    "x": null,
+    "y": null,
+    "cx": null,
+    "cy": null,
+    "w": null,
+    "h": null,
+    "r": null,
+    "rx": null,
+    "fill": "none",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "111.33333333333333",
+    "cy": "138.76",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "246",
+    "cy": "159.184",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "380.66666666666663",
+    "cy": "116.56",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "515.3333333333334",
+    "cy": "100.576",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "650",
+    "cy": "98.80000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "784.6666666666666",
+    "cy": "97.024",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "919.3333333333334",
+    "cy": "98.80000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1054",
+    "cy": "17.104000000000013",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1188.6666666666665",
+    "cy": "54.39999999999998",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1323.3333333333333",
+    "cy": "147.64",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1457.9999999999998",
+    "cy": "132.54399999999998",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   },
+   {
+    "t": "circle",
+    "x": null,
+    "y": null,
+    "cx": "1592.6666666666665",
+    "cy": "98.80000000000001",
+    "w": null,
+    "h": null,
+    "r": "4",
+    "rx": null,
+    "fill": "#FFFFFF",
+    "stroke": "#91CC75",
+    "fs": null
+   }
+  ]
+ },
+ "hoverTarget": {
+  "screenX": 466,
+  "screenY": 689,
+  "svgLeft": 220,
+  "svgTop": 564,
+  "svgW": 1660,
+  "svgH": 250,
+  "scale": 1
+ }
+}

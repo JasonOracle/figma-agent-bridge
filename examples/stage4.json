@@ -1,0 +1,27 @@
+{
+  "ops": [
+    {
+      "op": "create-rect",
+      "params": {
+        "name": "Vibe Rect",
+        "width": 300,
+        "height": 100,
+        "x": 100,
+        "y": 100,
+        "parentId": "9:2",
+        "fill": { "hex": "#4C6FFF" }
+      }
+    },
+    {
+      "op": "create-text",
+      "params": {
+        "characters": "Hello Vibe Design",
+        "fontSize": 48,
+        "x": 100,
+        "y": 260,
+        "parentId": "9:2",
+        "fill": { "rgb": [17, 17, 17] }
+      }
+    }
+  ]
+}

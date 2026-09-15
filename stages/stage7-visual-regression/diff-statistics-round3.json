@@ -1,0 +1,406 @@
+{
+ "comparison": "FIGMA_RENDER_BASELINE vs VUE(round3)",
+ "figma_render": {
+  "path": "C:\\Users\\Administrator\\figma-vibe-bridge\\.vibe\\stage7\\figma-baseline\\figma-19-330-render.png",
+  "size": [
+   1920,
+   1030
+  ]
+ },
+ "vue_screenshot": {
+  "path": "C:\\Users\\Administrator\\figma-vibe-bridge\\.vibe\\stage7\\vue-1920-round3.png",
+  "size": [
+   1920,
+   1030
+  ]
+ },
+ "global": {
+  "ssim": 0.9037,
+  "threshold_per_channel": 12,
+  "diff_pixel_count": 112541,
+  "total_pixels": 1977600,
+  "diff_percentage": 5.691,
+  "mean_abs_diff_all": 3.689,
+  "mean_abs_diff_diffpx": 85.37,
+  "p99_diff": 171
+ },
+ "regions": {
+  "TopBar": {
+   "bbox_in_page": [
+    0,
+    0,
+    1920,
+    40
+   ],
+   "diff_pixels": 2327,
+   "area": 76800,
+   "diff_pct": 3.03,
+   "mean_diff": 2.78
+  },
+  "Sidebar": {
+   "bbox_in_page": [
+    0,
+    40,
+    180,
+    990
+   ],
+   "diff_pixels": 2573,
+   "area": 178200,
+   "diff_pct": 1.44,
+   "mean_diff": 1.29
+  },
+  "TagsBar": {
+   "bbox_in_page": [
+    180,
+    40,
+    1740,
+    36
+   ],
+   "diff_pixels": 1039,
+   "area": 62640,
+   "diff_pct": 1.66,
+   "mean_diff": 1.09
+  },
+  "KPI-Card-1": {
+   "bbox_in_page": [
+    204,
+    100,
+    405,
+    72
+   ],
+   "diff_pixels": 2304,
+   "area": 29160,
+   "diff_pct": 7.9,
+   "mean_diff": 10.61
+  },
+  "KPI-Card-2": {
+   "bbox_in_page": [
+    633,
+    100,
+    405,
+    72
+   ],
+   "diff_pixels": 1949,
+   "area": 29160,
+   "diff_pct": 6.68,
+   "mean_diff": 8.85
+  },
+  "KPI-Card-3": {
+   "bbox_in_page": [
+    1062,
+    100,
+    405,
+    72
+   ],
+   "diff_pixels": 2029,
+   "area": 29160,
+   "diff_pct": 6.96,
+   "mean_diff": 8.61
+  },
+  "KPI-Card-4": {
+   "bbox_in_page": [
+    1491,
+    100,
+    405,
+    72
+   ],
+   "diff_pixels": 2362,
+   "area": 29160,
+   "diff_pct": 8.1,
+   "mean_diff": 10.21
+  },
+  "PieChartCard": {
+   "bbox_in_page": [
+    204,
+    196,
+    717,
+    300
+   ],
+   "diff_pixels": 30110,
+   "area": 215100,
+   "diff_pct": 14.0,
+   "mean_diff": 19.93
+  },
+  "BarChartCard": {
+   "bbox_in_page": [
+    945,
+    196,
+    951,
+    300
+   ],
+   "diff_pixels": 14825,
+   "area": 285300,
+   "diff_pct": 5.2,
+   "mean_diff": 1.82
+  },
+  "LineChartCard": {
+   "bbox_in_page": [
+    204,
+    520,
+    1692,
+    352
+   ],
+   "diff_pixels": 51310,
+   "area": 595584,
+   "diff_pct": 8.62,
+   "mean_diff": 5.4
+  },
+  "Footer": {
+   "bbox_in_page": [
+    204,
+    896,
+    1692,
+    60
+   ],
+   "diff_pixels": 1713,
+   "area": 101520,
+   "diff_pct": 1.69,
+   "mean_diff": 1.02
+  }
+ },
+ "diff_bboxes": [
+  {
+   "x": 192,
+   "y": 512,
+   "w": 1664,
+   "h": 320,
+   "cells": 266,
+   "density": 0.51,
+   "diff_pct_in_box": 9.6
+  },
+  {
+   "x": 192,
+   "y": 224,
+   "w": 352,
+   "h": 256,
+   "cells": 55,
+   "density": 0.62,
+   "diff_pct_in_box": 32.2
+  },
+  {
+   "x": 0,
+   "y": 64,
+   "w": 96,
+   "h": 192,
+   "cells": 12,
+   "density": 0.67,
+   "diff_pct_in_box": 12.8
+  },
+  {
+   "x": 960,
+   "y": 288,
+   "w": 64,
+   "h": 160,
+   "cells": 10,
+   "density": 1.0,
+   "diff_pct_in_box": 15.3
+  },
+  {
+   "x": 1696,
+   "y": 0,
+   "w": 224,
+   "h": 64,
+   "cells": 8,
+   "density": 0.57,
+   "diff_pct_in_box": 7.5
+  },
+  {
+   "x": 928,
+   "y": 896,
+   "w": 256,
+   "h": 32,
+   "cells": 8,
+   "density": 1.0,
+   "diff_pct_in_box": 20.7
+  },
+  {
+   "x": 1344,
+   "y": 192,
+   "w": 128,
+   "h": 64,
+   "cells": 7,
+   "density": 0.88,
+   "diff_pct_in_box": 13.7
+  },
+  {
+   "x": 192,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "cells": 6,
+   "density": 0.75,
+   "diff_pct_in_box": 14.8
+  },
+  {
+   "x": 1376,
+   "y": 96,
+   "w": 96,
+   "h": 64,
+   "cells": 6,
+   "density": 1.0,
+   "diff_pct_in_box": 28.1
+  },
+  {
+   "x": 1792,
+   "y": 96,
+   "w": 96,
+   "h": 64,
+   "cells": 6,
+   "density": 1.0,
+   "diff_pct_in_box": 34.0
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "w": 160,
+   "h": 32,
+   "cells": 5,
+   "density": 1.0,
+   "diff_pct_in_box": 20.0
+  },
+  {
+   "x": 480,
+   "y": 96,
+   "w": 128,
+   "h": 64,
+   "cells": 5,
+   "density": 0.62,
+   "diff_pct_in_box": 25.1
+  },
+  {
+   "x": 928,
+   "y": 96,
+   "w": 96,
+   "h": 64,
+   "cells": 5,
+   "density": 0.83,
+   "diff_pct_in_box": 26.6
+  },
+  {
+   "x": 512,
+   "y": 192,
+   "w": 96,
+   "h": 64,
+   "cells": 5,
+   "density": 0.83,
+   "diff_pct_in_box": 12.1
+  },
+  {
+   "x": 1760,
+   "y": 256,
+   "w": 64,
+   "h": 64,
+   "cells": 4,
+   "density": 1.0,
+   "diff_pct_in_box": 16.6
+  },
+  {
+   "x": 640,
+   "y": 96,
+   "w": 32,
+   "h": 64,
+   "cells": 2,
+   "density": 1.0,
+   "diff_pct_in_box": 12.7
+  },
+  {
+   "x": 576,
+   "y": 288,
+   "w": 32,
+   "h": 64,
+   "cells": 2,
+   "density": 1.0,
+   "diff_pct_in_box": 12.4
+  },
+  {
+   "x": 1408,
+   "y": 448,
+   "w": 64,
+   "h": 32,
+   "cells": 2,
+   "density": 1.0,
+   "diff_pct_in_box": 15.9
+  },
+  {
+   "x": 1536,
+   "y": 448,
+   "w": 64,
+   "h": 32,
+   "cells": 2,
+   "density": 1.0,
+   "diff_pct_in_box": 14.6
+  },
+  {
+   "x": 1664,
+   "y": 448,
+   "w": 64,
+   "h": 32,
+   "cells": 2,
+   "density": 1.0,
+   "diff_pct_in_box": 14.4
+  },
+  {
+   "x": 1792,
+   "y": 448,
+   "w": 64,
+   "h": 32,
+   "cells": 2,
+   "density": 1.0,
+   "diff_pct_in_box": 15.4
+  },
+  {
+   "x": 224,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "cells": 1,
+   "density": 1.0,
+   "diff_pct_in_box": 16.9
+  },
+  {
+   "x": 1088,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "cells": 1,
+   "density": 1.0,
+   "diff_pct_in_box": 21.0
+  },
+  {
+   "x": 1504,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "cells": 1,
+   "density": 1.0,
+   "diff_pct_in_box": 16.3
+  },
+  {
+   "x": 1056,
+   "y": 448,
+   "w": 32,
+   "h": 32,
+   "cells": 1,
+   "density": 1.0,
+   "diff_pct_in_box": 21.1
+  },
+  {
+   "x": 1184,
+   "y": 448,
+   "w": 32,
+   "h": 32,
+   "cells": 1,
+   "density": 1.0,
+   "diff_pct_in_box": 22.5
+  },
+  {
+   "x": 1312,
+   "y": 448,
+   "w": 32,
+   "h": 32,
+   "cells": 1,
+   "density": 1.0,
+   "diff_pct_in_box": 19.8
+  }
+ ]
+}

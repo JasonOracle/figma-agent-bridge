@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+stage6-element-admin/node_modules/
+
+# build output
+dist/
+
+# runtime state (contains auth token; curated copies live in stages/)
+.vibe/
+
+# logs
+*.log
+
+# playwright-cli working dir
+.playwright-cli/

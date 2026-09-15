@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 与 Figma 字体方案对齐：Noto Sans SC 优先，回退系统中文字体 */
+html,
+body {
+  font-family: "Noto Sans SC", "Inter", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 数字列与图表刻度：等宽数字（Figma 中数值文本的视觉特征） */
+.num {
+  font-variant-numeric: tabular-nums;
+}

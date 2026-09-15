@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "status": "ok",
+  "elapsedMs": 33,
+  "data": {
+    "id": "19:330",
+    "name": "Reference Recreation / ElementAdmin",
+    "type": "FRAME",
+    "width": 1920,
+    "height": 1030,
+    "x": 12500,
+    "y": 0,
+    "parentId": "0:1",
+    "childCount": 2,
+    "children": [
+      {
+        "id": "19:331",
+        "name": "Top Bar",
+        "type": "FRAME"
+      },
+      {
+        "id": "19:346",
+        "name": "Body",
+        "type": "FRAME"
+      }
+    ],
+    "opacity": 1,
+    "fills": [
+      "#f2f3f5"
+    ],
+    "fillCount": 1,
+    "strokes": [],
+    "strokeWeight": 1,
+    "cornerRadius": 0,
+    "layoutMode": "VERTICAL",
+    "itemSpacing": 0,
+    "padding": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "primaryAxisAlignItems": "MIN",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "FIXED",
+    "layoutSizing": {
+      "horizontal": "FIXED",
+      "vertical": "FIXED"
+    },
+    "effects": [],
+    "clipsContent": true,
+    "selection": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_note": "`@last` resolves to the node created by the IMMEDIATELY PREVIOUS step. So only ONE child can be nested with @last per batch. To nest SEVERAL siblings into the same frame, run create-frame first, read the returned frame id, then pass it explicitly as parentId (see stage4.json).",
+  "ops": [
+    {
+      "op": "create-frame",
+      "params": { "name": "Vibe Design Test", "width": 1440, "height": 900, "x": 0, "y": 0 }
+    },
+    {
+      "op": "create-rect",
+      "params": { "name": "Vibe Rect", "width": 300, "height": 100, "x": 100, "y": 100, "parentId": "@last" }
+    }
+  ]
+}

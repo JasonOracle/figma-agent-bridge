@@ -1,0 +1,856 @@
+{
+ "figma_total_nodes": 207,
+ "figma_root": [
+  1920,
+  1030
+ ],
+ "figma_content": {
+  "x": 12680,
+  "y": 76,
+  "w": 1740,
+  "h": 954,
+  "padding": {
+   "top": 24,
+   "right": 24,
+   "bottom": 24,
+   "left": 24
+  },
+  "itemSpacing": 24
+ },
+ "comparisons": [
+  {
+   "element": "TopBar",
+   "figma": [
+    12500,
+    0,
+    1920,
+    40
+   ],
+   "vue": [
+    0,
+    0,
+    1920,
+    40
+   ],
+   "diff": [
+    -12500,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "Sidebar",
+   "figma": [
+    12500,
+    40,
+    180,
+    990
+   ],
+   "vue": [
+    0,
+    40,
+    180,
+    990
+   ],
+   "diff": [
+    -12500,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "TagsBar",
+   "figma": [
+    12680,
+    40,
+    1740,
+    36
+   ],
+   "vue": [
+    180,
+    40,
+    1740,
+    36
+   ],
+   "diff": [
+    -12500,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "KPI-Card-1 (KPI Section)",
+   "figma": [
+    12704,
+    100,
+    1692,
+    72
+   ],
+   "vue": [
+    204,
+    100,
+    405,
+    72
+   ],
+   "diff": [
+    -12500,
+    0,
+    -1287,
+    0
+   ]
+  },
+  {
+   "element": "KPI-Card-2 (KPI Card / 新增用户)",
+   "figma": [
+    12704,
+    100,
+    405,
+    72
+   ],
+   "vue": [
+    633,
+    100,
+    405,
+    72
+   ],
+   "diff": [
+    -12071,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "KPI-Card-3 (KPI/Icon Slot)",
+   "figma": [
+    12724,
+    121,
+    30,
+    30
+   ],
+   "vue": [
+    1062,
+    100,
+    405,
+    72
+   ],
+   "diff": [
+    -11662,
+    -21,
+    375,
+    42
+   ]
+  },
+  {
+   "element": "KPI-Card-4 (KPI/Text Block)",
+   "figma": [
+    12980,
+    111.5,
+    109,
+    49
+   ],
+   "vue": [
+    1491,
+    100,
+    405,
+    72
+   ],
+   "diff": [
+    -11489,
+    -11.5,
+    296,
+    23
+   ]
+  },
+  {
+   "element": "PieCard",
+   "figma": [
+    12704,
+    196,
+    717,
+    300
+   ],
+   "vue": [
+    204,
+    196,
+    717,
+    300
+   ],
+   "diff": [
+    -12500,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "BarCard",
+   "figma": [
+    13445,
+    196,
+    951,
+    300
+   ],
+   "vue": [
+    945,
+    196,
+    951,
+    300
+   ],
+   "diff": [
+    -12500,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "LineCard",
+   "figma": [
+    12704,
+    520,
+    1692,
+    352
+   ],
+   "vue": [
+    204,
+    520,
+    1692,
+    352
+   ],
+   "diff": [
+    -12500,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "element": "Footer",
+   "figma": null,
+   "vue": [
+    204,
+    896,
+    1692,
+    34
+   ],
+   "missing": true
+  }
+ ],
+ "figma_pie_sectors": [
+  {
+   "name": "Pie/Sector 直接访问",
+   "x": 12720,
+   "y": 231,
+   "w": 72.0,
+   "h": 130.2,
+   "fills": [
+    "#5470c6"
+   ]
+  },
+  {
+   "name": "Pie/Sector 邮件营销",
+   "x": 12720,
+   "y": 231,
+   "w": 91.6,
+   "h": 72,
+   "fills": [
+    "#91cc75"
+   ]
+  },
+  {
+   "name": "Pie/Sector 联盟广告",
+   "x": 12720,
+   "y": 231,
+   "w": 72,
+   "h": 66.0,
+   "fills": [
+    "#fac858"
+   ]
+  },
+  {
+   "name": "Pie/Sector 视频广告",
+   "x": 12720,
+   "y": 231,
+   "w": 70.7,
+   "h": 58.2,
+   "fills": [
+    "#fc8452"
+   ]
+  },
+  {
+   "name": "Pie/Sector 搜索引擎",
+   "x": 12720,
+   "y": 231,
+   "w": 42.3,
+   "h": 72,
+   "fills": [
+    "#ee6666"
+   ]
+  }
+ ],
+ "figma_pie_labels": [
+  {
+   "text": "邮件营销",
+   "x": 12876.9,
+   "y": 439.8
+  },
+  {
+   "text": "直接访问",
+   "x": 13066.2,
+   "y": 311.7
+  },
+  {
+   "text": "搜索引擎",
+   "x": 12852.7,
+   "y": 248.8
+  },
+  {
+   "text": "联盟广告",
+   "x": 12789.8,
+   "y": 372.3
+  },
+  {
+   "text": "视频广告",
+   "x": 12800.3,
+   "y": 289.5
+  }
+ ],
+ "figma_bar_count": 7,
+ "figma_bar_sample": [
+  {
+   "name": "Bar Chart/Bar 周一",
+   "x": 13552.9,
+   "y": 370.9,
+   "w": 44,
+   "h": 92.1
+  },
+  {
+   "name": "Bar Chart/Bar 周二",
+   "x": 13676.8,
+   "y": 255,
+   "w": 44,
+   "h": 208
+  },
+  {
+   "name": "Bar Chart/Bar 周三",
+   "x": 13800.6,
+   "y": 306.1,
+   "w": 44,
+   "h": 156.8
+  },
+  {
+   "name": "Bar Chart/Bar 周四",
+   "x": 13924.5,
+   "y": 375.7,
+   "w": 44,
+   "h": 87.3
+  },
+  {
+   "name": "Bar Chart/Bar 周五",
+   "x": 14048.4,
+   "y": 316.4,
+   "w": 44,
+   "h": 146.6
+  },
+  {
+   "name": "Bar Chart/Bar 周六",
+   "x": 14172.2,
+   "y": 446.6,
+   "w": 44,
+   "h": 16.4
+  },
+  {
+   "name": "Bar Chart/Bar 周日",
+   "x": 14296.1,
+   "y": 448.7,
+   "w": 44,
+   "h": 14.3
+  }
+ ],
+ "figma_text_samples": [
+  {
+   "chars": "ElementAdmin",
+   "x": 12542,
+   "y": 11.5,
+   "fs": 14,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "首页",
+   "x": 12724,
+   "y": 12,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "全屏切换",
+   "x": 14241,
+   "y": 13,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "admin",
+   "x": 14369,
+   "y": 12.5,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "首页",
+   "x": 12544,
+   "y": 60,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "更多菜单",
+   "x": 12544,
+   "y": 100,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "菜单1",
+   "x": 12540,
+   "y": 136,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "菜单1-1",
+   "x": 12556,
+   "y": 168,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "菜单1-2",
+   "x": 12556,
+   "y": 200,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "菜单2",
+   "x": 12544,
+   "y": 236,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "首页",
+   "x": 12717,
+   "y": 51,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "首页2",
+   "x": 12784,
+   "y": 51,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "新增用户",
+   "x": 13037,
+   "y": 111.5,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "102,400",
+   "x": 12980,
+   "y": 129.5,
+   "fs": 26,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "未读消息",
+   "x": 13466,
+   "y": 111.5,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "81,212",
+   "x": 13435,
+   "y": 129.5,
+   "fs": 26,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "¥",
+   "x": 13586,
+   "y": 121,
+   "fs": 26,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "成交金额",
+   "x": 13895,
+   "y": 111.5,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "9,280",
+   "x": 13871,
+   "y": 129.5,
+   "fs": 26,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "购物车数量",
+   "x": 14311,
+   "y": 111.5,
+   "fs": 13,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "13,600",
+   "x": 14286,
+   "y": 129.5,
+   "fs": 26,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "用户访问来源",
+   "x": 13014.5,
+   "y": 212,
+   "fs": 16,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "直接访问",
+   "x": 13066.2,
+   "y": 311.7,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "邮件营销",
+   "x": 12876.9,
+   "y": 439.8,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "联盟广告",
+   "x": 12789.8,
+   "y": 372.3,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "视频广告",
+   "x": 12800.3,
+   "y": 289.5,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "搜索引擎",
+   "x": 12852.7,
+   "y": 248.8,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "直接访问",
+   "x": 12748,
+   "y": 353,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "邮件营销",
+   "x": 12748,
+   "y": 374,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "联盟广告",
+   "x": 12748,
+   "y": 395,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "视频广告",
+   "x": 12748,
+   "y": 416,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "搜索引擎",
+   "x": 12748,
+   "y": 437,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "每周用户活跃量",
+   "x": 13864.5,
+   "y": 212,
+   "fs": 16,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "25,000",
+   "x": 13461,
+   "y": 285.5,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "20,000",
+   "x": 13461,
+   "y": 319.6,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "15,000",
+   "x": 13461,
+   "y": 353.7,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "10,000",
+   "x": 13461,
+   "y": 387.8,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "5,000",
+   "x": 13461,
+   "y": 421.9,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "0",
+   "x": 13461,
+   "y": 456,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周一",
+   "x": 13554.9,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周二",
+   "x": 13678.8,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周三",
+   "x": 13802.6,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周四",
+   "x": 13926.5,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周五",
+   "x": 14050.4,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周六",
+   "x": 14174.2,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "周日",
+   "x": 14298.1,
+   "y": 469,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "7,600 KBa",
+   "x": 14269,
+   "y": 268,
+   "fs": 10,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "+15.2 KBa",
+   "x": 14269,
+   "y": 282,
+   "fs": 10,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "每月销售量",
+   "x": 13452,
+   "y": 536,
+   "fs": 16,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "一月",
+   "x": 13572,
+   "y": 538.5,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "三月",
+   "x": 13624,
+   "y": 538.5,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "250",
+   "x": 12720,
+   "y": 558,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "200",
+   "x": 12720,
+   "y": 602.4,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "150",
+   "x": 12720,
+   "y": 646.8,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "100",
+   "x": 12720,
+   "y": 691.2,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "50",
+   "x": 12720,
+   "y": 735.6,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "0",
+   "x": 12720,
+   "y": 780,
+   "fs": 11,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "一月",
+   "x": 12811.3,
+   "y": 793,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "二月",
+   "x": 12946,
+   "y": 793,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  },
+  {
+   "chars": "三月",
+   "x": 13080.7,
+   "y": 793,
+   "fs": 12,
+   "fw": null,
+   "family": null
+  }
+ ]
+}
