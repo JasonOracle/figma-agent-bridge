@@ -1,7 +1,7 @@
 {
-  "_source": "few-shot DS Spec 1/3 —— example-saas.json（ElementAdmin 考试管理平台）的 brief → DS Spec 转换结果。本项目为存量 DS 项目（Stage 9 已有 10 个 DS 组件），决策以 reuse-core 为主，新增正式 DS 组件 = 0",
+  "_source": "few-shot DS Spec 1/3 —— example-saas.json（企业考试管理平台）的 brief → DS Spec 转换结果。本项目为存量 DS 项目（存量 DS 项目，已有 10 个 DS 组件），决策以 reuse-core 为主，新增正式 DS 组件 = 0",
   "brand": {
-    "name": "ElementAdmin 考试管理平台",
+    "name": "企业考试管理平台",
     "industry": "教育",
     "stylePresetId": "enterprise-dashboard",
     "contentDensity": "dense"
@@ -59,7 +59,7 @@
     },
     "radius": {
       "sm": { "value": 2, "source": "preset:enterprise-dashboard.visualSystem.radius(2/4/6)" },
-      "md": { "value": 4, "source": "preset:enterprise-dashboard.geometry.cardRadius", "note": "卡片圆角 4px 为 Stage 10.1 §3.2 几何红线" },
+      "md": { "value": 4, "source": "preset:enterprise-dashboard.geometry.cardRadius", "note": "卡片圆角 4px 为 设计智能规则·几何红线" },
       "lg": { "value": 6, "source": "preset:enterprise-dashboard.visualSystem.radius(2/4/6)" }
     },
     "shadow": {
@@ -70,7 +70,7 @@
     { "name": "TopBar",      "briefRefs": ["TopBar"],      "category": "navigation",   "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Navigation/TopBar",      "basis": "已存在 DS 组件（existingDsRefs），geometry 与 token 满足需求，命中 CD-1 条件①②", "states": ["default"] },
     { "name": "Sidebar",     "briefRefs": ["Sidebar"],     "category": "navigation",   "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Navigation/Sidebar",     "basis": "已存在 DS 组件，命中 CD-1", "states": ["default", "active"] },
     { "name": "Breadcrumb",  "briefRefs": ["Breadcrumb"],  "category": "navigation",   "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Navigation/Breadcrumb",  "basis": "已存在 DS 组件，命中 CD-1", "states": ["default", "hover"] },
-    { "name": "Button",      "briefRefs": ["Button"],      "category": "form",         "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Form/Button",            "basis": "已存在 DS 组件，高度 30px 红线满足（Stage 10.1 §3.2）", "states": ["primary", "secondary", "disabled", "loading"] },
+    { "name": "Button",      "briefRefs": ["Button"],      "category": "form",         "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Form/Button",            "basis": "已存在 DS 组件，高度 30px 红线满足（几何红线）", "states": ["primary", "secondary", "disabled", "loading"] },
     { "name": "Input",       "briefRefs": ["Input"],       "category": "form",         "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Form/Input",             "basis": "已存在 DS 组件，高度 30px 红线满足", "states": ["default", "focus", "error", "disabled"] },
     { "name": "Select",      "briefRefs": ["Select"],      "category": "form",         "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/Form/Select",            "basis": "已存在 DS 组件，高度 30px 红线满足", "states": ["default", "focus", "disabled"] },
     { "name": "Table",       "briefRefs": ["Table"],       "category": "data-display", "priority": "P0", "decision": "reuse-core", "figmaNaming": "DS/DataDisplay/Table",      "basis": "已存在 DS 组件，Header 40 / Row 44 红线满足", "states": ["header", "row", "empty", "loading"] },
@@ -81,7 +81,7 @@
     { "name": "ScoreBadge",  "briefRefs": ["ScoreBadge"],  "category": "feedback",     "priority": "P1", "decision": "extend", "figmaNaming": "DS/Feedback/Badge", "variants": ["score-优", "score-良", "score-不及格"], "basis": "与 Badge 结构 100% 一致，仅语义色取值不同（success/danger），命中 CD-2；新增 3 个语义 variant，不新建组件", "states": ["success", "danger"] },
     { "name": "ExamCard",    "briefRefs": ["ExamCard"],    "category": "data-display", "priority": "P1", "decision": "create-local", "figmaNaming": "Local/ExamDetail/ExamCard", "basis": "考试详情页专属信息卡，含双 Tab 挂载点，属页面特殊结构，命中 CD-3；复用 Card token 但不进 DS", "states": ["default"] },
     { "name": "KpiCard",     "briefRefs": ["KpiCard"],     "category": "data-display", "priority": "P1", "decision": "create-local", "figmaNaming": "Local/Dashboard/KpiCard",   "basis": "Dashboard 专用数据卡（number token + status 点），跨页复用 <3，命中 CD-3 以本地 Frame 实现", "states": ["default"] },
-    { "name": "TrendChart",  "briefRefs": ["TrendChart"],  "category": "chart",        "priority": "P1", "decision": "create-local", "figmaNaming": "Local/Dashboard/TrendChart", "basis": "图表按 Stage 10.1 §3.3 以简单几何/矢量本地实现，chartColors 取 series1/2，不进 DS", "states": ["default", "empty"] },
+    { "name": "TrendChart",  "briefRefs": ["TrendChart"],  "category": "chart",        "priority": "P1", "decision": "create-local", "figmaNaming": "Local/Dashboard/TrendChart", "basis": "图表按矢量实现规则以简单几何/矢量本地实现，chartColors 取 series1/2，不进 DS", "states": ["default", "empty"] },
     { "name": "CourseTable", "briefRefs": ["CourseTable"], "category": "data-display", "priority": "P2", "decision": "reject", "basis": "P2 低频且与既有 Table 能力重叠（仅列配置差异），命中 CD-4：用 Table 实例+列覆写覆盖，不建任何组件", "states": [] }
   ],
   "layout": {
@@ -147,7 +147,7 @@
     ]
   },
   "responsive": {
-    "baseline": "1440x900（Stage 10.1 §3.2 页面画布红线）",
+    "baseline": "1440x900（页面画布基线红线）",
     "breakpoints": [
       { "name": "compact", "width": 1280 },
       { "name": "base",    "width": 1440 },

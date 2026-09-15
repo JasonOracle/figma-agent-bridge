@@ -35,7 +35,7 @@ Figma: DS/DataDisplay/StatCard（实例 + 文本覆写）
    ↓
 Vue:
    <DsStatCard icon="heart" value="72 bpm" label="心率" />
-   props: icon/value/label ← 实例内三个覆写槽（icon/value/label，来自 Stage 10.5 readback 命名）
+   props: icon/value/label ← 实例内三个覆写槽（icon/value/label，来自 构建期 readback 命名）
 ```
 
 **A 类判定条件**（全部满足才算 A）：
@@ -95,7 +95,7 @@ manualNote: "装饰层无参数化价值；前端用 CSS 渐变/SVG 实现入口
 - `auto-layout vertical + counterAxisAlignItems MIN → flex flex-col items-start`
 - `primaryAxisSizingMode FIXED + width 402 → w-[402px]`（数值必须来自 token/frameBaseline）
 - `set-layout-sizing FILL → flex-1 / w-full`
-- `实例文本覆写槽 → props/slot`（Stage 10.5 的 icon/value/label 槽命名直接映射）
+- `实例文本覆写槽 → props/slot`（构建期 readback 的 icon/value/label 槽命名直接映射）
 - 文本自动行高陷阱：Figma FIXED 行高 → `leading-[Npx]`，禁止依赖默认行高
 
 ## 7. 完整性判定（QA6 依据）

@@ -50,7 +50,7 @@ Skill 在执行任何层之前，必须先知道"这个环境能跑多远"。本
 - **L1 / L2**：三模式全部可跑（纯知识层，不碰 Figma）。
 - **L3 Build Plan**：三模式全部产出 `build-plan.json`；仅 FULL_MODE 将其交给 Adapter 执行。
 - **L4 Critic**：仅 FULL_MODE 可跑。READ_ONLY 下若仅有读 MCP 且用户提供了 Figma 文件链接，允许对**已存在**的页面做只读审查，但不得谎称为生成后审查。
-- **L5 Export**：仅 FULL_MODE。其余模式输出 export-manifest 的 `design-phase` 规划态（复用 Stage 10.7 Export Gate 既有语义：criticScore 缺失 ⇒ 不放行 live-build）。
+- **L5 Export**：仅 FULL_MODE。其余模式输出 export-manifest 的 `design-phase` 规划态（复用 Export Gate 既有语义：criticScore 缺失 ⇒ 不放行 live-build）。
 - **诚实铁律**：任何模式都不得假装执行了被降级的层；未跑的层在交付物中标注 `"mode": "<mode>"` 与降级原因。
 
 > 注：FULL_MODE 不强制要求读 MCP——写通道自带 PNG/SVG 导出，Critic 取证走 Bridge 即可；读 MCP 属于增益（可对比既有页面、截图取证）。
@@ -64,4 +64,4 @@ Skill 在执行任何层之前，必须先知道"这个环境能跑多远"。本
   → 各层产物按 mode 裁剪
 ```
 
-Adapter（通道适配）只在 FULL_MODE 介入：Build Plan → Bridge 方言（现状即 `tools/stage10-5-build.mjs` 的既有形态，不扩大架构）。
+Adapter（通道适配）只在 FULL_MODE 介入：Build Plan → Bridge 方言（现状即 仓库既有构建脚本 的既有形态，不扩大架构）。

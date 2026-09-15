@@ -18,10 +18,10 @@
 ## Step 2 — 配置 Figma（≈3 分钟，只需一次）
 
 1. **安装 Figma Desktop**（已装可跳过）：https://www.figma.com/downloads/
-2. **导入 Bridge 插件**：
+2. **导入 Bridge 插件**（插件已随 Skill 分发，就在 Skill 目录内）：
    - Figma 菜单 → Plugins → Development → **Import plugin from manifest…**
-   - 选择本 Skill 仓库中的 `manifest.json`（与 `plugin/` 目录在同一处）
-3. **启动 Bridge**（在仓库目录）：
+   - 选择 Skill 目录中的 `figma-plugin/manifest.json`（`code.js` / `ui.html` 与它同目录）
+3. **启动 Bridge**（在 Skill 来源仓库的根目录）：
    ```
    npm run bridge
    ```
@@ -29,6 +29,17 @@
 4. **连接插件**：在 Figma 中打开任意设计文件 → Plugins → Development → **Vibe Bridge (Dev)** → 把 token 粘贴进插件面板 → Connect。面板显示已连接即成功。
 
 > 为什么需要 token：Bridge 只监听本机回环地址，token 防止其他本地进程误用你的 Figma 连接。每次重启 Bridge token 保持不变（存在 `.vibe/token`）。
+
+### Windows / macOS 差异
+
+| 事项 | Windows | macOS |
+|---|---|---|
+| 启动 Bridge | 同为 `npm run bridge`（需 Node.js ≥18） | 相同 |
+| Skill 目录 | `%USERPROFILE%\.workbuddy\skills\` | `~/.workbuddy/skills/` |
+| 首次运行 Bridge | 若防火墙弹窗，选择"允许（仅专用网络）" | 若弹窗，选择"允许" |
+| 终端 | PowerShell / CMD / Git Bash 均可 | Terminal / iTerm |
+
+其余步骤两个平台完全一致（Figma Desktop 界面相同）。
 
 ## Step 3 — 自检（≈10 秒）
 
@@ -58,7 +69,7 @@ node tools/runtime-check.mjs
 
 FULL_MODE 下你会依次得到：`design-brief.json` → `design-system-spec.json` → Figma 页面（自动绘制，会请你确认 Brief/Spec 两次）→ `critic-report.json` → `export-manifest.json` + PNG/SVG。
 
-完整走查（含每步谁操作、耗时）见 `docs/stage10-7-e2e-validation.md`。
+完整走查（每步谁操作、看什么、耗时）见 **[USER_GUIDE.md](USER_GUIDE.md)**。
 
 ---
 
@@ -74,3 +85,5 @@ FULL_MODE 下你会依次得到：`design-brief.json` → `design-system-spec.js
 | 探针 `figmaWrite: false` 但端口通 | `/health` 的 `plugin.connected` 为 false = 插件未连接，重跑插件并 Connect |
 | 修改了插件代码不生效 | Figma 插件不会热更新：Plugins → Development → 重新运行 Vibe Bridge (Dev) |
 | 端口冲突 | `VIBE_BRIDGE_URL` 环境变量可改探针目标；Bridge 端口见其启动日志 |
+| 找不到 `figma-plugin/` 目录 | 确认安装的是完整 Skill 目录（含 figma-plugin / assets / references），而非只复制了 SKILL.md |
+| Figma 导入插件报错 | 确认选的是 `figma-plugin/manifest.json`（不是仓库根目录那份），且三个文件在同一目录 |

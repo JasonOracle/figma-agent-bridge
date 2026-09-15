@@ -37,6 +37,6 @@
   "_meta": {
     "reviewer": "agent (visual-critic.md §1 + get-node detail:true 结构化读回)",
     "reviewedAt": "2026-09-15T21:00:00+08:00",
-    "inputs": ["skills/ai-ui-designer/assets/examples/example-health.json", "skills/ai-ui-designer/assets/examples/example-health.dsspec.json", "Stage 10.5 真实 Critic Loop 记录（同型问题）"]
+    "inputs": ["skills/ai-ui-designer/assets/examples/example-health.json", "skills/ai-ui-designer/assets/examples/example-health.dsspec.json", "AI 医疗 App 真实 Critic Loop 记录（同型问题）"]
   }
 }

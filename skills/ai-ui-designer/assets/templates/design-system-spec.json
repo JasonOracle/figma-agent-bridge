@@ -233,7 +233,7 @@
             "properties": {
               "seq":    { "type": "integer" },
               "target": { "type": "string" },
-              "estOps": { "type": "integer", "maximum": 30, "description": "预估 op 数必须 ≤30（Stage 10.1 §2.2 红线）" }
+              "estOps": { "type": "integer", "maximum": 30, "description": "预估 op 数必须 ≤30（构建执行红线）" }
             }
           }
         }

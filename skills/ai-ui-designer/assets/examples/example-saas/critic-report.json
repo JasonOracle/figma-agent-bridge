@@ -1,5 +1,5 @@
 {
-  "project": "ElementAdmin 考试管理平台",
+  "project": "企业考试管理平台",
   "page": "工作台 Dashboard",
   "scores": {
     "layout": 8.5,
@@ -45,6 +45,6 @@
   "_meta": {
     "reviewer": "agent (visual-critic.md §1 锚点比对 + Stage 7 pixel-diff 结构化证据)",
     "reviewedAt": "2026-09-15T20:00:00+08:00",
-    "inputs": ["skills/ai-ui-designer/assets/examples/example-saas.json", "skills/ai-ui-designer/assets/examples/example-saas.dsspec.json", "stages/stage7-visual-regression/ 实测数据"]
+    "inputs": ["skills/ai-ui-designer/assets/examples/example-saas.json", "skills/ai-ui-designer/assets/examples/example-saas.dsspec.json", "真实视觉回归实测数据"]
   }
 }

@@ -2,7 +2,7 @@
   "id": "enterprise-dashboard",
   "name": "Enterprise Dashboard / 企业中后台",
   "keywords": ["效率", "可预测结构", "表格", "KPI", "数据卡片", "深浅双模式"],
-  "reference": ["Element Plus", "Ant Design Pro", "ElementAdmin"],
+  "reference": ["Element Plus", "Ant Design Pro"],
   "avoid": ["营销式大图", "超圆角(>8px)", "情绪化插画", "渐变", "玻璃拟态", "大阴影", "3D", "霓虹"],
   "visualSystem": {
     "colorMood": "冷静专业蓝紫，中性灰阶承载信息层级",

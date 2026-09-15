@@ -46,7 +46,7 @@ Figma Export PNG / 结构化 READBACK
 | 状态色规范 | success/warning/danger/info 只出现在语义场景，不得挪作装饰 | 15% |
 | unknownColors | 每出现 1 处非白名单色：本项计 0 且必须出 issue（severity=high） | 一票扣 |
 
-工具化判定：与 Stage 10.5 QA4 同源（十六进制扫描 + 白名单比对），确保可复现。
+工具化判定：与 Token 审计规则同源（十六进制扫描 + 白名单比对），确保可复现。
 
 ### 1.3 Consistency Score（一致性）
 
@@ -125,7 +125,7 @@ Report 中 `_loop` 字段记录轮次与历史均分，QA 校验 `round ≤ 3`�
 
 ## 4. 审查执行方式
 
-1. **结构化优先**：Layout/Color/Consistency/Usability 全部基于 get-node 读回数据判定（Stage 10.5 已验证该通道）；
+1. **结构化优先**：Layout/Color/Consistency/Usability 全部基于 get-node 读回数据判定（该通道已通过端到端验证）；
 2. **视觉补充**：PNG 导出供人工/多模态复核，Commercial 维以结构化证据 + 锚点比对为主，PNG 目视为辅；
 3. **逐页产出**：每页一份 Report（`project + page` 唯一），禁止多页合并；
 4. **证据可复查**：issue.evidence 必须包含实测值与规则出处，审查者可按 evidenceNodeIds 回放。
@@ -134,4 +134,4 @@ Report 中 `_loop` 字段记录轮次与历史均分，QA 校验 `round ≤ 3`�
 
 - 输入依赖：L3 的 export（PNG/SVG）+ build-ids 快照 + L2 DS Spec（白名单/档位/触控红线）
 - 输出去向：`critic-mapping.md` 路由 → L1（designDirection/visualSystem）/ L2（token/组件规格）/ L3（Build Plan/节点重建）
-- 回写后重走受影响层的 stage gate；L2 回写必须重跑 `tools/stage10-4-qa.py`
+- 回写后重走受影响层的 stage gate；L2 回写必须重跑 DS Spec QA 脚本

@@ -69,7 +69,7 @@ User Prompt（自然语言）
 - L4 Visual Critic 不达标回写时，修正对象是 Brief JSON 的 `designDirection` / `visualSystem` 字段
 - 详见 `references/design-intelligence.md`（完整规则）、`references/design-style-library.md`（三套 Preset）、`references/brief-schema.md`（Schema 定义）
 
-## L4 Visual Critic Layer（Stage 10.6 起可用）
+## L4 Visual Critic Layer
 
 L3 生成完成后，对每页执行五维审查并形成闭环：
 
@@ -84,9 +84,9 @@ Export PNG / 结构化 READBACK → 五维评分（Layout/Color/Consistency/Comm
 - Report Schema：`assets/templates/critic-report.json`（evidence 必填、targetLayer ∈ L1/L2/L3）
 - few-shot（覆盖三种循环结局）：`assets/examples/example-{saas,health,highway}/critic-report.json`
   - saas = 企业后台 Round 1 一次 PASS / health = 消费健康 App 3 轮收敛 PASS / highway = 政务大屏 3 轮仍不达标 STOP_MAX_LOOP
-- 出口校验：`python tools/stage10-6-qa.py`（90+ 断言：schema/评分/证据/路由/loop 自洽）
+- 出口校验：Python QA 脚本（90+ 断言：schema/评分/证据/路由/loop 自洽）
 
-## L5 Export Layer（Stage 10.7 起可用）
+## L5 Export Layer
 
 L4 Critic PASS 后，把设计结果转换为完整可交付设计资产：
 
@@ -102,14 +102,14 @@ Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS�
 
 五类输出：PNG（@1x/@2x 展示/评审/AI 视觉理解）、SVG（图标/Vector/页面级矢量）、Figma JSON（Node Tree/Geometry/AutoLayout/Instance/TokenReference）、Design Specification（Brief/DS Spec/Build Plan/Critic Report 随包）、Frontend Mapping（组件映射矩阵 + Token→CSS Variable + Layout 规则）。
 
-- 总体架构：`docs/stage10-7-export-layer.md`
+- 总体架构：仓库 docs/ 内 Export Layer 架构文档
 - 出口协议 Schema：`assets/templates/export-manifest.json`（所有路径可追溯；dsToken 可沿点路径回溯 DS Spec）
 - 组件/Token 映射规则（A 直接/B 组合/C 不可自动）：`references/export-mapping.md`
 - few-shot：`assets/examples/export/example-{saas,health,highway}-export.json`
-  - saas = 真实 live-build（Stage 5-7 产物回填）/ health = 真实 live-build（Stage 10.5 PNG+SVG）/ highway = design-phase（critic 7.7 未过 Gate，exports 为空规划清单——Gate 规则的活教材）
-- 出口校验：`python tools/stage10-7-qa.py`（QA1-QA7：Schema/文件存在/node id 回读/映射完整/Token 回溯/无孤儿/冻结零修改）
+  - saas = 真实 live-build（真实构建产物回填）/ health = 真实 live-build（真实导出 PNG+SVG）/ highway = design-phase（critic 7.7 未过 Gate，exports 为空规划清单——Gate 规则的活教材）
+- 出口校验：Python QA 脚本（QA1-QA7：Schema/文件存在/node id 回读/映射完整/Token 回溯/无孤儿/冻结零修改）
 
-## L0 Runtime Capability（Stage 10.7 起，任何层执行前必须先跑）
+## L0 Runtime Capability（任何层执行前必须先跑）
 
 **入口**：`node tools/runtime-check.mjs` → `.vibe/runtime-capability.json`
 
@@ -121,7 +121,7 @@ Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS�
 | READ_ONLY_MODE | 仅读取型 MCP（figmaRead） | L1 → L2 → Build Plan JSON；提示"当前环境只有读取能力，需要安装 Figma Bridge 才能自动绘制" |
 | OFFLINE_MODE | 均无 | 仅生成 Brief / DS Spec / Build Plan 设计资产 |
 
-铁律：未跑的层不得假装跑过（交付物标注 mode 与降级原因）；探针只读，零新协议、零 Bridge/Plugin 修改。安装指南：`SETUP.md`（普通用户 5 分钟上手），架构边界：`README.md`。安装体验 QA：`python tools/stage10-7-install-qa.py`。
+铁律：未跑的层不得假装跑过（交付物标注 mode 与降级原因）；探针只读，零新协议、零 Bridge/Plugin 修改。安装指南：`SETUP.md`（普通用户 5 分钟上手），架构边界：`README.md`。安装体验 QA：独立安装体验 QA 脚本。
 
 ## few-shot 示例
 
