@@ -69,6 +69,23 @@ User Prompt（自然语言）
 - L4 Visual Critic 不达标回写时，修正对象是 Brief JSON 的 `designDirection` / `visualSystem` 字段
 - 详见 `references/design-intelligence.md`（完整规则）、`references/design-style-library.md`（三套 Preset）、`references/brief-schema.md`（Schema 定义）
 
+## L4 Visual Critic Layer（Stage 10.6 起可用）
+
+L3 生成完成后，对每页执行五维审查并形成闭环：
+
+```
+Export PNG / 结构化 READBACK → 五维评分（Layout/Color/Consistency/Commercial/Usability）
+  → Critic Report JSON → critic-mapping 路由（L1/L2/L3 三选一）
+  → 只修复受影响 token/组件/节点 → 重新审查 → ≤3 轮，禁止无限自动优化
+```
+
+- 评分模型与 Loop 规则：`references/visual-critic.md`
+- issue → 层路由与回写约束（CR-1~5）：`references/critic-mapping.md`
+- Report Schema：`assets/templates/critic-report.json`（evidence 必填、targetLayer ∈ L1/L2/L3）
+- few-shot（覆盖三种循环结局）：`assets/examples/example-{saas,health,highway}/critic-report.json`
+  - saas = 企业后台 Round 1 一次 PASS / health = 消费健康 App 3 轮收敛 PASS / highway = 政务大屏 3 轮仍不达标 STOP_MAX_LOOP
+- 出口校验：`python tools/stage10-6-qa.py`（90+ 断言：schema/评分/证据/路由/loop 自洽）
+
 ## few-shot 示例
 
 `assets/examples/`：`example-saas.json`（SaaS 教育后台）、`example-health.json`（AI 发型 App，美业健康类）、`example-highway.json`（河南高速智慧养护大屏）。Agent 生成新 Brief 前应先读对应行业示例对齐粒度。
