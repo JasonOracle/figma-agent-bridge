@@ -101,7 +101,7 @@
 | r=2/4/6 | `rounded-xs/sm/md` | 徽标/卡片/新表单控件 |
 | 阴影 ×2 | `shadow-card/tip` | 卡片/浮层 |
 
-**审计结论**：无重复 token；无命名冲突；缺口仅 §2.1 语义别名（建议项，不实施）。
+**审计结论**：无重复 token；无命名冲突；缺口仅 §2.1 语义别名（建议项，不实施）。**「零新增正式 token」原则核查**：正式 Design Token 清单仍为 §2.1 的 16 色 / 5 字阶 / 3 圆角 / 2 阴影；文档中出现的其余色值全部为 (a) 现有 token 的直接引用（如 #5A5CF0=menu、#F56C6C=kpi.red）或 (b) 组件级派生值（BaseTable 选中行 #F0F1FE、Button hover 暗化值、Badge 10% 透明度底色、Modal 遮罩 rgba 黑），均已在对应规格中标注「非正式 token、不计入 inventory」，仅作实现参考。
 
 ---
 
@@ -183,9 +183,9 @@
 | Height | 30px（紧凑型，与 KpiCard 图标位/菜单行高协调） |
 | Padding | py-[5px] px-3.5；icon+text 时 gap-1.5 |
 | Radius / Typography | 6px；13/20/500 |
-| Variants | `primary`：bg-menu text-white；`secondary`：bg-surface border border-stroke text-ink-1；`ghost`：无底无框 text-ink-2；`danger`：bg-[#F56C6C] text-white |
+| Variants | `primary`：bg-menu text-white；`secondary`：bg-surface border border-stroke text-ink-1；`ghost`：无底无框 text-ink-2；`danger`：bg-[#F56C6C]（=现有 `kpi.red`，非新色） text-white |
 | default | 见上 |
-| hover | primary/secondary 底色加深 8%（`hover:bg-[#4B4DD6]` / `hover:bg-page`）；danger 同理 `hover:bg-[#E45757]` |
+| hover | **均为现有语义色的暗化派生值（组件级实现参考，非新 Design Token，不计入 §2.1 清单）**：primary = `menu` #5A5CF0 暗化 → `#4B4DD6`；secondary = 换用现有 `bg-page`；danger = `kpi.red` #F56C6C 暗化 → `#E45757`。实现时可写死参考值，但不得沉淀为新 token/新色值 |
 | active | 再加深一档（pressed 视觉） |
 | focus | `focus-visible:outline-2 outline-menu outline-offset-1` |
 | disabled | opacity .5 + cursor-not-allowed，不变色相 |
@@ -218,14 +218,14 @@
 | Trigger | `bg-surface`；右侧 `chevron-down` 12px ink-3 |
 | Dropdown | 浮层 `bg-surface border stroke rounded-md shadow-tip`；item h-8 px-3 text-body；hover bg-page；选中 text-menu |
 | default/hover/focus/disabled/error | 同 BaseInput |
-| Keyboard | Enter/Space 展开；↑↓ 移动；Enter 选中；Esc 关闭（纯控件行为，属 Select 组件规范非业务行为） |
+| Keyboard | **交互实现路线（9.1 不实现）**：路线 A（优先）——原生 `<select>`，键盘行为完全遵循浏览器原生（Enter/Space 展开、↑↓ 移动、Esc 关闭由 UA 提供，零自定义 JS）；路线 B——若未来实现自定义 Select，必须采用 ARIA combobox/listbox 模式（`role="combobox"` + `aria-expanded` + `listbox`/`option`），并显式实现：Enter/Space=展开与选中、ArrowUp/ArrowDown=选项移动（循环可选）、Escape=关闭并归还焦点。两路线二选一，不得混合 |
 | Usage | 状态筛选（考试：全部/进行中/已结束）、表单 |
 
 ## 12. BaseBadge
 
 | 属性 | 规范 |
 |---|---|
-| 两种形态 | **Dot**：8px 圆点 + 文本；**Text**：rounded-xs px-1.5 h-[18px] 底色 10% 透明度 |
+| 两种形态 | **Dot**：8px 圆点 + 文本；**Text**：rounded-xs px-1.5 h-[18px]，底色 = 现有语义色加 10% 透明度（**组件级透明度派生，非新 token**） |
 | 色彩映射 | success=#67C23A、error=#F56C6C、warning=#FAC858、info=#409EFF、neutral=ink-3（全部复用现有值，零新色） |
 | Typography | 12/18 |
 | States | 无交互态（非交互元素，cursor: default） |
@@ -239,7 +239,7 @@
 | 结构 | header（bg-page，12/18/500 ink-2，h-10）+ body rows |
 | Row | h-11（44px）；cell py-2.5 px-3；行底 surface；行分隔 `border-b stroke` |
 | Row hover | bg-page（与 MenuItem hover 一致） |
-| Selected row | bg-[#F0F1FE]（menu 8% 透明度派生，唯一新增派生色，记录在案） |
+| Selected row | `bg-[#F0F1FE]` —— **组件级派生值（menu #5A5CF0 的 8% 透明度近似），暂非正式 Design Token，不计入 §2.1 inventory**；若 9.2 Figma 确需跨组件复用选中态底色，再决定是否建立 semantic token |
 | 数字列 | `.num` 右对齐 |
 | loading | 表体替换为 3 行骨架（LoadingState 规范） |
 | empty | 表体替换 EmptyState（含「清空筛选」可选动作） |
