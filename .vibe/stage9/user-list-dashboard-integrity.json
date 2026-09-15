@@ -1,0 +1,14 @@
+{
+ "frozenFrame": "19:330 (file lLVJH0OnZPrkAqzarvhnBq, Page 1)",
+ "method": "isolation-by-construction",
+ "evidence": [
+  "Stage 9.2-A 全部写命令发生在新建空白文件（Untitled / 本文件），与旧文件物理隔离",
+  "本会话采样 3 次 get-page-summary 均命中新文件（Page 1, nodeCount=0 起步）",
+  "旧文件插件客户端已于构建前注销（health: registered 仅剩新文件客户端）",
+  "对旧文件零写命令；Frame 19:330 无法被本阶段命令触达"
+ ],
+ "note": "如需逐字节复核 19:330，请在旧文件重新打开 Vibe Bridge 插件后执行 get-node 19:330（Stage 9.2 收尾或回归阶段）",
+ "width": 1920,
+ "height": 1030,
+ "preserved": true
+}

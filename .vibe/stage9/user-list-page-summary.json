@@ -1,0 +1,1819 @@
+{
+ "page": {
+  "id": "0:1",
+  "name": "Page 1"
+ },
+ "topLevel": [
+  {
+   "id": "3:2",
+   "name": "Stage 9 / Design System Extension — 9.2-A",
+   "type": "TEXT",
+   "width": 409,
+   "height": 24,
+   "x": 0,
+   "y": 0,
+   "characters": "Stage 9 / Design System Extension — 9.2-A",
+   "parentId": "0:1",
+   "opacity": 1,
+   "fills": [
+    "#303133"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "fontName": {
+    "family": "Noto Sans SC",
+    "style": "Bold"
+   },
+   "fontSize": 20,
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "textAlign": {
+    "horizontal": "LEFT",
+    "vertical": "TOP"
+   },
+   "textAutoResize": "WIDTH_AND_HEIGHT",
+   "effects": []
+  },
+  {
+   "id": "3:3",
+   "name": "Stage 9 / Product — User List (1440×900) + State Specimens",
+   "type": "TEXT",
+   "width": 584,
+   "height": 24,
+   "x": 0,
+   "y": 1300,
+   "characters": "Stage 9 / Product — User List (1440×900) + State Specimens",
+   "parentId": "0:1",
+   "opacity": 1,
+   "fills": [
+    "#303133"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "fontName": {
+    "family": "Noto Sans SC",
+    "style": "Bold"
+   },
+   "fontSize": 20,
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "textAlign": {
+    "horizontal": "LEFT",
+    "vertical": "TOP"
+   },
+   "textAutoResize": "WIDTH_AND_HEIGHT",
+   "effects": []
+  },
+  {
+   "id": "3:6",
+   "name": "DS/Button/Primary",
+   "type": "COMPONENT",
+   "width": 80,
+   "height": 30,
+   "x": 0,
+   "y": 90,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "3:5",
+     "name": "新建用户",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#5a5cf0"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 5,
+    "right": 14,
+    "bottom": 5,
+    "left": 14
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "3:9",
+   "name": "DS/Button/Secondary",
+   "type": "COMPONENT",
+   "width": 56,
+   "height": 30,
+   "x": 140,
+   "y": 90,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "3:8",
+     "name": "搜索",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 5,
+    "right": 14,
+    "bottom": 5,
+    "left": 14
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "3:12",
+   "name": "DS/Button/Ghost",
+   "type": "COMPONENT",
+   "width": 54,
+   "height": 30,
+   "x": 250,
+   "y": 90,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "3:11",
+     "name": "重置",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [],
+   "fillCount": 0,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 5,
+    "right": 14,
+    "bottom": 5,
+    "left": 14
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "3:15",
+   "name": "DS/Button/Danger",
+   "type": "COMPONENT",
+   "width": 54,
+   "height": 30,
+   "x": 330,
+   "y": 90,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "3:14",
+     "name": "删除",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f56c6c"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 5,
+    "right": 14,
+    "bottom": 5,
+    "left": 14
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "3:17",
+   "name": "icon-search",
+   "type": "VECTOR",
+   "width": 100,
+   "height": 100,
+   "x": 0,
+   "y": 0,
+   "parentId": "0:1",
+   "opacity": 1,
+   "fills": [],
+   "fillCount": 0,
+   "strokes": [
+    "#000000"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "vectorPathCount": 0
+  },
+  {
+   "id": "4:21",
+   "name": "DS/Input/Default",
+   "type": "COMPONENT",
+   "width": 150,
+   "height": 30,
+   "x": 0,
+   "y": 200,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:19",
+     "name": "icon-search",
+     "type": "VECTOR"
+    },
+    {
+     "id": "4:20",
+     "name": "搜索用户名、邮箱",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 12,
+    "bottom": 0,
+    "left": 12
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:25",
+   "name": "DS/Input/Focus",
+   "type": "COMPONENT",
+   "width": 150,
+   "height": 30,
+   "x": 260,
+   "y": 200,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:23",
+     "name": "icon-search",
+     "type": "VECTOR"
+    },
+    {
+     "id": "4:24",
+     "name": "搜索用户名、邮箱",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#5a5cf0"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 12,
+    "bottom": 0,
+    "left": 12
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:29",
+   "name": "DS/Input/Error",
+   "type": "COMPONENT",
+   "width": 150,
+   "height": 30,
+   "x": 520,
+   "y": 200,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:27",
+     "name": "icon-search",
+     "type": "VECTOR"
+    },
+    {
+     "id": "4:28",
+     "name": "搜索用户名、邮箱",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#f56c6c"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 12,
+    "bottom": 0,
+    "left": 12
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:33",
+   "name": "DS/Select/Default",
+   "type": "COMPONENT",
+   "width": 160,
+   "height": 30,
+   "x": 0,
+   "y": 290,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:31",
+     "name": "状态",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:32",
+     "name": "icon-chevron-down",
+     "type": "VECTOR"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 12,
+    "bottom": 0,
+    "left": 12
+   },
+   "primaryAxisAlignItems": "SPACE_BETWEEN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:37",
+   "name": "DS/Badge/Success",
+   "type": "COMPONENT",
+   "width": 38,
+   "height": 14,
+   "x": 0,
+   "y": 370,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:35",
+     "name": "dot",
+     "type": "ELLIPSE"
+    },
+    {
+     "id": "4:36",
+     "name": "启用",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:41",
+   "name": "DS/Badge/Warning",
+   "type": "COMPONENT",
+   "width": 50,
+   "height": 14,
+   "x": 120,
+   "y": 370,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:39",
+     "name": "dot",
+     "type": "ELLIPSE"
+    },
+    {
+     "id": "4:40",
+     "name": "待激活",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:45",
+   "name": "DS/Badge/Error",
+   "type": "COMPONENT",
+   "width": 38,
+   "height": 14,
+   "x": 250,
+   "y": 370,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:43",
+     "name": "dot",
+     "type": "ELLIPSE"
+    },
+    {
+     "id": "4:44",
+     "name": "禁用",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:49",
+   "name": "DS/Badge/Info",
+   "type": "COMPONENT",
+   "width": 50,
+   "height": 14,
+   "x": 370,
+   "y": 370,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:47",
+     "name": "dot",
+     "type": "ELLIPSE"
+    },
+    {
+     "id": "4:48",
+     "name": "试运行",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:53",
+   "name": "DS/Badge/Neutral",
+   "type": "COMPONENT",
+   "width": 50,
+   "height": 14,
+   "x": 500,
+   "y": 370,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:51",
+     "name": "dot",
+     "type": "ELLIPSE"
+    },
+    {
+     "id": "4:52",
+     "name": "已锁定",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 6,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:56",
+   "name": "DS/Pagination/Default",
+   "type": "COMPONENT",
+   "width": 7,
+   "height": 24,
+   "x": 0,
+   "y": 700,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "4:55",
+     "name": "2",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:59",
+   "name": "DS/Pagination/Active",
+   "type": "COMPONENT",
+   "width": 7,
+   "height": 24,
+   "x": 40,
+   "y": 700,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "4:58",
+     "name": "1",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#5a5cf0"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:62",
+   "name": "DS/Pagination/Disabled",
+   "type": "COMPONENT",
+   "width": 12,
+   "height": 24,
+   "x": 80,
+   "y": 700,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "4:61",
+     "name": "…",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 6,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:76",
+   "name": "DS/Table/Header",
+   "type": "COMPONENT",
+   "width": 1180,
+   "height": 40,
+   "x": 0,
+   "y": 450,
+   "parentId": "0:1",
+   "childCount": 6,
+   "children": [
+    {
+     "id": "4:64",
+     "name": "cell-用户",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:66",
+     "name": "cell-邮箱",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:68",
+     "name": "cell-状态",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:70",
+     "name": "cell-注册时间",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:72",
+     "name": "cell-最近登录",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:74",
+     "name": "cell-操作",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f2f3f5"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:112",
+   "name": "DS/Table/Row",
+   "type": "COMPONENT",
+   "width": 1180,
+   "height": 44,
+   "x": 0,
+   "y": 500,
+   "parentId": "0:1",
+   "childCount": 6,
+   "children": [
+    {
+     "id": "4:96",
+     "name": "cell-user",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:99",
+     "name": "cell-email",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:101",
+     "name": "cell-status",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:105",
+     "name": "cell-3",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:107",
+     "name": "cell-4",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:109",
+     "name": "cell-actions",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:130",
+   "name": "DS/Table/Row/Hover",
+   "type": "COMPONENT",
+   "width": 1180,
+   "height": 44,
+   "x": 0,
+   "y": 554,
+   "parentId": "0:1",
+   "childCount": 6,
+   "children": [
+    {
+     "id": "4:114",
+     "name": "cell-user",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:117",
+     "name": "cell-email",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:119",
+     "name": "cell-status",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:123",
+     "name": "cell-3",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:125",
+     "name": "cell-4",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:127",
+     "name": "cell-actions",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f2f3f5"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:142",
+   "name": "2023-01-15",
+   "type": "TEXT",
+   "width": 67,
+   "height": 16,
+   "x": 0,
+   "y": 0,
+   "characters": "2023-01-15",
+   "parentId": "0:1",
+   "opacity": 1,
+   "fills": [
+    "#000000"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "fontName": {
+    "family": "Noto Sans SC",
+    "style": "Regular"
+   },
+   "fontSize": 13,
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "textAlign": {
+    "horizontal": "LEFT",
+    "vertical": "TOP"
+   },
+   "textAutoResize": "WIDTH_AND_HEIGHT",
+   "effects": []
+  },
+  {
+   "id": "4:194",
+   "name": "DS/Table/Row/Selected",
+   "type": "COMPONENT",
+   "width": 1180,
+   "height": 44,
+   "x": 0,
+   "y": 608,
+   "parentId": "0:1",
+   "childCount": 6,
+   "children": [
+    {
+     "id": "4:144",
+     "name": "cell-user",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:147",
+     "name": "cell-email",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:149",
+     "name": "cell-status",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:153",
+     "name": "cell-3",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:155",
+     "name": "cell-4",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:157",
+     "name": "cell-actions",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f0f1fe"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:160",
+   "name": "tmp-row-Selected",
+   "type": "FRAME",
+   "width": 1180,
+   "height": 44,
+   "x": 0,
+   "y": 608,
+   "parentId": "0:1",
+   "childCount": 6,
+   "children": [
+    {
+     "id": "4:161",
+     "name": "cell-user",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:164",
+     "name": "cell-email",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:166",
+     "name": "cell-status",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:170",
+     "name": "cell-3",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:172",
+     "name": "cell-4",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:174",
+     "name": "cell-actions",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f0f1fe"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:177",
+   "name": "tmp-row-Selected",
+   "type": "FRAME",
+   "width": 1180,
+   "height": 44,
+   "x": 0,
+   "y": 608,
+   "parentId": "0:1",
+   "childCount": 6,
+   "children": [
+    {
+     "id": "4:178",
+     "name": "cell-user",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:181",
+     "name": "cell-email",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:183",
+     "name": "cell-status",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:187",
+     "name": "cell-3",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:189",
+     "name": "cell-4",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:191",
+     "name": "cell-actions",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f0f1fe"
+   ],
+   "fillCount": 1,
+   "strokes": [
+    "#e4e7ed"
+   ],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "FIXED",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:209",
+   "name": "DS/EmptyState",
+   "type": "COMPONENT",
+   "width": 146,
+   "height": 172,
+   "x": 0,
+   "y": 790,
+   "parentId": "0:1",
+   "childCount": 3,
+   "children": [
+    {
+     "id": "4:199",
+     "name": "icon-empty-box",
+     "type": "VECTOR"
+    },
+    {
+     "id": "4:200",
+     "name": "暂无数据",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:201",
+     "name": "DS/Button/Secondary",
+     "type": "INSTANCE"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "VERTICAL",
+   "itemSpacing": 12,
+   "padding": {
+    "top": 32,
+    "right": 32,
+    "bottom": 32,
+    "left": 32
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:210",
+   "name": "DS/ErrorState",
+   "type": "COMPONENT",
+   "width": 184,
+   "height": 200,
+   "x": 1000,
+   "y": 790,
+   "parentId": "0:1",
+   "childCount": 4,
+   "children": [
+    {
+     "id": "4:204",
+     "name": "icon-error-circle",
+     "type": "VECTOR"
+    },
+    {
+     "id": "4:205",
+     "name": "加载失败",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:206",
+     "name": "网络异常，请稍后重试",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:207",
+     "name": "DS/Button/Danger",
+     "type": "INSTANCE"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "VERTICAL",
+   "itemSpacing": 12,
+   "padding": {
+    "top": 32,
+    "right": 32,
+    "bottom": 32,
+    "left": 32
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:215",
+   "name": "DS/LoadingState",
+   "type": "COMPONENT",
+   "width": 560,
+   "height": 124,
+   "x": 360,
+   "y": 790,
+   "parentId": "0:1",
+   "childCount": 3,
+   "children": [
+    {
+     "id": "4:212",
+     "name": "bar-1",
+     "type": "RECTANGLE"
+    },
+    {
+     "id": "4:213",
+     "name": "bar-2",
+     "type": "RECTANGLE"
+    },
+    {
+     "id": "4:214",
+     "name": "bar-3",
+     "type": "RECTANGLE"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "VERTICAL",
+   "itemSpacing": 12,
+   "padding": {
+    "top": 16,
+    "right": 16,
+    "bottom": 16,
+    "left": 16
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "MIN",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:219",
+   "name": "DS/Card/BaseCard",
+   "type": "COMPONENT",
+   "width": 560,
+   "height": 143,
+   "x": 0,
+   "y": 950,
+   "parentId": "0:1",
+   "childCount": 2,
+   "children": [
+    {
+     "id": "4:217",
+     "name": "卡片标题",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:218",
+     "name": "content-slot",
+     "type": "RECTANGLE"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 4,
+   "layoutMode": "VERTICAL",
+   "itemSpacing": 12,
+   "padding": {
+    "top": 16,
+    "right": 16,
+    "bottom": 16,
+    "left": 16
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "MIN",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "HUG"
+   },
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 4,
+     "spread": 0,
+     "offset": {
+      "x": 0,
+      "y": 1
+     },
+     "color": "rgba(0,0,0,0.06)",
+     "visible": true
+    }
+   ],
+   "clipsContent": true
+  },
+  {
+   "id": "4:224",
+   "name": "DS/Breadcrumb",
+   "type": "COMPONENT",
+   "width": 93,
+   "height": 14,
+   "x": 0,
+   "y": 1150,
+   "parentId": "0:1",
+   "childCount": 3,
+   "children": [
+    {
+     "id": "4:221",
+     "name": "首页",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:222",
+     "name": "/",
+     "type": "TEXT"
+    },
+    {
+     "id": "4:223",
+     "name": "用户管理",
+     "type": "TEXT"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "HORIZONTAL",
+   "itemSpacing": 8,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "MIN",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "AUTO",
+   "layoutSizing": {
+    "horizontal": "HUG",
+    "vertical": "HUG"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:235",
+   "name": "Page/UserList",
+   "type": "FRAME",
+   "width": 1440,
+   "height": 900,
+   "x": 0,
+   "y": 1340,
+   "parentId": "0:1",
+   "childCount": 4,
+   "children": [
+    {
+     "id": "4:236",
+     "name": "UserList/TopBar",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:249",
+     "name": "UserList/Sidebar",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:265",
+     "name": "UserList/TagsBar",
+     "type": "FRAME"
+    },
+    {
+     "id": "4:274",
+     "name": "UserList/Content",
+     "type": "FRAME"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#f2f3f5"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 0,
+   "layoutMode": "NONE",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "effects": [],
+   "clipsContent": true
+  },
+  {
+   "id": "4:462",
+   "name": "UserList / State / Empty（默认筛选无结果）",
+   "type": "TEXT",
+   "width": 262,
+   "height": 16,
+   "x": 1560,
+   "y": 1340,
+   "characters": "UserList / State / Empty（默认筛选无结果）",
+   "parentId": "0:1",
+   "opacity": 1,
+   "fills": [
+    "#606266"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "fontName": {
+    "family": "Noto Sans SC",
+    "style": "Medium"
+   },
+   "fontSize": 13,
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "textAlign": {
+    "horizontal": "LEFT",
+    "vertical": "TOP"
+   },
+   "textAutoResize": "WIDTH_AND_HEIGHT",
+   "effects": []
+  },
+  {
+   "id": "4:463",
+   "name": "UserList/State/Empty",
+   "type": "FRAME",
+   "width": 420,
+   "height": 172,
+   "x": 1560,
+   "y": 1370,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "4:464",
+     "name": "DS/EmptyState",
+     "type": "INSTANCE"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 4,
+   "layoutMode": "VERTICAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "HUG"
+   },
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 4,
+     "spread": 0,
+     "offset": {
+      "x": 0,
+      "y": 1
+     },
+     "color": "rgba(0,0,0,0.06)",
+     "visible": true
+    }
+   ],
+   "clipsContent": true
+  },
+  {
+   "id": "4:469",
+   "name": "UserList / State / Error（接口失败）",
+   "type": "TEXT",
+   "width": 214,
+   "height": 16,
+   "x": 1560,
+   "y": 1690,
+   "characters": "UserList / State / Error（接口失败）",
+   "parentId": "0:1",
+   "opacity": 1,
+   "fills": [
+    "#606266"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "fontName": {
+    "family": "Noto Sans SC",
+    "style": "Medium"
+   },
+   "fontSize": 13,
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "FIXED"
+   },
+   "textAlign": {
+    "horizontal": "LEFT",
+    "vertical": "TOP"
+   },
+   "textAutoResize": "WIDTH_AND_HEIGHT",
+   "effects": []
+  },
+  {
+   "id": "4:470",
+   "name": "UserList/State/Error",
+   "type": "FRAME",
+   "width": 420,
+   "height": 200,
+   "x": 1560,
+   "y": 1720,
+   "parentId": "0:1",
+   "childCount": 1,
+   "children": [
+    {
+     "id": "4:471",
+     "name": "DS/ErrorState",
+     "type": "INSTANCE"
+    }
+   ],
+   "opacity": 1,
+   "fills": [
+    "#ffffff"
+   ],
+   "fillCount": 1,
+   "strokes": [],
+   "strokeWeight": 1,
+   "cornerRadius": 4,
+   "layoutMode": "VERTICAL",
+   "itemSpacing": 0,
+   "padding": {
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "primaryAxisAlignItems": "CENTER",
+   "counterAxisAlignItems": "CENTER",
+   "primaryAxisSizingMode": "AUTO",
+   "counterAxisSizingMode": "FIXED",
+   "layoutSizing": {
+    "horizontal": "FIXED",
+    "vertical": "HUG"
+   },
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "radius": 4,
+     "spread": 0,
+     "offset": {
+      "x": 0,
+      "y": 1
+     },
+     "color": "rgba(0,0,0,0.06)",
+     "visible": true
+    }
+   ],
+   "clipsContent": true
+  }
+ ],
+ "nodeCount": 36
+}

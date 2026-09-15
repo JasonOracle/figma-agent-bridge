@@ -6,7 +6,9 @@ stage6-element-admin/node_modules/
 dist/
 
 # runtime state (contains auth token; curated copies live in stages/)
-.vibe/
+.vibe/*
+!.vibe/stage9/
+
 
 # logs
 *.log

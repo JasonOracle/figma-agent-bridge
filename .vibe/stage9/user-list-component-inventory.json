@@ -1,0 +1,295 @@
+{
+ "components": [
+  {
+   "id": "3:6",
+   "name": "DS/Button/Primary",
+   "type": "COMPONENT",
+   "w": 80,
+   "h": 30,
+   "children": 1
+  },
+  {
+   "id": "3:9",
+   "name": "DS/Button/Secondary",
+   "type": "COMPONENT",
+   "w": 56,
+   "h": 30,
+   "children": 1
+  },
+  {
+   "id": "3:12",
+   "name": "DS/Button/Ghost",
+   "type": "COMPONENT",
+   "w": 54,
+   "h": 30,
+   "children": 1
+  },
+  {
+   "id": "3:15",
+   "name": "DS/Button/Danger",
+   "type": "COMPONENT",
+   "w": 54,
+   "h": 30,
+   "children": 1
+  },
+  {
+   "id": "4:21",
+   "name": "DS/Input/Default",
+   "type": "COMPONENT",
+   "w": 150,
+   "h": 30,
+   "children": 2
+  },
+  {
+   "id": "4:25",
+   "name": "DS/Input/Focus",
+   "type": "COMPONENT",
+   "w": 150,
+   "h": 30,
+   "children": 2
+  },
+  {
+   "id": "4:29",
+   "name": "DS/Input/Error",
+   "type": "COMPONENT",
+   "w": 150,
+   "h": 30,
+   "children": 2
+  },
+  {
+   "id": "4:33",
+   "name": "DS/Select/Default",
+   "type": "COMPONENT",
+   "w": 160,
+   "h": 30,
+   "children": 2
+  },
+  {
+   "id": "4:37",
+   "name": "DS/Badge/Success",
+   "type": "COMPONENT",
+   "w": 38,
+   "h": 14,
+   "children": 2
+  },
+  {
+   "id": "4:41",
+   "name": "DS/Badge/Warning",
+   "type": "COMPONENT",
+   "w": 50,
+   "h": 14,
+   "children": 2
+  },
+  {
+   "id": "4:45",
+   "name": "DS/Badge/Error",
+   "type": "COMPONENT",
+   "w": 38,
+   "h": 14,
+   "children": 2
+  },
+  {
+   "id": "4:49",
+   "name": "DS/Badge/Info",
+   "type": "COMPONENT",
+   "w": 50,
+   "h": 14,
+   "children": 2
+  },
+  {
+   "id": "4:53",
+   "name": "DS/Badge/Neutral",
+   "type": "COMPONENT",
+   "w": 50,
+   "h": 14,
+   "children": 2
+  },
+  {
+   "id": "4:56",
+   "name": "DS/Pagination/Default",
+   "type": "COMPONENT",
+   "w": 7,
+   "h": 24,
+   "children": 1
+  },
+  {
+   "id": "4:59",
+   "name": "DS/Pagination/Active",
+   "type": "COMPONENT",
+   "w": 7,
+   "h": 24,
+   "children": 1
+  },
+  {
+   "id": "4:62",
+   "name": "DS/Pagination/Disabled",
+   "type": "COMPONENT",
+   "w": 12,
+   "h": 24,
+   "children": 1
+  },
+  {
+   "id": "4:76",
+   "name": "DS/Table/Header",
+   "type": "COMPONENT",
+   "w": 1180,
+   "h": 40,
+   "children": 6
+  },
+  {
+   "id": "4:112",
+   "name": "DS/Table/Row",
+   "type": "COMPONENT",
+   "w": 1180,
+   "h": 44,
+   "children": 6
+  },
+  {
+   "id": "4:130",
+   "name": "DS/Table/Row/Hover",
+   "type": "COMPONENT",
+   "w": 1180,
+   "h": 44,
+   "children": 6
+  },
+  {
+   "id": "4:194",
+   "name": "DS/Table/Row/Selected",
+   "type": "COMPONENT",
+   "w": 1180,
+   "h": 44,
+   "children": 6
+  },
+  {
+   "id": "4:209",
+   "name": "DS/EmptyState",
+   "type": "COMPONENT",
+   "w": 146,
+   "h": 172,
+   "children": 3
+  },
+  {
+   "id": "4:210",
+   "name": "DS/ErrorState",
+   "type": "COMPONENT",
+   "w": 184,
+   "h": 200,
+   "children": 4
+  },
+  {
+   "id": "4:215",
+   "name": "DS/LoadingState",
+   "type": "COMPONENT",
+   "w": 560,
+   "h": 124,
+   "children": 3
+  },
+  {
+   "id": "4:219",
+   "name": "DS/Card/BaseCard",
+   "type": "COMPONENT",
+   "w": 560,
+   "h": 143,
+   "children": 2
+  },
+  {
+   "id": "4:224",
+   "name": "DS/Breadcrumb",
+   "type": "COMPONENT",
+   "w": 93,
+   "h": 14,
+   "children": 3
+  }
+ ],
+ "otherTopLevel": [
+  {
+   "id": "3:2",
+   "name": "Stage 9 / Design System Extension — 9.2-A",
+   "type": "TEXT",
+   "w": 409,
+   "h": 24,
+   "children": 0
+  },
+  {
+   "id": "3:3",
+   "name": "Stage 9 / Product — User List (1440×900) + State Specimens",
+   "type": "TEXT",
+   "w": 584,
+   "h": 24,
+   "children": 0
+  },
+  {
+   "id": "3:17",
+   "name": "icon-search",
+   "type": "VECTOR",
+   "w": 100,
+   "h": 100,
+   "children": 0
+  },
+  {
+   "id": "4:142",
+   "name": "2023-01-15",
+   "type": "TEXT",
+   "w": 67,
+   "h": 16,
+   "children": 0
+  },
+  {
+   "id": "4:160",
+   "name": "tmp-row-Selected",
+   "type": "FRAME",
+   "w": 1180,
+   "h": 44,
+   "children": 0
+  },
+  {
+   "id": "4:177",
+   "name": "tmp-row-Selected",
+   "type": "FRAME",
+   "w": 1180,
+   "h": 44,
+   "children": 0
+  },
+  {
+   "id": "4:235",
+   "name": "Page/UserList",
+   "type": "FRAME",
+   "w": 1440,
+   "h": 900,
+   "children": 0
+  },
+  {
+   "id": "4:462",
+   "name": "UserList / State / Empty（默认筛选无结果）",
+   "type": "TEXT",
+   "w": 262,
+   "h": 16,
+   "children": 0
+  },
+  {
+   "id": "4:463",
+   "name": "UserList/State/Empty",
+   "type": "FRAME",
+   "w": 420,
+   "h": 172,
+   "children": 0
+  },
+  {
+   "id": "4:469",
+   "name": "UserList / State / Error（接口失败）",
+   "type": "TEXT",
+   "w": 214,
+   "h": 16,
+   "children": 0
+  },
+  {
+   "id": "4:470",
+   "name": "UserList/State/Error",
+   "type": "FRAME",
+   "w": 420,
+   "h": 200,
+   "children": 0
+  }
+ ],
+ "instanceCountInUserList": 29
+}
