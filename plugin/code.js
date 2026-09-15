@@ -1151,6 +1151,45 @@ const handlers = {
     }
     return { ops: results, count: results.length };
   },
+
+  /** Export a node as base64 PNG/SVG for QA evidence (Stage 9.2-C; format param added Stage 10.5, default PNG backward-compatible). */
+  async "export-node"({ id, scale, format }) {
+    if (!id) throw fail("Missing required param: id", "BAD_PARAM");
+    const node = await figma.getNodeByIdAsync(id);
+    if (!node) throw fail(`Node not found: ${id}`, "NODE_NOT_FOUND");
+    if (typeof node.exportAsync !== "function") throw fail(`Node type cannot be exported: ${node.type}`, "BAD_NODE");
+    const s = num(scale, 1, "scale");
+    if (format === "SVG") {
+      /* v4 根因修正：本 API 版本的 exportAsync({format:"SVG"}) 返回 UTF-8 字节数组而非 string，
+        String() 强转会得到 "60,115,..." 逗号十进制码（v1/v2/v3 三个版本全部栽在这里）。
+        沙箱无 TextDecoder —— 手工 UTF-8 解码（codePoint 支持增补平面）。 */
+      let svg = await node.exportAsync({ format: "SVG" });
+      if (typeof svg !== "string") {
+        const b = svg;
+        let out = "";
+        for (let i = 0; i < b.length; ) {
+          const c = b[i];
+          if (c < 0x80) { out += String.fromCharCode(c); i += 1; }
+          else if (c < 0xe0) { out += String.fromCharCode(((c & 31) << 6) | (b[i + 1] & 63)); i += 2; }
+          else if (c < 0xf0) { out += String.fromCharCode(((c & 15) << 12) | ((b[i + 1] & 63) << 6) | (b[i + 2] & 63)); i += 3; }
+          else { out += String.fromCodePoint(((c & 7) << 18) | ((b[i + 1] & 63) << 12) | ((b[i + 2] & 63) << 6) | (b[i + 3] & 63)); i += 4; }
+        }
+        svg = out;
+      }
+      const text = String(svg);
+      return { op: "export-node", id: node.id, name: node.name, format: "SVG", v: 4, bytes: text.length, svg: text };
+    }
+    const bytes = await node.exportAsync({ format: "PNG", constraint: { type: "SCALE", value: s } });
+    const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    let b64 = "";
+    for (let i = 0; i < bytes.length; i += 3) {
+      const b1 = bytes[i], b2 = bytes[i + 1], b3 = bytes[i + 2];
+      b64 += CHARS[b1 >> 2] + CHARS[((b1 & 3) << 4) | (b2 === undefined ? 0 : b2 >> 4)];
+      b64 += b2 === undefined ? "=" : CHARS[((b2 & 15) << 2) | (b3 === undefined ? 0 : b3 >> 6)];
+      b64 += b3 === undefined ? "=" : CHARS[b3 & 63];
+    }
+    return { op: "export-node", id: node.id, name: node.name, format: "PNG", scale: s, bytes: bytes.length, base64: b64 };
+  },
 };
 
 const OP_NAMES = Object.keys(handlers).filter((k) => k !== "run");
