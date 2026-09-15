@@ -1,0 +1,402 @@
+[
+ {
+  "component": "Sidebar",
+  "state": "initial",
+  "action": "load",
+  "expected": "首页为 active（bg=#5A5CF0, aria-current=\"page\"）",
+  "actual": "active=首页 bg=rgb(90, 92, 240)",
+  "status": "PASS",
+  "screenshot": "screenshots/sidebar-active.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Sidebar",
+  "state": "一级菜单",
+  "action": "hover",
+  "expected": "背景从 transparent 变为 page 色（CSS hover:bg-page）",
+  "actual": "before=rgba(0, 0, 0, 0) after=rgb(242, 243, 245)",
+  "status": "PASS",
+  "screenshot": "screenshots/sidebar-hover.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Sidebar",
+  "state": "子菜单",
+  "action": "hover",
+  "expected": "背景变化（与一级菜单同 hover 样式）",
+  "actual": "before=rgba(0, 0, 0, 0) after=rgb(242, 243, 245)",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "Sidebar",
+  "state": "子菜单",
+  "action": "indent",
+  "expected": "paddingLeft=[20,20,40,56,56,20]（Figma 40/56/56）",
+  "actual": "[20,20,40,56,56,20]",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "Sidebar",
+  "state": "菜单点击",
+  "action": "click",
+  "expected": "点击后 active 切换到被点菜单",
+  "actual": "点击 菜单1-1 后 active 仍为 首页",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "MenuItem 为静态 variant（来自数据），未绑定 click 状态；Figma 仅定义 active 视觉态，未定义点击切换行为"
+ },
+ {
+  "component": "Sidebar",
+  "state": "一级菜单",
+  "action": "mouseleave",
+  "expected": "背景恢复 transparent",
+  "actual": "restored=rgba(0, 0, 0, 0)",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "Sidebar",
+  "state": "folded",
+  "action": "collapse/expand",
+  "expected": "存在折叠控件并可折叠/展开",
+  "actual": "无折叠控件",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "Stage 6/Figma 19:330 未定义折叠能力（无控件、无状态），按要求不伪造"
+ },
+ {
+  "component": "TagsBar",
+  "state": "static",
+  "action": "text-check",
+  "expected": "文案与 Figma 一致：[\"首页\",\"首页2\"]",
+  "actual": "[\"首页\",\"首页2\"]",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "TagsBar",
+  "state": "active/inactive",
+  "action": "state",
+  "expected": "tag1=menu 色(#5A5CF0)、tag2=ink-3 灰",
+  "actual": "tag1=rgb(90, 92, 240) tag2=rgb(144, 147, 153)",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "TagsBar",
+  "state": "hover",
+  "action": "hover",
+  "expected": "Figma 未定义 tag hover 态（无视觉变化即符合设计）",
+  "actual": "无样式变化",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "screenshots/tag-hover.png",
+  "root_cause": "Figma Tag 组件仅有 Icon+Label 两个静态态，未定义 hover"
+ },
+ {
+  "component": "TagsBar",
+  "state": "首页 tag",
+  "action": "click",
+  "expected": "存在点击行为（选中/关闭等）",
+  "actual": "点击后 tag 列表无变化：[\"首页\",\"首页2\"]",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "TagsBar 未绑定 click；Figma 未定义 tag 切换行为（NOT_SPECIFIED 交叉归类）"
+ },
+ {
+  "component": "TagsBar",
+  "state": "首页2 tag",
+  "action": "click/close",
+  "expected": "存在关闭能力（若设计定义）",
+  "actual": "无关闭钮，点击无效果",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "Stage 6 修复轮已按 Figma 源移除 × 钮（Figma Tag 无关闭钮）——不得擅自加回"
+ },
+ {
+  "component": "KPI Cards",
+  "state": "hover",
+  "action": "hover card1 / mouseleave",
+  "expected": "Figma 未定义 KPI hover 态",
+  "actual": "bg before=rgb(255, 255, 255) after=rgb(255, 255, 255)（无变化）",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "screenshots/kpi-hover.png",
+  "root_cause": "KPI 卡在 Figma 中为纯展示组件"
+ },
+ {
+  "component": "KPI Cards",
+  "state": "cursor",
+  "action": "inspect",
+  "expected": "非交互元素 → 默认箭头（computed 为 auto 或 default 均等价）",
+  "actual": "cursor=auto",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "KPI Cards",
+  "state": "focus",
+  "action": "Tab 聚焦尝试",
+  "expected": "Figma 未定义点击/聚焦行为",
+  "actual": "tag=DIV tabIndex=-1（不可聚焦）",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "",
+  "root_cause": "按要求不强制加 tabindex；click 同为 NOT_SPECIFIED"
+ },
+ {
+  "component": "BarChart",
+  "state": "柱 hover",
+  "action": "hover 柱1/柱4/柱7（共 7 根）",
+  "expected": "柱高亮 + tooltip",
+  "actual": "[{\"bar\":1,\"tooltip\":0},{\"bar\":4,\"tooltip\":0},{\"bar\":7,\"tooltip\":0}]（均无 tooltip、柱色不变）",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "screenshots/bar-hover.png",
+  "root_cause": "Stage 6 未实现柱级交互；Figma 中徽标为常驻静态元素（Hover Badge 烘焙态）"
+ },
+ {
+  "component": "BarChart",
+  "state": "快速移动",
+  "action": "柱1→柱7 扫动",
+  "expected": "状态正确更新",
+  "actual": "扫动后 tooltip=0（无任何状态）",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "同上"
+ },
+ {
+  "component": "BarChart",
+  "state": "回归保护",
+  "action": "badge 静态存在",
+  "expected": "徽标 7,600 KBa / +15.2 KBa 仍在右上",
+  "actual": "7,600 KBa+15.2 KBa",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "LineChart",
+  "state": "24 数据点逐一 hover",
+  "action": "逐点 hover（12 月 × 2 序列）",
+  "expected": "每月 tooltip=「月 | 一月: s1 | 三月: s2」、药丸 x=数据点-22、y 指针 1130.94",
+  "actual": "24 点中 24/24 全部断言通过；失败明细=无",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "LineChart",
+  "state": "hover 二月",
+  "action": "s1 数据点 hover（Stage 7 基准态）",
+  "expected": "tooltip=二月 | 一月: 120 | 三月: 82，y 指针=1130.94",
+  "actual": "tooltip=二月 | 一月: 120 | 三月: 82 ptr=1130.94",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "LineChart",
+  "state": "crosshair 对齐",
+  "action": "crosshair x vs 数据点 x（一月/二月/六月/十二月）",
+  "expected": "dash x === 数据点 viewBox x（期望 [111.33333333333333,246,784.6666666666666,1592.6666666666665]）",
+  "actual": "[111.33,246,784.67,1592.67]",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "LineChart",
+  "state": "最后数据点",
+  "action": "hover 十二月",
+  "expected": "tooltip 不越界（自动翻转到左侧）",
+  "actual": "tooltip left=87.0281%（应≈100%-左侧定位）, right edge=1789 ≤ 卡右缘 1880",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "LineChart",
+  "state": "mouseleave",
+  "action": "指针移出图表",
+  "expected": "crosshair/tooltip/药丸/指针全部消失，无残留",
+  "actual": "tooltip=0 crosshair=0（应均为 0）",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "LineChart",
+  "state": "快速移动",
+  "action": "一月→十二月一次扫动",
+  "expected": "最终状态=十二月，tooltip 跟随",
+  "actual": "tooltip=十二月 | 一月: 148 | 三月: 150",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "TopBar",
+  "state": "search",
+  "action": "focus/typing",
+  "expected": "存在可聚焦搜索框",
+  "actual": "页面无 search input",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "",
+  "root_cause": "Figma 19:330 TopBar 无搜索框元素，Stage 6 亦未实现（不得擅自添加）"
+ },
+ {
+  "component": "TopBar",
+  "state": "notification",
+  "action": "click",
+  "expected": "存在通知入口",
+  "actual": "无通知元素",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "",
+  "root_cause": "Figma 未定义通知入口"
+ },
+ {
+  "component": "TopBar",
+  "state": "avatar",
+  "action": "click",
+  "expected": "Figma 中为静态圆形占位，未定义点击",
+  "actual": "无任何反应",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "",
+  "root_cause": "Figma avatar 为纯视觉元素"
+ },
+ {
+  "component": "TopBar",
+  "state": "fullscreen",
+  "action": "click",
+  "expected": "进入全屏或存在交互",
+  "actual": "无反应（fullscreenElement=false, cursor=auto）",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "",
+  "root_cause": "Figma 中「全屏切换」为静态视觉元素，未定义点击行为"
+ },
+ {
+  "component": "TopBar",
+  "state": "gear/settings",
+  "action": "click",
+  "expected": "存在设置交互",
+  "actual": "gear 为纯 SVG 图标无事件绑定",
+  "status": "NOT_SPECIFIED",
+  "screenshot": "",
+  "root_cause": "Figma 静态元素"
+ },
+ {
+  "component": "Keyboard",
+  "state": "Tab",
+  "action": "连按 Tab 记录焦点序列",
+  "expected": "焦点按 DOM 顺序落在 6 个 sidebar button 上，之后离开页面（无 trap）",
+  "actual": "[\"BUTTON:首页\",\"BUTTON:更多菜单\",\"BUTTON:菜单1\",\"BUTTON:菜单1-1\",\"BUTTON:菜单1-2\",\"BUTTON:菜单2\",\"(body)\"]",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "Keyboard",
+  "state": "Shift+Tab",
+  "action": "回退焦点",
+  "expected": "焦点回退到上一个 button",
+  "actual": "activeElement=BUTTON",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "Keyboard",
+  "state": "focus-visible",
+  "action": "检查焦点样式",
+  "expected": "存在可见焦点指示（outline 或 shadow）",
+  "actual": "{\"outlineW\":\"1px\",\"outlineStyle\":\"auto\",\"boxShadow\":false}",
+  "status": "PASS",
+  "screenshot": "screenshots/keyboard-focus.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Keyboard",
+  "state": "Enter",
+  "action": "在 sidebar button 上按 Enter",
+  "expected": "触发 click（若 click 有行为则状态变化）",
+  "actual": "Enter 触发了 button 默认 click，active 仍=首页（click 行为本身 NOT_IMPLEMENTED）",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "Enter 确实触发 click 事件，但 click 未绑定任何行为"
+ },
+ {
+  "component": "Keyboard",
+  "state": "Escape",
+  "action": "按 Escape",
+  "expected": "存在 Escape 行为（如关闭弹层）",
+  "actual": "无任何反应（页面无弹层、无 Escape 监听）",
+  "status": "NOT_IMPLEMENTED",
+  "screenshot": "",
+  "root_cause": "无弹层可关，Figma 未定义"
+ },
+ {
+  "component": "Keyboard",
+  "state": "keyboard-trap",
+  "action": "连续 Tab 12 次",
+  "expected": "无 keyboard trap（焦点持续移动/循环）",
+  "actual": "焦点始终移动，无 trap",
+  "status": "PASS",
+  "screenshot": "",
+  "root_cause": ""
+ },
+ {
+  "component": "Responsive",
+  "state": "1920x1030",
+  "action": "scrollWidth vs clientWidth",
+  "expected": "无横向溢出",
+  "actual": "sw=1920 cw=1920 vOverflow=false clipped=0",
+  "status": "PASS",
+  "screenshot": "screenshots/responsive-1920x1030.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Responsive",
+  "state": "1440x900",
+  "action": "scrollWidth vs clientWidth",
+  "expected": "无横向溢出",
+  "actual": "sw=1440 cw=1440 vOverflow=true clipped=0",
+  "status": "PASS",
+  "screenshot": "screenshots/responsive-1440x900.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Responsive",
+  "state": "1280x900",
+  "action": "scrollWidth vs clientWidth",
+  "expected": "无横向溢出",
+  "actual": "sw=1280 cw=1280 vOverflow=true clipped=0",
+  "status": "PASS",
+  "screenshot": "screenshots/responsive-1280x900.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Responsive",
+  "state": "1024x768",
+  "action": "scrollWidth vs clientWidth",
+  "expected": "无横向溢出",
+  "actual": "sw=1024 cw=1024 vOverflow=true clipped=0",
+  "status": "PASS",
+  "screenshot": "screenshots/responsive-1024x768.png",
+  "root_cause": ""
+ },
+ {
+  "component": "Responsive",
+  "state": "768x900",
+  "action": "scrollWidth vs clientWidth",
+  "expected": "无横向溢出",
+  "actual": "sw=768 cw=768 vOverflow=true clipped=0",
+  "status": "PASS",
+  "screenshot": "screenshots/responsive-768x900.png",
+  "root_cause": ""
+ }
+]

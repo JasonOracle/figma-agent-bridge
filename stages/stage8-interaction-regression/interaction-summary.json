@@ -1,0 +1,16 @@
+{
+ "timestamp": "2026-09-15T03:49:36.757Z",
+ "url": "http://127.0.0.1:5180/",
+ "viewport_default": "1920x1030, DPR=1, headless chromium",
+ "counts": {
+  "PASS": 24,
+  "FAIL": 0,
+  "NOT_IMPLEMENTED": 8,
+  "NOT_SPECIFIED": 8,
+  "ENVIRONMENT_LIMITATION": 0
+ },
+ "total": 40,
+ "interactionCoveragePct": 60,
+ "consoleErrors": 0,
+ "pageErrors": 0
+}

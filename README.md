@@ -37,6 +37,7 @@ WorkBuddy Agent / figma-vibe CLI
 | [Stage 5](stages/stage5-elementadmin-figma/) | 仅凭截图高还原 ElementAdmin（1920×1030） | 207 节点 / 25 程序化 VECTOR | audit 47/47，自评 89/100 |
 | [Stage 6](stages/stage6-vue-elementadmin/) | Figma → Vue3 + Tailwind → 浏览器 | Vite5 + Vue3.4 + Tailwind3.4 | 两轮 QA 88→93/100 |
 | [Stage 7](stages/stage7-visual-regression/) | 程序化像素级视觉回归 | 自研 diff 工具 + 32 节报告 | Pixel Diff **5.691%** / SSIM **0.9037** / Final **92/100** |
+| [Stage 8](stages/stage8-interaction-regression/) | 真实浏览器事件交互回归（40 项） | Playwright 交互矩阵 + 证据截图 | PASS 24 / FAIL 0 / **READY FOR STAGE 9** |
 
 ### 目录结构 / Repository Layout
 
@@ -113,6 +114,7 @@ See the diagram above. Protocol details and the 30 atomic ops: [`docs/bridge-arc
 | [5](stages/stage5-elementadmin-figma/) | ElementAdmin recreation from a screenshot only (1920×1030) | 207 nodes / 25 programmatic VECTORs | audit 47/47, self-assessed 89/100 |
 | [6](stages/stage6-vue-elementadmin/) | Figma → Vue3 + Tailwind → browser | Vite5 + Vue3.4 + Tailwind3.4 | two QA rounds 88→93/100 |
 | [7](stages/stage7-visual-regression/) | Programmatic pixel-level visual regression | self-built diff tooling + 32-section report | Pixel Diff **5.691%** / SSIM **0.9037** / Final **92/100** |
+| [8](stages/stage8-interaction-regression/) | Real-browser interaction regression (40 checks) | Playwright interaction matrix + evidence screenshots | PASS 24 / FAIL 0 / **READY FOR STAGE 9** |
 
 ### Repository Layout
 
