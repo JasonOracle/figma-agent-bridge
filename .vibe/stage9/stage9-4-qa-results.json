@@ -1,0 +1,303 @@
+{
+ "browserQA": {
+  "/dashboard": {
+   "route": "/dashboard",
+   "loaded": true,
+   "chrome": {
+    "routerView": true,
+    "sidebar": true,
+    "topbar": true,
+    "tagsbar": true,
+    "pageWidth": 1440
+   }
+  },
+  "/users": {
+   "route": "/users",
+   "loaded": true,
+   "chrome": {
+    "routerView": true,
+    "sidebar": true,
+    "topbar": true,
+    "tagsbar": true,
+    "pageWidth": 1440
+   }
+  },
+  "/exams": {
+   "route": "/exams",
+   "loaded": true,
+   "chrome": {
+    "routerView": true,
+    "sidebar": true,
+    "topbar": true,
+    "tagsbar": true,
+    "pageWidth": 1440
+   }
+  },
+  "/exams/E-2001": {
+   "route": "/exams/E-2001",
+   "loaded": true,
+   "chrome": {
+    "routerView": true,
+    "sidebar": true,
+    "topbar": true,
+    "tagsbar": true,
+    "pageWidth": 1440
+   }
+  },
+  "/settings": {
+   "route": "/settings",
+   "loaded": true,
+   "chrome": {
+    "routerView": true,
+    "sidebar": true,
+    "topbar": true,
+    "tagsbar": true,
+    "pageWidth": 1440
+   }
+  }
+ },
+ "console": [],
+ "warnings": [],
+ "geometry": {
+  "/dashboard": {
+   "buttons": [
+    40,
+    40,
+    32,
+    32,
+    32,
+    40
+   ],
+   "inputs": [],
+   "selects": [],
+   "tableHeader": null,
+   "tableRows": [],
+   "cards": [
+    "4px",
+    "4px",
+    "4px"
+   ]
+  },
+  "/users": {
+   "buttons": [
+    40,
+    40,
+    32,
+    32,
+    32,
+    40,
+    30,
+    30,
+    30,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    24,
+    24,
+    24,
+    24,
+    24
+   ],
+   "inputs": [
+    18
+   ],
+   "selects": [
+    30
+   ],
+   "tableHeader": 40,
+   "tableRows": [
+    44,
+    44,
+    44,
+    44,
+    44
+   ],
+   "cards": [
+    "4px"
+   ]
+  },
+  "/exams": {
+   "buttons": [
+    40,
+    40,
+    32,
+    32,
+    32,
+    40,
+    30,
+    30,
+    30,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    24,
+    24,
+    24,
+    24
+   ],
+   "inputs": [
+    18
+   ],
+   "selects": [
+    30,
+    30
+   ],
+   "tableHeader": 40,
+   "tableRows": [
+    44,
+    44,
+    44,
+    44,
+    44
+   ],
+   "cards": [
+    "4px"
+   ]
+  },
+  "/exams/E-2001": {
+   "buttons": [
+    40,
+    40,
+    32,
+    32,
+    32,
+    40,
+    30,
+    30,
+    28,
+    32,
+    30,
+    30
+   ],
+   "inputs": [],
+   "selects": [],
+   "tableHeader": null,
+   "tableRows": [],
+   "cards": [
+    "4px",
+    "4px"
+   ]
+  },
+  "/settings": {
+   "buttons": [
+    40,
+    40,
+    32,
+    32,
+    32,
+    40,
+    20,
+    20,
+    20,
+    30,
+    30
+   ],
+   "inputs": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "selects": [
+    30
+   ],
+   "tableHeader": null,
+   "tableRows": [],
+   "cards": [
+    "4px",
+    "4px",
+    "4px"
+   ]
+  },
+  "/exams/E-2001 (scores tab)": {
+   "tableRows": [
+    44,
+    44,
+    44,
+    44,
+    44
+   ]
+  }
+ },
+ "shots": [
+  "dashboard.png",
+  "user-list.png",
+  "exam-list.png",
+  "exam-detail.png",
+  "settings.png",
+  "exam-detail-score.png"
+ ],
+ "geometrySummary": {
+  "buttonHeights": [
+   40,
+   32,
+   30,
+   20,
+   24,
+   28
+  ],
+  "inputHeights": [
+   18
+  ],
+  "selectHeights": [
+   30
+  ],
+  "tableHeaders": [
+   40
+  ],
+  "rowHeights": [
+   44
+  ],
+  "cardRadii": [
+   "4px"
+  ],
+  "pageWidths": [
+   1440
+  ]
+ },
+ "pass": {
+  "button30": false,
+  "input30": false,
+  "select30": true,
+  "header40": true,
+  "row44": true,
+  "cardRadius4": true,
+  "width1440": true,
+  "noConsoleError": true,
+  "noVueWarning": true
+ }
+}

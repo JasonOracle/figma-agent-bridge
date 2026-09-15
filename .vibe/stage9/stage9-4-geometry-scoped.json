@@ -1,0 +1,159 @@
+{
+ "report": {
+  "/dashboard": {
+   "dsButton": [],
+   "dsInput": [],
+   "thead": [],
+   "rows": [],
+   "cardRadius": [
+    "4px",
+    "4px"
+   ],
+   "pageWidth": 1440
+  },
+  "/users": {
+   "dsButton": [
+    30,
+    30,
+    30
+   ],
+   "dsInput": [
+    30
+   ],
+   "thead": [
+    40
+   ],
+   "rows": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44
+   ],
+   "cardRadius": [
+    "4px"
+   ],
+   "pageWidth": 1440
+  },
+  "/exams": {
+   "dsButton": [
+    30,
+    30,
+    30
+   ],
+   "dsInput": [
+    30
+   ],
+   "thead": [
+    40
+   ],
+   "rows": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44
+   ],
+   "cardRadius": [
+    "4px"
+   ],
+   "pageWidth": 1440
+  },
+  "/exams/E-2001": {
+   "dsButton": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "dsInput": [],
+   "thead": [],
+   "rows": [],
+   "cardRadius": [
+    "4px",
+    "4px"
+   ],
+   "pageWidth": 1440
+  },
+  "/settings": {
+   "dsButton": [
+    30,
+    30
+   ],
+   "dsInput": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "thead": [],
+   "rows": [],
+   "cardRadius": [
+    "4px",
+    "4px"
+   ],
+   "pageWidth": 1440
+  }
+ },
+ "summary": {
+  "dsButtonHeights": [
+   30
+  ],
+  "dsInputHeights": [
+   30
+  ],
+  "tableHeaders": [
+   40
+  ],
+  "rowHeights": [
+   44
+  ],
+  "cardRadii": [
+   "4px"
+  ],
+  "pageWidths": [
+   1440
+  ],
+  "perRouteCounts": {
+   "/dashboard": {
+    "buttons": 0,
+    "inputs": 0,
+    "rows": 0
+   },
+   "/users": {
+    "buttons": 3,
+    "inputs": 1,
+    "rows": 8
+   },
+   "/exams": {
+    "buttons": 3,
+    "inputs": 1,
+    "rows": 8
+   },
+   "/exams/E-2001": {
+    "buttons": 4,
+    "inputs": 0,
+    "rows": 0
+   },
+   "/settings": {
+    "buttons": 2,
+    "inputs": 4,
+    "rows": 0
+   }
+  },
+  "pass": {
+   "button30": true,
+   "input30": true,
+   "header40": true,
+   "row44": true,
+   "cardRadius4": true,
+   "width1440": true
+  }
+ }
+}
