@@ -86,6 +86,29 @@ Export PNG / 结构化 READBACK → 五维评分（Layout/Color/Consistency/Comm
   - saas = 企业后台 Round 1 一次 PASS / health = 消费健康 App 3 轮收敛 PASS / highway = 政务大屏 3 轮仍不达标 STOP_MAX_LOOP
 - 出口校验：`python tools/stage10-6-qa.py`（90+ 断言：schema/评分/证据/路由/loop 自洽）
 
+## L5 Export Layer（Stage 10.7 起可用）
+
+L4 Critic PASS 后，把设计结果转换为完整可交付设计资产：
+
+```
+Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS）→ L5 Export
+```
+
+**Export Gate（进入导出的硬性前置，全部满足才允许 live-build 导出）**：
+1. L3 QA1–QA5 全绿（0 FAIL）
+2. L4 Critic average ≥8 且无单项 <7（action=PASS）
+3. Freeze protocol passed（冻结文件零修改）
+4. Build IDs 完整（build-ids 快照 + rootNodeIds 可回读）
+
+五类输出：PNG（@1x/@2x 展示/评审/AI 视觉理解）、SVG（图标/Vector/页面级矢量）、Figma JSON（Node Tree/Geometry/AutoLayout/Instance/TokenReference）、Design Specification（Brief/DS Spec/Build Plan/Critic Report 随包）、Frontend Mapping（组件映射矩阵 + Token→CSS Variable + Layout 规则）。
+
+- 总体架构：`docs/stage10-7-export-layer.md`
+- 出口协议 Schema：`assets/templates/export-manifest.json`（所有路径可追溯；dsToken 可沿点路径回溯 DS Spec）
+- 组件/Token 映射规则（A 直接/B 组合/C 不可自动）：`references/export-mapping.md`
+- few-shot：`assets/examples/export/example-{saas,health,highway}-export.json`
+  - saas = 真实 live-build（Stage 5-7 产物回填）/ health = 真实 live-build（Stage 10.5 PNG+SVG）/ highway = design-phase（critic 7.7 未过 Gate，exports 为空规划清单——Gate 规则的活教材）
+- 出口校验：`python tools/stage10-7-qa.py`（QA1-QA7：Schema/文件存在/node id 回读/映射完整/Token 回溯/无孤儿/冻结零修改）
+
 ## few-shot 示例
 
 `assets/examples/`：`example-saas.json`（SaaS 教育后台）、`example-health.json`（AI 发型 App，美业健康类）、`example-highway.json`（河南高速智慧养护大屏）。Agent 生成新 Brief 前应先读对应行业示例对齐粒度。
