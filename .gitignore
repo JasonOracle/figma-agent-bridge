@@ -15,3 +15,7 @@ dist/
 
 # playwright-cli working dir
 .playwright-cli/
+
+# openai chat history
+ChatGPT-message.md
+.workbuddy
