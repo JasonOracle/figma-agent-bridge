@@ -24,7 +24,7 @@
 - **KPI 卡**：四列网格，数值 26px + 标签 12px + 环比指标。
 - **数据卡片**：白底 surface + 1px stroke + 4px radius，卡片内 16px padding。
 - **深浅双模式**：以浅色为缺省（page #F2F3F5 / surface #FFFFFF），dark token 独立维护不混用。
-- **Radius 2/4/6**；主色 #5A5CF0（本仓库 Stage 9 已验证的完整 token 表即此 Preset 的实现）。
+- **Radius 2/4/6**；主色 #5A5CF0。
 - **适用**：教育/医疗/政务/交通的 web-admin 场景。
 - **禁用**：营销式大图、超圆角（>8px）、情绪化插画。
 

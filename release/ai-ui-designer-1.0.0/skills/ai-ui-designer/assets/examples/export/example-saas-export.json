@@ -2,8 +2,8 @@
   "project": "企业考试管理平台",
   "version": "1.0.0",
   "source": {
-    "brief": "skills/ai-ui-designer/assets/examples/example-saas.json",
-    "dsSpec": "skills/ai-ui-designer/assets/examples/example-saas.dsspec.json",
+    "brief": "assets/examples/example-saas.json",
+    "dsSpec": "assets/examples/example-saas.dsspec.json",
     "figmaFileKey": "EXAMPLE-FILE-KEY",
     "rootNodeIds": [
       "19:330",
@@ -16,7 +16,7 @@
         "nodeId": "19:330",
         "name": "Reference Recreation / 企业考试管理平台",
         "scale": 1,
-        "path": "skills/ai-ui-designer/assets/examples/export/files/saas-dashboard-baseline.png",
+        "path": "assets/examples/export/files/saas-dashboard-baseline.png",
         "bytes": 480000,
         "existsCheck": true,
         "note": "Stage 7 像素回归基准图（1920×1030）"
@@ -26,14 +26,14 @@
       {
         "nodeId": "19:192",
         "name": "Design System / 企业考试管理平台图标组",
-        "path": "skills/ai-ui-designer/assets/examples/export/files/saas-icons.svg",
+        "path": "assets/examples/export/files/saas-icons.svg",
         "scope": "icon",
         "existsCheck": false,
         "note": "图标 SVG 由当次构建生成，未随示例打包（existsCheck=false，展示 live-build 的 svg 导出条目形态）"
       }
     ],
     "figmaJson": {
-      "path": "skills/ai-ui-designer/assets/examples/export/files/saas-figma-tree.json",
+      "path": "assets/examples/export/files/saas-figma-tree.json",
       "nodeCount": 207,
       "contents": [
         "node-tree",
@@ -44,10 +44,10 @@
       "note": "Stage 5 真实 tree dump（25 VECTOR / 49 auto-layout / 14 instances），token-reference 切片由 dsSpec 承担"
     },
     "designSpec": {
-      "brief": "skills/ai-ui-designer/assets/examples/example-saas.json",
-      "dsSpec": "skills/ai-ui-designer/assets/examples/example-saas.dsspec.json",
+      "brief": "assets/examples/example-saas.json",
+      "dsSpec": "assets/examples/example-saas.dsspec.json",
       "buildPlan": null,
-      "criticReport": "skills/ai-ui-designer/assets/examples/example-saas/critic-report.json"
+      "criticReport": "assets/examples/example-saas/critic-report.json"
     }
   },
   "mapping": {

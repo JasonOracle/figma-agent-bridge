@@ -53,6 +53,6 @@
   "_meta": {
     "reviewer": "agent (visual-critic.md §1 + 深色主题锚点 Linear/gov-digital-screen preset)",
     "reviewedAt": "2026-09-15T21:30:00+08:00",
-    "inputs": ["skills/ai-ui-designer/assets/examples/example-highway.json", "skills/ai-ui-designer/assets/examples/example-highway.dsspec.json", "派生色（RD）深色变体规则"]
+    "inputs": ["assets/examples/example-highway.json", "assets/examples/example-highway.dsspec.json", "派生色（RD）深色变体规则"]
   }
 }

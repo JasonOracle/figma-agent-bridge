@@ -1,11 +1,12 @@
 {
   "releaseVersion": "1.0.0",
+  "revision": "self-contained repack（2026-09-16：技能目录内补齐 bridge/tools/LICENSE，文档路径本地化）",
   "zip": {
     "path": "release/ai-ui-designer-1.0.0.zip",
-    "bytes": 698661,
-    "sha256": "b579a5fbe42654a6115fa62c04d35c7868923de34d4e4d713940328037e21709"
+    "bytes": 704231,
+    "sha256": "49d5c360b49ad26fe8accb56aa0621d35faca4b6a54ea5a4218e2d253f24d634"
   },
-  "fileCount": 48,
+  "fileCount": 51,
   "scan": {
     "patterns": [
       "real tokens/fileKeys",

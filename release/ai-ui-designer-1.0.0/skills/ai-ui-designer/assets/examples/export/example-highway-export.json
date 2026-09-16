@@ -2,8 +2,8 @@
   "project": "河南高速智慧养护决策平台",
   "version": "0.9.0-design",
   "source": {
-    "brief": "skills/ai-ui-designer/assets/examples/example-highway.json",
-    "dsSpec": "skills/ai-ui-designer/assets/examples/example-highway.dsspec.json",
+    "brief": "assets/examples/example-highway.json",
+    "dsSpec": "assets/examples/example-highway.dsspec.json",
     "figmaFileKey": null,
     "rootNodeIds": []
   },
@@ -23,10 +23,10 @@
       "note": "规划切片清单：深色大屏需额外包含 glow 效果参数与地图瓦片占位层"
     },
     "designSpec": {
-      "brief": "skills/ai-ui-designer/assets/examples/example-highway.json",
-      "dsSpec": "skills/ai-ui-designer/assets/examples/example-highway.dsspec.json",
+      "brief": "assets/examples/example-highway.json",
+      "dsSpec": "assets/examples/example-highway.dsspec.json",
       "buildPlan": null,
-      "criticReport": "skills/ai-ui-designer/assets/examples/example-highway/critic-report.json"
+      "criticReport": "assets/examples/example-highway/critic-report.json"
     }
   },
   "mapping": {

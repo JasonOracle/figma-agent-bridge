@@ -4,7 +4,7 @@ Skill 在执行任何层之前，必须先知道"这个环境能跑多远"。本
 
 ## 1. 探测实现
 
-唯一入口：`tools/runtime-check.mjs`（node，无外部依赖）。
+唯一入口：技能目录内的 `tools/runtime-check.mjs`（node，无外部依赖；**在技能目录内执行**）。
 
 | 能力 | 探测方式 | 判定为 ✅ 的条件 |
 |---|---|---|
@@ -35,7 +35,7 @@ Skill 在执行任何层之前，必须先知道"这个环境能跑多远"。本
 
 - `mode` 枚举锁死：`FULL_MODE | READ_ONLY_MODE | OFFLINE_MODE`
 - `executor`：仅写能力存在时为 `"figma-plugin-bridge"`，否则 `null`
-- 默认落盘到运行目录 runtime-capability.json（`--out` 可改，`--no-write` 仅打印）
+- 默认落盘到技能目录下 `.vibe/runtime-capability.json`（`--out` 可改，`--no-write` 仅打印）
 
 ## 3. Capability Matrix（Skill 消费的唯一判定表）
 
@@ -64,4 +64,4 @@ Skill 在执行任何层之前，必须先知道"这个环境能跑多远"。本
   → 各层产物按 mode 裁剪
 ```
 
-Adapter（通道适配）只在 FULL_MODE 介入：Build Plan → Bridge 方言（现状即 仓库既有构建脚本 的既有形态，不扩大架构）。
+Adapter（通道适配）只在 FULL_MODE 介入：Build Plan → Bridge 方言（沿用既有构建脚本的既有形态，不扩大架构）。

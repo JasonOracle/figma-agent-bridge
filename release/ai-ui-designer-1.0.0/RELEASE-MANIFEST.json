@@ -1,11 +1,12 @@
 {
   "releaseVersion": "1.0.0",
-  "generatedAt": "2026-09-16T01:10:06+08:00",
+  "revision": "self-contained repack（2026-09-16：技能目录内补齐 bridge/tools/LICENSE，文档路径本地化）",
+  "generatedAt": "2026-09-16T14:14:29+08:00",
   "architecture": "FROZEN (no new layers / MCP / bridge changes after this release)",
   "contents": {
-    "skill": "skills/ai-ui-designer/",
-    "runtime": "bridge/server.js (Node built-ins only)",
-    "license": "MIT",
+    "skill": "skills/ai-ui-designer/ (self-contained: docs + figma-plugin + bridge + tools + LICENSE + references + assets)",
+    "runtime": "skills/ai-ui-designer/bridge/server.js (Node built-ins only)",
+    "license": "MIT (package root + skill dir)",
     "changelog": "CHANGELOG.md"
   },
   "exclusions": [
@@ -26,12 +27,12 @@
     "hits": 0,
     "result": "CLEAN"
   },
-  "fileCount": 48,
+  "fileCount": 51,
   "files": [
     {
       "path": "CHANGELOG.md",
-      "bytes": 1987,
-      "sha256": "9cd9395e250a9380c65909a214b2a77bce3112b553ec80d18dda169ffb9142b7"
+      "bytes": 3341,
+      "sha256": "4e7612436c7f15eca7ec1d45180327b7a40843f34181d0f2548239a5953f2ccb"
     },
     {
       "path": "LICENSE",
@@ -39,24 +40,29 @@
       "sha256": "922e2df4a63eb7070c6a498c342b4490ae0ef1d333947fd49a794fb435dc95af"
     },
     {
-      "path": "bridge/server.js",
-      "bytes": 21402,
-      "sha256": "677b2035bff4b612b0e0b2c84ba8bd3bb0ab8b116f76ff89b9464227eb35784a"
+      "path": "README.md",
+      "bytes": 1434,
+      "sha256": "2a4b9aa225d69ddac91aaa247583d0521af86348c4ef994f63dd4c1fbbbbb32c"
+    },
+    {
+      "path": "skills/ai-ui-designer/LICENSE",
+      "bytes": 1068,
+      "sha256": "922e2df4a63eb7070c6a498c342b4490ae0ef1d333947fd49a794fb435dc95af"
     },
     {
       "path": "skills/ai-ui-designer/README.md",
-      "bytes": 3052,
-      "sha256": "3ac319b2264490f4d53e61f9cb0b60e420f73397353876cb44220ed69e6ca518"
+      "bytes": 3450,
+      "sha256": "6fd93c018c5496216634828868d805cd340ca68c8315c76a3682aaee0465b2b2"
     },
     {
       "path": "skills/ai-ui-designer/SETUP.md",
-      "bytes": 4223,
-      "sha256": "5568b6142bb807ad606fb6a589c9e757cc15b38fd03693cd648f02cad720bf0d"
+      "bytes": 4838,
+      "sha256": "755144e61f954edffc71c2d048d6058a1c974c8385c49311408c1034368bcd09"
     },
     {
       "path": "skills/ai-ui-designer/SKILL.md",
-      "bytes": 7681,
-      "sha256": "b46f654da030004305f00ed2f1b857dea2b991d0c9168c7286d3a0b1fbe499e6"
+      "bytes": 7719,
+      "sha256": "8829138679d2d020807ebb6e5f6cef69b1dbfba4862d87a967708e7b27022c60"
     },
     {
       "path": "skills/ai-ui-designer/USER_GUIDE.md",
@@ -95,33 +101,33 @@
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/example-health/critic-report.json",
-      "bytes": 1958,
-      "sha256": "cd3e66e6642baa384cd7779411ff3d562f81c80f991f8e21f319b9b5d7622ffc"
+      "bytes": 1914,
+      "sha256": "74e41b3156710d4f141cca941e5ed4f64d43ceea5af54acf8a1255c5aab7ddcc"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/example-highway/critic-report.json",
-      "bytes": 2934,
-      "sha256": "4c40be98ca8a034e75bae6703a210420616cbe19393f12caa5fae4d8e112c039"
+      "bytes": 2890,
+      "sha256": "9b6b8fec6d42ade94a1248199b443680367245ba790297e6413a7132eab816a7"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/example-saas/critic-report.json",
-      "bytes": 2326,
-      "sha256": "d951cd93dc1de82681d6d7a5419b348c6372372bf923906addc5f07a86ad3744"
+      "bytes": 2282,
+      "sha256": "aaf3c44d95a9c7e3466b180f7a1f635de7564d60353b9400d28ae1e69e5a26f7"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/export/example-health-export.json",
-      "bytes": 13888,
-      "sha256": "eda05e99b86f793c3a7cf6f2e8509d20c411058329832caefccdc80296077fd4"
+      "bytes": 13646,
+      "sha256": "1a7f6341baa54c4d910eeb4f1a071b664a7ba0660d4ebc55b7013629d3139e46"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/export/example-highway-export.json",
-      "bytes": 11488,
-      "sha256": "58b328518fdd25b77ee2db54fe10a2e8ce4a550dd5eea652766d6b512e7c8ced"
+      "bytes": 11378,
+      "sha256": "441872312d0a6dc9d54417874e528785b39c3c4e858d54fa110a9acbf825f5dc"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/export/example-saas-export.json",
-      "bytes": 13322,
-      "sha256": "14df83f7b6973aca5a98562b6b7979bbab97cebacd1b088de9acf1012cb1c0fa"
+      "bytes": 13146,
+      "sha256": "a71229b0b9b82616de53d5e3a889e21a6442f3016237013f7f35525ddcc981b3"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/export/files/detail.svg",
@@ -145,8 +151,8 @@
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/export/files/health-design-system-spec.json",
-      "bytes": 17384,
-      "sha256": "2485d712cce3c1485448972bebcf4cc1aac5a246a4d1a54ef3ac1b73519d5448"
+      "bytes": 17362,
+      "sha256": "573b30daec043891c17eb87e3b61bacc38234e873f022766f84c2cf60e79f9e3"
     },
     {
       "path": "skills/ai-ui-designer/assets/examples/export/files/home.svg",
@@ -209,6 +215,11 @@
       "sha256": "3917012d534b86c8e70fb9501a4dc5ba9342aead26ff5d2c5233eda91a6d2fc1"
     },
     {
+      "path": "skills/ai-ui-designer/bridge/server.js",
+      "bytes": 21402,
+      "sha256": "677b2035bff4b612b0e0b2c84ba8bd3bb0ab8b116f76ff89b9464227eb35784a"
+    },
+    {
       "path": "skills/ai-ui-designer/figma-plugin/code.js",
       "bytes": 53132,
       "sha256": "f2aced277d53ee1054d28455254a975bea766f85bb8c8eecc06490f009534b14"
@@ -240,8 +251,8 @@
     },
     {
       "path": "skills/ai-ui-designer/references/design-style-library.md",
-      "bytes": 3533,
-      "sha256": "290c9db108c882f0e2cfe5f7a336b70423f9c28aecb4470e357a691083eb325c"
+      "bytes": 3458,
+      "sha256": "4193a3aedceb4020aab21ebd6fd55cb03921d46d18f5a19b22c16fb0a325ab0b"
     },
     {
       "path": "skills/ai-ui-designer/references/export-mapping.md",
@@ -250,8 +261,8 @@
     },
     {
       "path": "skills/ai-ui-designer/references/runtime-capability.md",
-      "bytes": 3595,
-      "sha256": "cf12e925b5835356ee19262ad9ad68d7f561daf7635092ed4f6502d5cebc8d38"
+      "bytes": 3645,
+      "sha256": "7d098ace6ab6753c1495d1dd1be15199e852b9fde914a0138f2791a32cd21b20"
     },
     {
       "path": "skills/ai-ui-designer/references/visual-critic.md",
@@ -262,6 +273,11 @@
       "path": "skills/ai-ui-designer/templates/design-brief.json",
       "bytes": 4228,
       "sha256": "f4df55557ee14c57265ea3a0e239c37278d99fea8e88570913b7b2805e117e0f"
+    },
+    {
+      "path": "skills/ai-ui-designer/tools/runtime-check.mjs",
+      "bytes": 4398,
+      "sha256": "8ef56f0811dba707aa424d740bf9373bd06a0d78b198064a007eb88459028659"
     },
     {
       "path": "RELEASE-MANIFEST.json",

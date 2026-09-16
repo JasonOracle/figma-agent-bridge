@@ -6,6 +6,18 @@
 
 首个公开发布版本。架构自本版本起冻结（Release Freeze）：不再新增架构层 / MCP / Bridge 能力 / 设计规则。
 
+### 修订（2026-09-16：自包含修复，版本号仍为 1.0.0）
+
+1.0.0 首次打包将开发者脚本排除在包外，导致「只复制技能目录」这一安装方式无法工作：文档中引用的 `tools/runtime-check.mjs` 不在包内，且 `bridge/` 位于包根、与技能目录是兄弟关系。本次原地修复，不改架构、不改协议：
+
+- **技能目录自此完全自包含**：`bridge/server.js`（本地桥接，零依赖）、`tools/runtime-check.mjs`（L0 探针）、`LICENSE` 随技能目录一并分发。复制 `ai-ui-designer/` 一个文件夹即可使用，无需访问源仓库
+- 包根不再单列 `bridge/`（避免同一份桥在包内出现两处），改为包根 `README.md` 明示「安装单元 = `skills/ai-ui-designer/`」
+- 文档路径本地化：README / SETUP / SKILL / references 与示例 JSON 中的引用统一改为**技能目录相对路径**；SETUP 的 Bridge 启动方式统一为技能目录内 `node bridge/server.js`（移除 `npm run bridge` 表述）
+- 修正 `SKILL.md` 中指向源仓库 `docs/` 的失效引用；清理 references 中的开发期表述（源仓库 / 开发阶段号）
+- 新增故障排查两条：命令报「找不到模块」、技能目录被拆散复制
+
+协议常量与服务标识（`figma-vibe-bridge`）保持不变，与既有 Figma 插件完全兼容。
+
 ### 新增
 
 - **五层 AI UI 设计流水线**：自然语言 → Design Brief（L1）→ Design System Spec（L2）→ Figma 自动构建（L3）→ Visual Critic 五维评分与自动修复循环（L4，≤3 轮）→ Export 交付（L5：PNG / SVG / Figma JSON / Design Spec / Frontend Mapping）

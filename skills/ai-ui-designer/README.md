@@ -18,9 +18,9 @@
 
 完整步骤见 **[SETUP.md](SETUP.md)**，使用教程见 **[USER_GUIDE.md](USER_GUIDE.md)**。极简版：
 
-1. 在 WorkBuddy 中安装本 Skill（你已做到这一步）
-2. Figma Desktop 导入随附插件（Skill 目录内 `figma-plugin/`），启动本地桥接程序并粘贴 token（约 3 分钟，一次性）
-3. 运行 `node tools/runtime-check.mjs` 自检
+1. 把这个技能目录复制到你的技能目录：WorkBuddy `~/.workbuddy/skills/`，或 CodeBuddy CLI `~/.codebuddy/skills/`（目录自包含，复制即可用）
+2. Figma Desktop 导入随附插件（技能目录内 `figma-plugin/`），并在**技能目录内**启动本地桥接程序 `node bridge/server.js`，把终端打印的 token 粘进插件（约 3 分钟，一次性）
+3. 在技能目录内运行 `node tools/runtime-check.mjs` 自检
 4. 直接说："设计一个 AI 医疗 App 首页"
 
 > 不装 Figma 插件也能用：Skill 会输出完整设计文档（定位 / 设计系统 / 构建计划），只是不会自动画进 Figma。
@@ -33,11 +33,13 @@
 - `references/` — 设计智能规则（行业映射 / 视觉审查 / 映射规则 / 运行模式判定）
 - `assets/templates/` — 各类交付物的 JSON Schema
 - `assets/examples/` — 三个行业的完整示例（企业后台 / 医疗 App / 政务大屏）
-- `figma-plugin/` — 随包分发的 Figma 插件（导入用）
+- `figma-plugin/` — 随技能分发的 Figma 插件（导入用）
+- `bridge/` — 本地桥接程序（零依赖，仅用 Node 内置模块；`node bridge/server.js`）
+- `tools/` — 运行环境自检探针（`node tools/runtime-check.mjs`）
 
 ## 运行模式（自动判定，无需配置）
 
-Skill 每次启动会用 `tools/runtime-check.mjs` 探测环境，自动选择能跑多少跑多少：
+Skill 每次启动会用技能目录内的 `tools/runtime-check.mjs` 探测环境，自动选择能跑多少跑多少：
 
 | 模式 | 条件 | 执行范围 |
 |---|---|---|

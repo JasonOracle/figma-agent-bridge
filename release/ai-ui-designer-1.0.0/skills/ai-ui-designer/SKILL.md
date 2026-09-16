@@ -102,7 +102,7 @@ Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS�
 
 五类输出：PNG（@1x/@2x 展示/评审/AI 视觉理解）、SVG（图标/Vector/页面级矢量）、Figma JSON（Node Tree/Geometry/AutoLayout/Instance/TokenReference）、Design Specification（Brief/DS Spec/Build Plan/Critic Report 随包）、Frontend Mapping（组件映射矩阵 + Token→CSS Variable + Layout 规则）。
 
-- 总体架构：仓库 docs/ 内 Export Layer 架构文档
+- 总体架构：本文件「L5 Export Layer」段 + `references/export-mapping.md`（自包含，无需访问源仓库）
 - 出口协议 Schema：`assets/templates/export-manifest.json`（所有路径可追溯；dsToken 可沿点路径回溯 DS Spec）
 - 组件/Token 映射规则（A 直接/B 组合/C 不可自动）：`references/export-mapping.md`
 - few-shot：`assets/examples/export/example-{saas,health,highway}-export.json`
@@ -111,7 +111,7 @@ Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS�
 
 ## L0 Runtime Capability（任何层执行前必须先跑）
 
-**入口**：`node tools/runtime-check.mjs` → 运行目录下 runtime-capability.json
+**入口**：在技能目录内执行 `node tools/runtime-check.mjs` → 输出 `.vibe/runtime-capability.json`
 
 在任何层开始前先探测环境能力，按 mode 路由（完整矩阵见 `references/runtime-capability.md`）：
 
@@ -121,7 +121,7 @@ Prompt → L1 Brief → L2 DS Spec → L3 Figma Build → L4 Critic（≥8 PASS�
 | READ_ONLY_MODE | 仅读取型 MCP（figmaRead） | L1 → L2 → Build Plan JSON；提示"当前环境只有读取能力，需要安装 Figma Bridge 才能自动绘制" |
 | OFFLINE_MODE | 均无 | 仅生成 Brief / DS Spec / Build Plan 设计资产 |
 
-铁律：未跑的层不得假装跑过（交付物标注 mode 与降级原因）；探针只读，零新协议、零 Bridge/Plugin 修改。安装指南：`SETUP.md`（普通用户 5 分钟上手），架构边界：`README.md`。安装体验 QA：独立安装体验 QA 脚本。
+铁律：未跑的层不得假装跑过（交付物标注 mode 与降级原因）；探针只读，零新协议、零 Bridge/Plugin 修改。安装指南：`SETUP.md`（普通用户 5 分钟上手），架构边界：`README.md`。
 
 ## few-shot 示例
 
